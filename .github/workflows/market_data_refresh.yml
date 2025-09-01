@@ -20,3 +20,5 @@ jobs:
           git add cache/high_risk_market_data.json config/blocked_coins.txt
           git commit -m "Refresh data [skip ci]" || echo "No changes"
           git push || echo "Push failed"
+          git status
+
