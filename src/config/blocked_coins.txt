@@ -1,0 +1,49 @@
+# Blocked coins for Enhanced CipherB + VWMA System
+# One symbol per line, comments start with #
+
+# Stablecoins
+USDT
+USDC
+BUSD
+DAI
+TUSD
+FDUSD
+USDD
+FRAX
+PYUSD
+LUSD
+
+# Wrapped tokens
+WBTC
+WETH
+WBNB
+WMATIC
+WAVAX
+WGLMR
+WFTM
+
+# Pegged assets
+BETH
+STETH
+RETH
+CBETH
+
+# Bridge tokens
+ANYETH
+ANYUSDC
+CEUSDC
+HBTC
+
+# Other low-signal tokens
+
+
+
+
+
+
+
+
+
+
+
+
