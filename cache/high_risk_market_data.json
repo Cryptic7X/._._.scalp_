@@ -1,1 +1,1365 @@
-
+{
+  "timestamp": "2025-09-02T11:36:11.178111",
+  "total_coins": 151,
+  "coins": [
+    {
+      "symbol": "BTCUSDT",
+      "name": "Bitcoin",
+      "current_price": 109946,
+      "market_cap": 2188781171498,
+      "total_volume": 39763583752,
+      "price_change_percentage_24h": 1.19804,
+      "last_updated": "2025-09-02T11:35:52.074Z"
+    },
+    {
+      "symbol": "ETHUSDT",
+      "name": "Ethereum",
+      "current_price": 4371.34,
+      "market_cap": 527614893641,
+      "total_volume": 27829978242,
+      "price_change_percentage_24h": -0.43558,
+      "last_updated": "2025-09-02T11:35:53.311Z"
+    },
+    {
+      "symbol": "USDTUSDT",
+      "name": "Tether",
+      "current_price": 1.0,
+      "market_cap": 168056582615,
+      "total_volume": 80349330970,
+      "price_change_percentage_24h": 0.01366,
+      "last_updated": "2025-09-02T11:35:44.416Z"
+    },
+    {
+      "symbol": "XRPUSDT",
+      "name": "XRP",
+      "current_price": 2.8,
+      "market_cap": 166634258839,
+      "total_volume": 6267816572,
+      "price_change_percentage_24h": 0.89523,
+      "last_updated": "2025-09-02T11:35:53.175Z"
+    },
+    {
+      "symbol": "BNBUSDT",
+      "name": "BNB",
+      "current_price": 850.32,
+      "market_cap": 118303760461,
+      "total_volume": 1393833625,
+      "price_change_percentage_24h": -0.36088,
+      "last_updated": "2025-09-02T11:35:46.818Z"
+    },
+    {
+      "symbol": "SOLUSDT",
+      "name": "Solana",
+      "current_price": 202.79,
+      "market_cap": 109611059604,
+      "total_volume": 6359336824,
+      "price_change_percentage_24h": 1.84373,
+      "last_updated": "2025-09-02T11:35:53.666Z"
+    },
+    {
+      "symbol": "USDCUSDT",
+      "name": "USDC",
+      "current_price": 0.999804,
+      "market_cap": 71581538333,
+      "total_volume": 9341180529,
+      "price_change_percentage_24h": -0.0087,
+      "last_updated": "2025-09-02T11:35:44.808Z"
+    },
+    {
+      "symbol": "STETHUSDT",
+      "name": "Lido Staked Ether",
+      "current_price": 4364.54,
+      "market_cap": 37970525004,
+      "total_volume": 62921077,
+      "price_change_percentage_24h": -0.48738,
+      "last_updated": "2025-09-02T11:35:53.415Z"
+    },
+    {
+      "symbol": "TRXUSDT",
+      "name": "TRON",
+      "current_price": 0.338954,
+      "market_cap": 32088644910,
+      "total_volume": 736365012,
+      "price_change_percentage_24h": 0.1387,
+      "last_updated": "2025-09-02T11:35:54.670Z"
+    },
+    {
+      "symbol": "DOGEUSDT",
+      "name": "Dogecoin",
+      "current_price": 0.212205,
+      "market_cap": 31979955522,
+      "total_volume": 1954238039,
+      "price_change_percentage_24h": -1.74781,
+      "last_updated": "2025-09-02T11:35:48.069Z"
+    },
+    {
+      "symbol": "ADAUSDT",
+      "name": "Cardano",
+      "current_price": 0.818284,
+      "market_cap": 29847145494,
+      "total_volume": 1385555200,
+      "price_change_percentage_24h": -0.66345,
+      "last_updated": "2025-09-02T11:35:47.306Z"
+    },
+    {
+      "symbol": "WSTETHUSDT",
+      "name": "Wrapped stETH",
+      "current_price": 5291.55,
+      "market_cap": 16777583292,
+      "total_volume": 109062030,
+      "price_change_percentage_24h": -0.63989,
+      "last_updated": "2025-09-02T11:35:45.160Z"
+    },
+    {
+      "symbol": "LINKUSDT",
+      "name": "Chainlink",
+      "current_price": 23.19,
+      "market_cap": 15723721403,
+      "total_volume": 1018661902,
+      "price_change_percentage_24h": -0.31994,
+      "last_updated": "2025-09-02T11:35:47.436Z"
+    },
+    {
+      "symbol": "WBTCUSDT",
+      "name": "Wrapped Bitcoin",
+      "current_price": 109874,
+      "market_cap": 13958018008,
+      "total_volume": 402010174,
+      "price_change_percentage_24h": 1.06846,
+      "last_updated": "2025-09-02T11:35:44.817Z"
+    },
+    {
+      "symbol": "USDEUSDT",
+      "name": "Ethena USDe",
+      "current_price": 1.003,
+      "market_cap": 12467469544,
+      "total_volume": 172186026,
+      "price_change_percentage_24h": 0.24489,
+      "last_updated": "2025-09-02T11:35:48.466Z"
+    },
+    {
+      "symbol": "HYPEUSDT",
+      "name": "Hyperliquid",
+      "current_price": 44.35,
+      "market_cap": 12001509148,
+      "total_volume": 332753429,
+      "price_change_percentage_24h": -0.62917,
+      "last_updated": "2025-09-02T11:35:49.452Z"
+    },
+    {
+      "symbol": "WEETHUSDT",
+      "name": "Wrapped eETH",
+      "current_price": 4684.43,
+      "market_cap": 11810400140,
+      "total_volume": 22344849,
+      "price_change_percentage_24h": -0.55813,
+      "last_updated": "2025-09-02T11:35:44.758Z"
+    },
+    {
+      "symbol": "SUIUSDT",
+      "name": "Sui",
+      "current_price": 3.26,
+      "market_cap": 11642126536,
+      "total_volume": 981109426,
+      "price_change_percentage_24h": -0.01397,
+      "last_updated": "2025-09-02T11:35:54.240Z"
+    },
+    {
+      "symbol": "XLMUSDT",
+      "name": "Stellar",
+      "current_price": 0.362411,
+      "market_cap": 11371026403,
+      "total_volume": 266900619,
+      "price_change_percentage_24h": 1.6782,
+      "last_updated": "2025-09-02T11:35:53.866Z"
+    },
+    {
+      "symbol": "BCHUSDT",
+      "name": "Bitcoin Cash",
+      "current_price": 566.95,
+      "market_cap": 11293632290,
+      "total_volume": 275407228,
+      "price_change_percentage_24h": 3.3341,
+      "last_updated": "2025-09-02T11:35:46.654Z"
+    },
+    {
+      "symbol": "AVAXUSDT",
+      "name": "Avalanche",
+      "current_price": 24.14,
+      "market_cap": 10194770087,
+      "total_volume": 673286432,
+      "price_change_percentage_24h": 1.25314,
+      "last_updated": "2025-09-02T11:35:46.221Z"
+    },
+    {
+      "symbol": "WETHUSDT",
+      "name": "WETH",
+      "current_price": 4374.16,
+      "market_cap": 9646376120,
+      "total_volume": 404618231,
+      "price_change_percentage_24h": -0.48219,
+      "last_updated": "2025-09-02T11:35:45.345Z"
+    },
+    {
+      "symbol": "HBARUSDT",
+      "name": "Hedera",
+      "current_price": 0.217272,
+      "market_cap": 9211006320,
+      "total_volume": 209065858,
+      "price_change_percentage_24h": -0.92166,
+      "last_updated": "2025-09-02T11:35:49.399Z"
+    },
+    {
+      "symbol": "CROUSDT",
+      "name": "Cronos",
+      "current_price": 0.264544,
+      "market_cap": 8895926609,
+      "total_volume": 203208303,
+      "price_change_percentage_24h": -5.01035,
+      "last_updated": "2025-09-02T11:35:47.717Z"
+    },
+    {
+      "symbol": "LTCUSDT",
+      "name": "Litecoin",
+      "current_price": 110.58,
+      "market_cap": 8436046919,
+      "total_volume": 496485530,
+      "price_change_percentage_24h": 0.93089,
+      "last_updated": "2025-09-02T11:35:50.583Z"
+    },
+    {
+      "symbol": "TONUSDT",
+      "name": "Toncoin",
+      "current_price": 3.13,
+      "market_cap": 8033765964,
+      "total_volume": 116656379,
+      "price_change_percentage_24h": -0.00962,
+      "last_updated": "2025-09-02T11:35:54.594Z"
+    },
+    {
+      "symbol": "SHIBUSDT",
+      "name": "Shiba Inu",
+      "current_price": 1.229e-05,
+      "market_cap": 7240459781,
+      "total_volume": 218698189,
+      "price_change_percentage_24h": 0.16401,
+      "last_updated": "2025-09-02T11:35:53.307Z"
+    },
+    {
+      "symbol": "BSC-USDUSDT",
+      "name": "Binance Bridged USDT (BNB Smart Chain)",
+      "current_price": 1.0,
+      "market_cap": 6785336698,
+      "total_volume": 2042291491,
+      "price_change_percentage_24h": 0.0295,
+      "last_updated": "2025-09-02T11:35:47.678Z"
+    },
+    {
+      "symbol": "WLFIUSDT",
+      "name": "World Liberty Financial",
+      "current_price": 0.240223,
+      "market_cap": 6580703410,
+      "total_volume": 3246064564,
+      "price_change_percentage_24h": -14.54322,
+      "last_updated": "2025-09-02T11:35:44.798Z"
+    },
+    {
+      "symbol": "BGBUSDT",
+      "name": "Bitget Token",
+      "current_price": 5.26,
+      "market_cap": 6162110571,
+      "total_volume": 378714696,
+      "price_change_percentage_24h": 15.90207,
+      "last_updated": "2025-09-02T11:35:46.480Z"
+    },
+    {
+      "symbol": "WBTUSDT",
+      "name": "WhiteBIT Coin",
+      "current_price": 42.61,
+      "market_cap": 6140221778,
+      "total_volume": 62744663,
+      "price_change_percentage_24h": 0.80296,
+      "last_updated": "2025-09-02T11:35:44.512Z"
+    },
+    {
+      "symbol": "CBBTCUSDT",
+      "name": "Coinbase Wrapped BTC",
+      "current_price": 110040,
+      "market_cap": 6116165428,
+      "total_volume": 377120203,
+      "price_change_percentage_24h": 1.26219,
+      "last_updated": "2025-09-02T11:35:47.532Z"
+    },
+    {
+      "symbol": "DOTUSDT",
+      "name": "Polkadot",
+      "current_price": 3.77,
+      "market_cap": 5736662432,
+      "total_volume": 253168397,
+      "price_change_percentage_24h": -0.28667,
+      "last_updated": "2025-09-02T11:35:52.282Z"
+    },
+    {
+      "symbol": "UNIUSDT",
+      "name": "Uniswap",
+      "current_price": 9.54,
+      "market_cap": 5726235011,
+      "total_volume": 301499965,
+      "price_change_percentage_24h": -0.28223,
+      "last_updated": "2025-09-02T11:35:44.501Z"
+    },
+    {
+      "symbol": "XMRUSDT",
+      "name": "Monero",
+      "current_price": 263.8,
+      "market_cap": 4882415859,
+      "total_volume": 62399875,
+      "price_change_percentage_24h": -1.65976,
+      "last_updated": "2025-09-02T11:35:50.930Z"
+    },
+    {
+      "symbol": "AAVEUSDT",
+      "name": "Aave",
+      "current_price": 312.78,
+      "market_cap": 4763280013,
+      "total_volume": 468879542,
+      "price_change_percentage_24h": 0.85544,
+      "last_updated": "2025-09-02T11:35:45.524Z"
+    },
+    {
+      "symbol": "DAIUSDT",
+      "name": "Dai",
+      "current_price": 1.0,
+      "market_cap": 4617029176,
+      "total_volume": 111426145,
+      "price_change_percentage_24h": 0.03257,
+      "last_updated": "2025-09-02T11:35:47.756Z"
+    },
+    {
+      "symbol": "ENAUSDT",
+      "name": "Ethena",
+      "current_price": 0.693068,
+      "market_cap": 4589493379,
+      "total_volume": 691871755,
+      "price_change_percentage_24h": 9.06663,
+      "last_updated": "2025-09-02T11:35:48.320Z"
+    },
+    {
+      "symbol": "PEPEUSDT",
+      "name": "Pepe",
+      "current_price": 9.65e-06,
+      "market_cap": 4056216950,
+      "total_volume": 582959092,
+      "price_change_percentage_24h": -0.81954,
+      "last_updated": "2025-09-02T11:35:52.101Z"
+    },
+    {
+      "symbol": "MNTUSDT",
+      "name": "Mantle",
+      "current_price": 1.14,
+      "market_cap": 3699960126,
+      "total_volume": 182841665,
+      "price_change_percentage_24h": -2.11718,
+      "last_updated": "2025-09-02T11:35:50.479Z"
+    },
+    {
+      "symbol": "OKBUSDT",
+      "name": "OKB",
+      "current_price": 164.61,
+      "market_cap": 3452746976,
+      "total_volume": 117513696,
+      "price_change_percentage_24h": -1.17862,
+      "last_updated": "2025-09-02T11:35:51.443Z"
+    },
+    {
+      "symbol": "ETCUSDT",
+      "name": "Ethereum Classic",
+      "current_price": 20.72,
+      "market_cap": 3177446200,
+      "total_volume": 79198603,
+      "price_change_percentage_24h": -0.80144,
+      "last_updated": "2025-09-02T11:35:48.375Z"
+    },
+    {
+      "symbol": "JITOSOLUSDT",
+      "name": "Jito Staked SOL",
+      "current_price": 248.79,
+      "market_cap": 3023775727,
+      "total_volume": 41773581,
+      "price_change_percentage_24h": 1.81379,
+      "last_updated": "2025-09-02T11:35:49.800Z"
+    },
+    {
+      "symbol": "TAOUSDT",
+      "name": "Bittensor",
+      "current_price": 314.41,
+      "market_cap": 3017118464,
+      "total_volume": 64341676,
+      "price_change_percentage_24h": 0.79157,
+      "last_updated": "2025-09-02T11:35:46.631Z"
+    },
+    {
+      "symbol": "POLUSDT",
+      "name": "POL (ex-MATIC)",
+      "current_price": 0.287291,
+      "market_cap": 3014987506,
+      "total_volume": 332022358,
+      "price_change_percentage_24h": 3.67057,
+      "last_updated": "2025-09-02T11:35:52.241Z"
+    },
+    {
+      "symbol": "NEARUSDT",
+      "name": "NEAR Protocol",
+      "current_price": 2.37,
+      "market_cap": 2963283541,
+      "total_volume": 151570108,
+      "price_change_percentage_24h": -0.56985,
+      "last_updated": "2025-09-02T11:35:51.225Z"
+    },
+    {
+      "symbol": "APTUSDT",
+      "name": "Aptos",
+      "current_price": 4.31,
+      "market_cap": 2960142015,
+      "total_volume": 379478934,
+      "price_change_percentage_24h": 0.26975,
+      "last_updated": "2025-09-02T11:35:45.936Z"
+    },
+    {
+      "symbol": "ONDOUSDT",
+      "name": "Ondo",
+      "current_price": 0.916603,
+      "market_cap": 2895675333,
+      "total_volume": 162346138,
+      "price_change_percentage_24h": 2.85325,
+      "last_updated": "2025-09-02T11:35:51.557Z"
+    },
+    {
+      "symbol": "USDT0USDT",
+      "name": "USDT0",
+      "current_price": 0.999353,
+      "market_cap": 2803744025,
+      "total_volume": 369341826,
+      "price_change_percentage_24h": -0.04205,
+      "last_updated": "2025-09-02T11:35:44.817Z"
+    },
+    {
+      "symbol": "PIUSDT",
+      "name": "Pi Network",
+      "current_price": 0.342371,
+      "market_cap": 2732735869,
+      "total_volume": 49718487,
+      "price_change_percentage_24h": -1.00246,
+      "last_updated": "2025-09-02T11:35:51.938Z"
+    },
+    {
+      "symbol": "USD1USDT",
+      "name": "USD1",
+      "current_price": 0.99969,
+      "market_cap": 2647099318,
+      "total_volume": 1135695330,
+      "price_change_percentage_24h": 0.06841,
+      "last_updated": "2025-09-02T11:35:44.514Z"
+    },
+    {
+      "symbol": "WETHUSDT",
+      "name": "Binance-Peg WETH",
+      "current_price": 4374.58,
+      "market_cap": 2645894725,
+      "total_volume": 62708084,
+      "price_change_percentage_24h": -0.41644,
+      "last_updated": "2025-09-02T11:35:46.644Z"
+    },
+    {
+      "symbol": "ICPUSDT",
+      "name": "Internet Computer",
+      "current_price": 4.83,
+      "market_cap": 2594908669,
+      "total_volume": 54962047,
+      "price_change_percentage_24h": 1.03976,
+      "last_updated": "2025-09-02T11:35:49.741Z"
+    },
+    {
+      "symbol": "ARBUSDT",
+      "name": "Arbitrum",
+      "current_price": 0.489746,
+      "market_cap": 2591311044,
+      "total_volume": 339785430,
+      "price_change_percentage_24h": -1.69446,
+      "last_updated": "2025-09-02T11:35:46.134Z"
+    },
+    {
+      "symbol": "IPUSDT",
+      "name": "Story",
+      "current_price": 7.72,
+      "market_cap": 2352738742,
+      "total_volume": 80634772,
+      "price_change_percentage_24h": -0.34923,
+      "last_updated": "2025-09-02T11:35:53.668Z"
+    },
+    {
+      "symbol": "KASUSDT",
+      "name": "Kaspa",
+      "current_price": 0.083709,
+      "market_cap": 2207089511,
+      "total_volume": 39146813,
+      "price_change_percentage_24h": -1.37651,
+      "last_updated": "2025-09-02T11:35:49.776Z"
+    },
+    {
+      "symbol": "ATOMUSDT",
+      "name": "Cosmos Hub",
+      "current_price": 4.44,
+      "market_cap": 2069639193,
+      "total_volume": 84630303,
+      "price_change_percentage_24h": -1.01814,
+      "last_updated": "2025-09-02T11:35:47.654Z"
+    },
+    {
+      "symbol": "VETUSDT",
+      "name": "VeChain",
+      "current_price": 0.02368077,
+      "market_cap": 2036309590,
+      "total_volume": 41805837,
+      "price_change_percentage_24h": -1.49922,
+      "last_updated": "2025-09-02T11:35:44.392Z"
+    },
+    {
+      "symbol": "ALGOUSDT",
+      "name": "Algorand",
+      "current_price": 0.231163,
+      "market_cap": 2016681070,
+      "total_volume": 64185742,
+      "price_change_percentage_24h": -0.31706,
+      "last_updated": "2025-09-02T11:35:45.840Z"
+    },
+    {
+      "symbol": "SUSDSUSDT",
+      "name": "sUSDS",
+      "current_price": 1.066,
+      "market_cap": 1991934876,
+      "total_volume": 55752282,
+      "price_change_percentage_24h": 0.05954,
+      "last_updated": "2025-09-02T11:35:53.830Z"
+    },
+    {
+      "symbol": "JLPUSDT",
+      "name": "Jupiter Perpetuals Liquidity Provider Token",
+      "current_price": 5.41,
+      "market_cap": 1956573637,
+      "total_volume": 53908270,
+      "price_change_percentage_24h": 0.70033,
+      "last_updated": "2025-09-02T11:35:49.738Z"
+    },
+    {
+      "symbol": "FTNUSDT",
+      "name": "Fasttoken",
+      "current_price": 4.52,
+      "market_cap": 1950914726,
+      "total_volume": 59926175,
+      "price_change_percentage_24h": 0.05899,
+      "last_updated": "2025-09-02T11:35:48.384Z"
+    },
+    {
+      "symbol": "PENGUUSDT",
+      "name": "Pudgy Penguins",
+      "current_price": 0.0291801,
+      "market_cap": 1836978579,
+      "total_volume": 298276359,
+      "price_change_percentage_24h": 1.5626,
+      "last_updated": "2025-09-02T11:35:52.454Z"
+    },
+    {
+      "symbol": "RENDERUSDT",
+      "name": "Render",
+      "current_price": 3.42,
+      "market_cap": 1773151255,
+      "total_volume": 56043633,
+      "price_change_percentage_24h": 0.849,
+      "last_updated": "2025-09-02T11:35:52.691Z"
+    },
+    {
+      "symbol": "WLDUSDT",
+      "name": "Worldcoin",
+      "current_price": 0.874599,
+      "market_cap": 1740455145,
+      "total_volume": 127334801,
+      "price_change_percentage_24h": -0.45879,
+      "last_updated": "2025-09-02T11:35:44.749Z"
+    },
+    {
+      "symbol": "SEIUSDT",
+      "name": "Sei",
+      "current_price": 0.282913,
+      "market_cap": 1698167734,
+      "total_volume": 132311047,
+      "price_change_percentage_24h": 0.31608,
+      "last_updated": "2025-09-02T11:35:53.274Z"
+    },
+    {
+      "symbol": "TRUMPUSDT",
+      "name": "Official Trump",
+      "current_price": 8.39,
+      "market_cap": 1677356401,
+      "total_volume": 751495928,
+      "price_change_percentage_24h": -7.52313,
+      "last_updated": "2025-09-02T11:35:51.540Z"
+    },
+    {
+      "symbol": "KHYPEUSDT",
+      "name": "Kinetiq Staked HYPE",
+      "current_price": 44.41,
+      "market_cap": 1622235943,
+      "total_volume": 62916073,
+      "price_change_percentage_24h": -0.64739,
+      "last_updated": "2025-09-02T11:35:49.897Z"
+    },
+    {
+      "symbol": "BONKUSDT",
+      "name": "Bonk",
+      "current_price": 2.05e-05,
+      "market_cap": 1586828107,
+      "total_volume": 291471478,
+      "price_change_percentage_24h": -2.6595,
+      "last_updated": "2025-09-02T11:35:46.826Z"
+    },
+    {
+      "symbol": "FETUSDT",
+      "name": "Artificial Superintelligence Alliance",
+      "current_price": 0.602368,
+      "market_cap": 1568827563,
+      "total_volume": 65397439,
+      "price_change_percentage_24h": -0.40661,
+      "last_updated": "2025-09-02T11:35:48.529Z"
+    },
+    {
+      "symbol": "FILUSDT",
+      "name": "Filecoin",
+      "current_price": 2.27,
+      "market_cap": 1556763862,
+      "total_volume": 276647524,
+      "price_change_percentage_24h": -4.95056,
+      "last_updated": "2025-09-02T11:35:48.668Z"
+    },
+    {
+      "symbol": "JUPUSDT",
+      "name": "Jupiter",
+      "current_price": 0.49477,
+      "market_cap": 1539734916,
+      "total_volume": 50815627,
+      "price_change_percentage_24h": 1.20372,
+      "last_updated": "2025-09-02T11:35:50.696Z"
+    },
+    {
+      "symbol": "LBTCUSDT",
+      "name": "Lombard Staked BTC",
+      "current_price": 110039,
+      "market_cap": 1534094960,
+      "total_volume": 41136003,
+      "price_change_percentage_24h": 1.32,
+      "last_updated": "2025-09-02T11:35:50.322Z"
+    },
+    {
+      "symbol": "MUSDT",
+      "name": "MemeCore",
+      "current_price": 0.84949,
+      "market_cap": 1415690747,
+      "total_volume": 44875191,
+      "price_change_percentage_24h": 26.89359,
+      "last_updated": "2025-09-02T11:35:50.580Z"
+    },
+    {
+      "symbol": "USDTUSDT",
+      "name": "Polygon Bridged USDT (Polygon)",
+      "current_price": 0.999915,
+      "market_cap": 1408794855,
+      "total_volume": 40187894,
+      "price_change_percentage_24h": -0.00727,
+      "last_updated": "2025-09-02T11:35:52.359Z"
+    },
+    {
+      "symbol": "USDFUSDT",
+      "name": "Falcon USD",
+      "current_price": 0.999632,
+      "market_cap": 1347609956,
+      "total_volume": 30345670,
+      "price_change_percentage_24h": 0.02574,
+      "last_updated": "2025-09-02T11:35:48.363Z"
+    },
+    {
+      "symbol": "XDCUSDT",
+      "name": "XDC Network",
+      "current_price": 0.075907,
+      "market_cap": 1347576333,
+      "total_volume": 38376011,
+      "price_change_percentage_24h": -5.15663,
+      "last_updated": "2025-09-02T11:35:44.938Z"
+    },
+    {
+      "symbol": "XAUTUSDT",
+      "name": "Tether Gold",
+      "current_price": 3477.53,
+      "market_cap": 1306984331,
+      "total_volume": 198779132,
+      "price_change_percentage_24h": -0.38862,
+      "last_updated": "2025-09-02T11:35:54.161Z"
+    },
+    {
+      "symbol": "PUMPUSDT",
+      "name": "Pump.fun",
+      "current_price": 0.00365347,
+      "market_cap": 1294067748,
+      "total_volume": 288187731,
+      "price_change_percentage_24h": 6.4392,
+      "last_updated": "2025-09-02T11:35:52.271Z"
+    },
+    {
+      "symbol": "FORMUSDT",
+      "name": "Four",
+      "current_price": 3.37,
+      "market_cap": 1280829671,
+      "total_volume": 89559820,
+      "price_change_percentage_24h": 14.87985,
+      "last_updated": "2025-09-02T11:35:48.557Z"
+    },
+    {
+      "symbol": "INJUSDT",
+      "name": "Injective",
+      "current_price": 12.75,
+      "market_cap": 1247317878,
+      "total_volume": 93462999,
+      "price_change_percentage_24h": -0.04213,
+      "last_updated": "2025-09-02T11:35:49.751Z"
+    },
+    {
+      "symbol": "OPUSDT",
+      "name": "Optimism",
+      "current_price": 0.697396,
+      "market_cap": 1240571703,
+      "total_volume": 148624454,
+      "price_change_percentage_24h": -1.00555,
+      "last_updated": "2025-09-02T11:35:51.927Z"
+    },
+    {
+      "symbol": "TIAUSDT",
+      "name": "Celestia",
+      "current_price": 1.59,
+      "market_cap": 1218682555,
+      "total_volume": 83370776,
+      "price_change_percentage_24h": -0.30441,
+      "last_updated": "2025-09-02T11:35:47.062Z"
+    },
+    {
+      "symbol": "PYUSDUSDT",
+      "name": "PayPal USD",
+      "current_price": 0.999971,
+      "market_cap": 1186243694,
+      "total_volume": 57132506,
+      "price_change_percentage_24h": 0.03134,
+      "last_updated": "2025-09-02T11:35:52.085Z"
+    },
+    {
+      "symbol": "WBNBUSDT",
+      "name": "Wrapped BNB",
+      "current_price": 850.45,
+      "market_cap": 1165532519,
+      "total_volume": 435785588,
+      "price_change_percentage_24h": -0.36629,
+      "last_updated": "2025-09-02T11:35:45.203Z"
+    },
+    {
+      "symbol": "FDUSDUSDT",
+      "name": "First Digital USD",
+      "current_price": 0.99781,
+      "market_cap": 1145456152,
+      "total_volume": 1434434847,
+      "price_change_percentage_24h": 0.01213,
+      "last_updated": "2025-09-02T11:35:48.666Z"
+    },
+    {
+      "symbol": "STXUSDT",
+      "name": "Stacks",
+      "current_price": 0.614884,
+      "market_cap": 1104719120,
+      "total_volume": 24465606,
+      "price_change_percentage_24h": -0.26907,
+      "last_updated": "2025-09-02T11:35:47.784Z"
+    },
+    {
+      "symbol": "CRVUSDT",
+      "name": "Curve DAO",
+      "current_price": 0.768637,
+      "market_cap": 1073615614,
+      "total_volume": 107625680,
+      "price_change_percentage_24h": 0.77186,
+      "last_updated": "2025-09-02T11:35:47.964Z"
+    },
+    {
+      "symbol": "LDOUSDT",
+      "name": "Lido DAO",
+      "current_price": 1.17,
+      "market_cap": 1050201252,
+      "total_volume": 71800429,
+      "price_change_percentage_24h": -0.81329,
+      "last_updated": "2025-09-02T11:35:50.233Z"
+    },
+    {
+      "symbol": "USDCUSDT",
+      "name": "Binance Bridged USDC (BNB Smart Chain)",
+      "current_price": 0.999998,
+      "market_cap": 1048890443,
+      "total_volume": 258285457,
+      "price_change_percentage_24h": 0.03966,
+      "last_updated": "2025-09-02T11:35:46.572Z"
+    },
+    {
+      "symbol": "SPXUSDT",
+      "name": "SPX6900",
+      "current_price": 1.086,
+      "market_cap": 1010411327,
+      "total_volume": 23373565,
+      "price_change_percentage_24h": -4.51112,
+      "last_updated": "2025-09-02T11:35:53.599Z"
+    },
+    {
+      "symbol": "AEROUSDT",
+      "name": "Aerodrome Finance",
+      "current_price": 1.13,
+      "market_cap": 1004011495,
+      "total_volume": 49097760,
+      "price_change_percentage_24h": 1.21335,
+      "last_updated": "2025-09-02T11:35:52.122Z"
+    },
+    {
+      "symbol": "SUSDT",
+      "name": "Sonic",
+      "current_price": 0.306498,
+      "market_cap": 988500957,
+      "total_volume": 111520143,
+      "price_change_percentage_24h": -1.24257,
+      "last_updated": "2025-09-02T11:35:53.385Z"
+    },
+    {
+      "symbol": "PAXGUSDT",
+      "name": "PAX Gold",
+      "current_price": 3497.08,
+      "market_cap": 985210441,
+      "total_volume": 131686189,
+      "price_change_percentage_24h": 0.38711,
+      "last_updated": "2025-09-02T11:35:51.898Z"
+    },
+    {
+      "symbol": "IMXUSDT",
+      "name": "Immutable",
+      "current_price": 0.513354,
+      "market_cap": 983409183,
+      "total_volume": 21565324,
+      "price_change_percentage_24h": -0.09761,
+      "last_updated": "2025-09-02T11:35:49.765Z"
+    },
+    {
+      "symbol": "PYTHUSDT",
+      "name": "Pyth Network",
+      "current_price": 0.16373,
+      "market_cap": 940196918,
+      "total_volume": 155956359,
+      "price_change_percentage_24h": -2.14665,
+      "last_updated": "2025-09-02T11:35:52.542Z"
+    },
+    {
+      "symbol": "MSOLUSDT",
+      "name": "Marinade Staked SOL",
+      "current_price": 267.82,
+      "market_cap": 929852130,
+      "total_volume": 29559249,
+      "price_change_percentage_24h": 1.90621,
+      "last_updated": "2025-09-02T11:35:51.024Z"
+    },
+    {
+      "symbol": "GRTUSDT",
+      "name": "The Graph",
+      "current_price": 0.088186,
+      "market_cap": 923130633,
+      "total_volume": 32729355,
+      "price_change_percentage_24h": -0.74178,
+      "last_updated": "2025-09-02T11:35:54.370Z"
+    },
+    {
+      "symbol": "WBTCUSDT",
+      "name": "Arbitrum Bridged WBTC (Arbitrum One)",
+      "current_price": 109957,
+      "market_cap": 915100585,
+      "total_volume": 114121194,
+      "price_change_percentage_24h": 1.13755,
+      "last_updated": "2025-09-02T11:35:45.778Z"
+    },
+    {
+      "symbol": "RAYUSDT",
+      "name": "Raydium",
+      "current_price": 3.39,
+      "market_cap": 909691110,
+      "total_volume": 73361065,
+      "price_change_percentage_24h": 0.9264,
+      "last_updated": "2025-09-02T11:35:52.564Z"
+    },
+    {
+      "symbol": "CFXUSDT",
+      "name": "Conflux",
+      "current_price": 0.175674,
+      "market_cap": 902121572,
+      "total_volume": 80731025,
+      "price_change_percentage_24h": -0.7102,
+      "last_updated": "2025-09-02T11:35:47.367Z"
+    },
+    {
+      "symbol": "FLOKIUSDT",
+      "name": "FLOKI",
+      "current_price": 8.99e-05,
+      "market_cap": 867898108,
+      "total_volume": 73178192,
+      "price_change_percentage_24h": -1.29672,
+      "last_updated": "2025-09-02T11:35:48.612Z"
+    },
+    {
+      "symbol": "CAKEUSDT",
+      "name": "PancakeSwap",
+      "current_price": 2.41,
+      "market_cap": 833158566,
+      "total_volume": 61807796,
+      "price_change_percentage_24h": -2.52987,
+      "last_updated": "2025-09-02T11:35:52.069Z"
+    },
+    {
+      "symbol": "WETHUSDT",
+      "name": "L2 Standard Bridged WETH (Base)",
+      "current_price": 4374.13,
+      "market_cap": 829681304,
+      "total_volume": 795241216,
+      "price_change_percentage_24h": -0.57042,
+      "last_updated": "2025-09-02T11:35:50.788Z"
+    },
+    {
+      "symbol": "WIFUSDT",
+      "name": "dogwifhat",
+      "current_price": 0.785601,
+      "market_cap": 784794280,
+      "total_volume": 157973672,
+      "price_change_percentage_24h": -0.12643,
+      "last_updated": "2025-09-02T11:35:48.049Z"
+    },
+    {
+      "symbol": "THETAUSDT",
+      "name": "Theta Network",
+      "current_price": 0.774479,
+      "market_cap": 774886774,
+      "total_volume": 34387162,
+      "price_change_percentage_24h": -1.81011,
+      "last_updated": "2025-09-02T11:35:54.278Z"
+    },
+    {
+      "symbol": "PENDLEUSDT",
+      "name": "Pendle",
+      "current_price": 4.58,
+      "market_cap": 774177683,
+      "total_volume": 59996672,
+      "price_change_percentage_24h": 0.37221,
+      "last_updated": "2025-09-02T11:35:52.158Z"
+    },
+    {
+      "symbol": "AUSDT",
+      "name": "Vaulta",
+      "current_price": 0.483708,
+      "market_cap": 768745100,
+      "total_volume": 43844264,
+      "price_change_percentage_24h": -0.99466,
+      "last_updated": "2025-09-02T11:35:44.318Z"
+    },
+    {
+      "symbol": "FARTCOINUSDT",
+      "name": "Fartcoin",
+      "current_price": 0.759623,
+      "market_cap": 759146234,
+      "total_volume": 169819581,
+      "price_change_percentage_24h": 2.19134,
+      "last_updated": "2025-09-02T11:35:48.514Z"
+    },
+    {
+      "symbol": "XTZUSDT",
+      "name": "Tezos",
+      "current_price": 0.718019,
+      "market_cap": 758787385,
+      "total_volume": 23866142,
+      "price_change_percentage_24h": -0.08534,
+      "last_updated": "2025-09-02T11:35:54.208Z"
+    },
+    {
+      "symbol": "ENSUSDT",
+      "name": "Ethereum Name Service",
+      "current_price": 22.43,
+      "market_cap": 743944325,
+      "total_volume": 47167464,
+      "price_change_percentage_24h": 0.34585,
+      "last_updated": "2025-09-02T11:35:48.369Z"
+    },
+    {
+      "symbol": "GALAUSDT",
+      "name": "GALA",
+      "current_price": 0.01587916,
+      "market_cap": 728051830,
+      "total_volume": 84783310,
+      "price_change_percentage_24h": -1.62574,
+      "last_updated": "2025-09-02T11:35:48.743Z"
+    },
+    {
+      "symbol": "JTOUSDT",
+      "name": "Jito",
+      "current_price": 1.9,
+      "market_cap": 707973222,
+      "total_volume": 29798872,
+      "price_change_percentage_24h": 0.78426,
+      "last_updated": "2025-09-02T11:35:49.803Z"
+    },
+    {
+      "symbol": "RLUSDUSDT",
+      "name": "Ripple USD",
+      "current_price": 0.999497,
+      "market_cap": 701543572,
+      "total_volume": 46388821,
+      "price_change_percentage_24h": -0.03908,
+      "last_updated": "2025-09-02T11:35:52.675Z"
+    },
+    {
+      "symbol": "JASMYUSDT",
+      "name": "JasmyCoin",
+      "current_price": 0.01440045,
+      "market_cap": 697293558,
+      "total_volume": 23697459,
+      "price_change_percentage_24h": 0.63175,
+      "last_updated": "2025-09-02T11:35:49.714Z"
+    },
+    {
+      "symbol": "ZECUSDT",
+      "name": "Zcash",
+      "current_price": 41.53,
+      "market_cap": 675325349,
+      "total_volume": 86154531,
+      "price_change_percentage_24h": 2.74954,
+      "last_updated": "2025-09-02T11:35:45.086Z"
+    },
+    {
+      "symbol": "VIRTUALUSDT",
+      "name": "Virtuals Protocol",
+      "current_price": 1.038,
+      "market_cap": 673429874,
+      "total_volume": 104520229,
+      "price_change_percentage_24h": -4.30947,
+      "last_updated": "2025-09-02T11:35:44.779Z"
+    },
+    {
+      "symbol": "SANDUSDT",
+      "name": "The Sandbox",
+      "current_price": 0.272979,
+      "market_cap": 667760167,
+      "total_volume": 45239859,
+      "price_change_percentage_24h": -0.3654,
+      "last_updated": "2025-09-02T11:35:54.381Z"
+    },
+    {
+      "symbol": "ABUSDT",
+      "name": "AB",
+      "current_price": 0.00881972,
+      "market_cap": 664890342,
+      "total_volume": 25894682,
+      "price_change_percentage_24h": -0.25279,
+      "last_updated": "2025-09-02T11:35:51.275Z"
+    },
+    {
+      "symbol": "FLOWUSDT",
+      "name": "Flow",
+      "current_price": 0.405322,
+      "market_cap": 651071229,
+      "total_volume": 22054267,
+      "price_change_percentage_24h": -1.63412,
+      "last_updated": "2025-09-02T11:35:48.517Z"
+    },
+    {
+      "symbol": "BTTUSDT",
+      "name": "BitTorrent",
+      "current_price": 6.49484e-07,
+      "market_cap": 640425326,
+      "total_volume": 25796357,
+      "price_change_percentage_24h": 0.55779,
+      "last_updated": "2025-09-02T11:35:46.513Z"
+    },
+    {
+      "symbol": "WETHUSDT",
+      "name": "Arbitrum Bridged WETH (Arbitrum One)",
+      "current_price": 4374.08,
+      "market_cap": 638016613,
+      "total_volume": 396025780,
+      "price_change_percentage_24h": -0.50045,
+      "last_updated": "2025-09-02T11:35:46.291Z"
+    },
+    {
+      "symbol": "MORPHOUSDT",
+      "name": "Morpho",
+      "current_price": 1.92,
+      "market_cap": 634330567,
+      "total_volume": 20431944,
+      "price_change_percentage_24h": 3.42217,
+      "last_updated": "2025-09-02T11:35:50.970Z"
+    },
+    {
+      "symbol": "WALUSDT",
+      "name": "Walrus",
+      "current_price": 0.404548,
+      "market_cap": 584821525,
+      "total_volume": 52450207,
+      "price_change_percentage_24h": 4.62001,
+      "last_updated": "2025-09-02T11:35:44.587Z"
+    },
+    {
+      "symbol": "MANAUSDT",
+      "name": "Decentraland",
+      "current_price": 0.2994,
+      "market_cap": 574780963,
+      "total_volume": 66652133,
+      "price_change_percentage_24h": 3.46308,
+      "last_updated": "2025-09-02T11:35:47.727Z"
+    },
+    {
+      "symbol": "BTC.BUSDT",
+      "name": "Avalanche Bridged BTC (Avalanche)",
+      "current_price": 109929,
+      "market_cap": 543776567,
+      "total_volume": 74297911,
+      "price_change_percentage_24h": 1.29408,
+      "last_updated": "2025-09-02T11:35:46.445Z"
+    },
+    {
+      "symbol": "SYRUPUSDT",
+      "name": "Maple Finance",
+      "current_price": 0.450301,
+      "market_cap": 503470704,
+      "total_volume": 81609605,
+      "price_change_percentage_24h": -3.20479,
+      "last_updated": "2025-09-02T11:35:53.919Z"
+    },
+    {
+      "symbol": "STRKUSDT",
+      "name": "Starknet",
+      "current_price": 0.123216,
+      "market_cap": 502253416,
+      "total_volume": 27556246,
+      "price_change_percentage_24h": -1.70469,
+      "last_updated": "2025-09-02T11:35:53.670Z"
+    },
+    {
+      "symbol": "ETHFIUSDT",
+      "name": "Ether.fi",
+      "current_price": 1.063,
+      "market_cap": 495407931,
+      "total_volume": 75810836,
+      "price_change_percentage_24h": 0.48667,
+      "last_updated": "2025-09-02T11:35:48.316Z"
+    },
+    {
+      "symbol": "NEOUSDT",
+      "name": "NEO",
+      "current_price": 6.62,
+      "market_cap": 466721304,
+      "total_volume": 26956847,
+      "price_change_percentage_24h": 0.7427,
+      "last_updated": "2025-09-02T11:35:51.174Z"
+    },
+    {
+      "symbol": "BRETTUSDT",
+      "name": "Brett",
+      "current_price": 0.04544735,
+      "market_cap": 450399385,
+      "total_volume": 29215687,
+      "price_change_percentage_24h": -1.2075,
+      "last_updated": "2025-09-02T11:35:46.248Z"
+    },
+    {
+      "symbol": "APEUSDT",
+      "name": "ApeCoin",
+      "current_price": 0.563001,
+      "market_cap": 450227047,
+      "total_volume": 32662098,
+      "price_change_percentage_24h": -0.01017,
+      "last_updated": "2025-09-02T11:35:45.798Z"
+    },
+    {
+      "symbol": "RSRUSDT",
+      "name": "Reserve Rights",
+      "current_price": 0.00750426,
+      "market_cap": 446311448,
+      "total_volume": 21489861,
+      "price_change_percentage_24h": 2.61367,
+      "last_updated": "2025-09-02T11:35:52.624Z"
+    },
+    {
+      "symbol": "DAIUSDT",
+      "name": "Polygon PoS Bridged DAI (Polygon POS)",
+      "current_price": 0.999879,
+      "market_cap": 437955004,
+      "total_volume": 35506030,
+      "price_change_percentage_24h": -0.00621,
+      "last_updated": "2025-09-02T11:35:52.294Z"
+    },
+    {
+      "symbol": "RUNEUSDT",
+      "name": "THORChain",
+      "current_price": 1.18,
+      "market_cap": 415171314,
+      "total_volume": 86381846,
+      "price_change_percentage_24h": -0.57876,
+      "last_updated": "2025-09-02T11:35:54.493Z"
+    },
+    {
+      "symbol": "ARUSDT",
+      "name": "Arweave",
+      "current_price": 6.23,
+      "market_cap": 407290747,
+      "total_volume": 31564863,
+      "price_change_percentage_24h": -1.55619,
+      "last_updated": "2025-09-02T11:35:45.819Z"
+    },
+    {
+      "symbol": "ZKUSDT",
+      "name": "ZKsync",
+      "current_price": 0.056034,
+      "market_cap": 404943828,
+      "total_volume": 24329909,
+      "price_change_percentage_24h": -2.90876,
+      "last_updated": "2025-09-02T11:35:45.375Z"
+    },
+    {
+      "symbol": "COMPUSDT",
+      "name": "Compound",
+      "current_price": 42.66,
+      "market_cap": 403460715,
+      "total_volume": 26480593,
+      "price_change_percentage_24h": -1.17098,
+      "last_updated": "2025-09-02T11:35:47.411Z"
+    },
+    {
+      "symbol": "AXSUSDT",
+      "name": "Axie Infinity",
+      "current_price": 2.36,
+      "market_cap": 393471555,
+      "total_volume": 46933810,
+      "price_change_percentage_24h": -1.83295,
+      "last_updated": "2025-09-02T11:35:46.244Z"
+    },
+    {
+      "symbol": "EIGENUSDT",
+      "name": "EigenCloud (prev. EigenLayer)",
+      "current_price": 1.2,
+      "market_cap": 392076992,
+      "total_volume": 56000452,
+      "price_change_percentage_24h": 1.30963,
+      "last_updated": "2025-09-02T11:35:48.132Z"
+    },
+    {
+      "symbol": "CHZUSDT",
+      "name": "Chiliz",
+      "current_price": 0.03934008,
+      "market_cap": 386221006,
+      "total_volume": 26967495,
+      "price_change_percentage_24h": -1.35216,
+      "last_updated": "2025-09-02T11:35:47.655Z"
+    },
+    {
+      "symbol": "WAVAXUSDT",
+      "name": "Wrapped AVAX",
+      "current_price": 24.14,
+      "market_cap": 379025440,
+      "total_volume": 306531725,
+      "price_change_percentage_24h": 1.24288,
+      "last_updated": "2025-09-02T11:35:45.103Z"
+    },
+    {
+      "symbol": "BEAMUSDT",
+      "name": "Beam",
+      "current_price": 0.0073773,
+      "market_cap": 377774517,
+      "total_volume": 44540018,
+      "price_change_percentage_24h": 7.01548,
+      "last_updated": "2025-09-02T11:35:46.299Z"
+    },
+    {
+      "symbol": "WUSDT",
+      "name": "Wormhole",
+      "current_price": 0.078569,
+      "market_cap": 372527285,
+      "total_volume": 47081843,
+      "price_change_percentage_24h": -2.80996,
+      "last_updated": "2025-09-02T11:35:44.759Z"
+    },
+    {
+      "symbol": "UBTCUSDT",
+      "name": "Unit Bitcoin",
+      "current_price": 109976,
+      "market_cap": 359911363,
+      "total_volume": 68728983,
+      "price_change_percentage_24h": 1.27157,
+      "last_updated": "2025-09-02T11:35:44.056Z"
+    },
+    {
+      "symbol": "WHYPEUSDT",
+      "name": "Wrapped HYPE",
+      "current_price": 44.26,
+      "market_cap": 355989704,
+      "total_volume": 161493019,
+      "price_change_percentage_24h": -0.80626,
+      "last_updated": "2025-09-02T11:35:45.959Z"
+    },
+    {
+      "symbol": "JSTUSDT",
+      "name": "JUST",
+      "current_price": 0.0351082,
+      "market_cap": 347612085,
+      "total_volume": 20199028,
+      "price_change_percentage_24h": -1.74705,
+      "last_updated": "2025-09-02T11:35:49.904Z"
+    },
+    {
+      "symbol": "ZBCNUSDT",
+      "name": "Zebec Network",
+      "current_price": 0.00385277,
+      "market_cap": 332520718,
+      "total_volume": 23901525,
+      "price_change_percentage_24h": 2.57402,
+      "last_updated": "2025-09-02T11:35:45.156Z"
+    },
+    {
+      "symbol": "DEEPUSDT",
+      "name": "DeepBook",
+      "current_price": 0.132838,
+      "market_cap": 332072955,
+      "total_volume": 24790961,
+      "price_change_percentage_24h": -0.46327,
+      "last_updated": "2025-09-02T11:35:47.653Z"
+    },
+    {
+      "symbol": "MOGUSDT",
+      "name": "Mog Coin",
+      "current_price": 8.43283e-07,
+      "market_cap": 329166928,
+      "total_volume": 20235621,
+      "price_change_percentage_24h": 2.25706,
+      "last_updated": "2025-09-02T11:35:50.918Z"
+    },
+    {
+      "symbol": "MOVEUSDT",
+      "name": "Movement",
+      "current_price": 0.118456,
+      "market_cap": 320075897,
+      "total_volume": 22985104,
+      "price_change_percentage_24h": -0.87289,
+      "last_updated": "2025-09-02T11:35:51.013Z"
+    }
+  ]
+}
