@@ -1,37 +1,13 @@
 # Enhanced Two-Stage CipherB + VWMA System Requirements - September 2025
 # Updated with latest stable versions
-
-# Core Libraries
-pandas>=2.2.0
-numpy>=1.26.0
-ccxt>=4.3.0
-requests>=2.32.0
-pyyaml>=6.0.1
-
-# Technical Analysis
+requests>=2.31.0
+pandas>=2.0.0
+numpy>=1.24.0
 TA-Lib>=0.4.28
+python-telegram-bot>=20.7
+PyYAML>=6.0
+ccxt>=4.2.0
+python-dotenv>=1.0.0
 
-# Database
-# sqlite3 is built-in to Python
 
-# Date/Time
-python-dateutil>=2.9.0
 
-# Data Validation
-jsonschema>=4.23.0
-
-# Environment Management
-python-dotenv>=1.0.1
-
-# Retry Logic
-tenacity>=9.0.0
-
-# Logging
-structlog>=24.4.0
-
-# HTTP Client with better performance
-httpx>=0.27.0
-
-# Async support
-aiohttp>=3.10.0
-asyncio-throttle>=1.0.2
