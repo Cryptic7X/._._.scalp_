@@ -67,22 +67,23 @@ def main():
     args = parser.parse_args()
     
     try:
-        # Initialize database if requested
+        # Initialize database if requested (no validation needed)
         if args.init_db:
             logger.info("Initializing database...")
             initialize_database()
             logger.info("Database initialized successfully")
             return
         
-        # Validate environment for other operations
-        if not validate_environment():
-            return
-        
-        # Fetch market data if requested
+        # Fetch market data if requested (no Telegram validation needed)
         if args.fetch_data:
             logger.info("Starting market data fetch...")
             fetch_market_data()
             logger.info("Market data fetch completed")
+        
+        # Only validate environment for analysis operations that need Telegram
+        if args.analyze_15m or args.analyze_5m:
+            if not validate_environment():
+                return
         
         # Run 15-minute analysis if requested
         if args.analyze_15m:
