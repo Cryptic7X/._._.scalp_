@@ -1,18 +1,21 @@
 """
 CipherB Indicator - Market Cipher B Implementation
 ==================================================
-
 This is a validated Python implementation of the Market Cipher B indicator that has been
 extensively backtested against TradingView signals with 100% accuracy.
-
 CRITICAL: This indicator has been validated through rigorous backtesting. Any changes
 to the parameters or calculation logic may break signal accuracy.
-
 Original Pine Script © Momentum_Trader_30
 Python Implementation: Validated 2025-08-26
 """
+
 import pandas as pd
 import numpy as np
+import logging
+import yaml
+from pathlib import Path
+
+logger = logging.getLogger(__name__)
 
 def ema(series, period):
     """Exponential Moving Average"""
@@ -92,15 +95,125 @@ def detect_cipherb_signals(ha_data, config):
     
     # sellSignal = wtCross and wtCrossDown and wtOverbought  
     signals_df['sellSignal'] = cross_any & cross_down & overbought_current
-
-# At the end of src/indicators/cipherb_fixed.py, add:
-
-def create_cipherb_indicator(config=None):
-    """
-    Factory to instantiate your validated CipherB indicator.
-    Pass the YAML-loaded config dict to use your configured parameters.
-    """
-    return CipherBIndicator(config=config)
-
     
     return signals_df
+
+class CipherBIndicator:
+    def __init__(self, config=None):
+        """Initialize CipherB indicator with configuration"""
+        if config is None:
+            config = self.load_default_config()
+        
+        self.config = config.get('cipherb', {})
+        
+    def load_default_config(self):
+        """Load default configuration"""
+        try:
+            config_path = Path("config/enhanced_config.yaml")
+            with open(config_path, 'r') as file:
+                return yaml.safe_load(file)
+        except:
+            # Fallback to hardcoded values
+            return {
+                'cipherb': {
+                    'wt_channel_len': 9,
+                    'wt_average_len': 12,
+                    'wt_ma_len': 3,
+                    'oversold_threshold': -60,
+                    'overbought_threshold': 60
+                }
+            }
+    
+    def analyze_symbol(self, ha_data, symbol):
+        """
+        Complete analysis pipeline for a single symbol using your validated CipherB
+        
+        Args:
+            ha_data: Heikin-Ashi OHLC data (DataFrame)
+            symbol: Symbol name for logging
+            
+        Returns:
+            dict: Analysis results with signal information
+        """
+        try:
+            if ha_data.empty:
+                logger.warning(f"No Heikin-Ashi data available for {symbol}")
+                return None
+            
+            # Run your validated CipherB signal detection
+            signals_df = detect_cipherb_signals(ha_data, self.config)
+            
+            if signals_df.empty:
+                return {
+                    'symbol': symbol,
+                    'has_signal': False,
+                    'latest_signal': None
+                }
+            
+            # Get the latest signal
+            buy_signals = signals_df[signals_df['buySignal']]
+            sell_signals = signals_df[signals_df['sellSignal']]
+            
+            latest_signal = None
+            
+            # Find the most recent signal
+            if not buy_signals.empty:
+                latest_buy = buy_signals.index[-1]
+                latest_signal = {
+                    'timestamp': latest_buy,
+                    'signal_type': 'BUY',
+                    'wt1': float(buy_signals.loc[latest_buy, 'wt1']),
+                    'wt2': float(buy_signals.loc[latest_buy, 'wt2']),
+                    'price': float(ha_data.loc[latest_buy, 'Close'])
+                }
+            
+            if not sell_signals.empty:
+                latest_sell = sell_signals.index[-1]
+                sell_signal = {
+                    'timestamp': latest_sell,
+                    'signal_type': 'SELL',
+                    'wt1': float(sell_signals.loc[latest_sell, 'wt1']),
+                    'wt2': float(sell_signals.loc[latest_sell, 'wt2']),
+                    'price': float(ha_data.loc[latest_sell, 'Close'])
+                }
+                
+                # Use the most recent signal
+                if latest_signal is None or latest_sell > latest_signal['timestamp']:
+                    latest_signal = sell_signal
+            
+            results = {
+                'symbol': symbol,
+                'total_candles': len(ha_data),
+                'has_signal': latest_signal is not None,
+                'latest_signal': latest_signal,
+                'buy_signals_count': len(buy_signals),
+                'sell_signals_count': len(sell_signals)
+            }
+            
+            if latest_signal:
+                logger.info(f"CipherB {latest_signal['signal_type']} signal for {symbol}")
+            
+            return results
+            
+        except Exception as e:
+            logger.error(f"Error analyzing {symbol} with CipherB: {e}")
+            return None
+
+def create_cipherb_indicator(config=None):
+    """Factory function to create CipherB indicator"""
+    return CipherBIndicator(config=config)
+
+if __name__ == "__main__":
+    # Test with sample Heikin-Ashi data
+    sample_data = pd.DataFrame({
+        'Open': [100, 102, 101, 103, 105],
+        'High': [105, 104, 105, 106, 108],
+        'Low': [99, 100, 99, 102, 104],
+        'Close': [102, 101, 103, 105, 107],
+        'Volume': [1000, 1200, 1100, 1300, 1500]
+    })
+    
+    cipher = CipherBIndicator()
+    results = cipher.analyze_symbol(sample_data, "TEST")
+    print(f"Test results: {results}")
+
