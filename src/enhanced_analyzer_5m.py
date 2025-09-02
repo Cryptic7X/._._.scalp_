@@ -3,17 +3,22 @@
 Analyzes standard candles for EMA crossover confirmations (Stage 2)
 """
 
+"""
+5-Minute EMA Confirmation Engine
+Analyzes standard candles for EMA crossover confirmations (Stage 2)
+"""
+
 import json
 import logging
-import os
 import yaml
+import os
 import pandas as pd
-import ccxt
 import numpy as np
 from datetime import datetime, timedelta
 from pathlib import Path
 from database.signal_manager import SignalManager
 from alerts.two_stage_telegram import send_execution_alert
+from utils.exchange_manager import fetch_ohlcv_data
 
 logger = logging.getLogger(__name__)
 
@@ -25,16 +30,9 @@ class EMAConfirmationAnalyzer5m:
     def __init__(self):
         self.config = self.load_config()
         self.signal_manager = SignalManager()
-        # Use BingX instead of Binance (India-friendly)
-        self.exchange = ccxt.bingx({
-            'apiKey': os.getenv('BINGX_API_KEY'),
-            'secret': os.getenv('BINGX_SECRET_KEY'),
-            'sandbox': False,
-            'enableRateLimit': True,
-        })
+        # No direct exchange initialization - using exchange manager with fallback
         self.fast_ema_period = self.config['ema']['fast_period']  # 9
         self.slow_ema_period = self.config['ema']['slow_period']  # 18
-
         
     def load_config(self):
         """Load configuration from YAML file"""
@@ -59,7 +57,7 @@ class EMAConfirmationAnalyzer5m:
     
     def get_5m_ohlc_data(self, symbol, limit=50):
         """
-        Get 5-minute OHLC data from exchange
+        Get 5-minute OHLC data using exchange manager with fallback
         
         Args:
             symbol: Trading symbol (e.g., 'BTCUSDT')
@@ -69,19 +67,22 @@ class EMAConfirmationAnalyzer5m:
             DataFrame: OHLC data or None if error
         """
         try:
-            # Fetch OHLCV data
-            ohlcv = self.exchange.fetch_ohlcv(symbol, '5m', limit=limit)
+            # Use exchange manager with fallback logic
+            df = fetch_ohlcv_data(symbol, '5m', limit)
             
-            if not ohlcv:
-                logger.warning(f"No 5m OHLCV data for {symbol}")
-                return None
+            if df is not None:
+                # Convert column names for EMA calculation (lowercase)
+                df = df.rename(columns={
+                    'Open': 'open', 
+                    'High': 'high', 
+                    'Low': 'low', 
+                    'Close': 'close',
+                    'Volume': 'volume'
+                })
+                logger.debug(f"Fetched {len(df)} 5m candles for {symbol}")
+            else:
+                logger.warning(f"No 5m OHLCV data available for {symbol}")
             
-            # Convert to DataFrame with proper column names
-            df = pd.DataFrame(ohlcv, columns=['timestamp', 'open', 'high', 'low', 'close', 'volume'])
-            df['timestamp'] = pd.to_datetime(df['timestamp'], unit='ms')
-            df = df.set_index('timestamp')
-            
-            logger.debug(f"Fetched {len(df)} 5m candles for {symbol}")
             return df
             
         except Exception as e:
@@ -180,7 +181,7 @@ class EMAConfirmationAnalyzer5m:
             symbol = signal_data['coin_symbol']
             signal_direction = signal_data['signal_direction']
             
-            # Get 5m OHLC data
+            # Get 5m OHLC data using exchange manager
             ohlc_df = self.get_5m_ohlc_data(symbol)
             if ohlc_df is None or ohlc_df.empty:
                 logger.warning(f"No 5m data available for {symbol}")
