@@ -5,6 +5,7 @@ Analyzes standard candles for EMA crossover confirmations (Stage 2)
 
 import json
 import logging
+import os
 import yaml
 import pandas as pd
 import ccxt
@@ -24,9 +25,16 @@ class EMAConfirmationAnalyzer5m:
     def __init__(self):
         self.config = self.load_config()
         self.signal_manager = SignalManager()
-        self.exchange = ccxt.binance()
+        # Use BingX instead of Binance (India-friendly)
+        self.exchange = ccxt.bingx({
+            'apiKey': os.getenv('BINGX_API_KEY'),
+            'secret': os.getenv('BINGX_SECRET_KEY'),
+            'sandbox': False,
+            'enableRateLimit': True,
+        })
         self.fast_ema_period = self.config['ema']['fast_period']  # 9
         self.slow_ema_period = self.config['ema']['slow_period']  # 18
+
         
     def load_config(self):
         """Load configuration from YAML file"""
