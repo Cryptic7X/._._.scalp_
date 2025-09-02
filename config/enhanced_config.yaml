@@ -1,0 +1,57 @@
+# Coin filtering criteria
+coin_filters:
+  min_market_cap: 100000000      # $100M minimum market cap
+  min_24h_volume: 20000000       # $20M minimum 24h volume
+
+# Scanning and analysis schedule
+scan_schedule:
+  daily_scans:
+    - time: "05:30"  # IST morning scan
+    - time: "17:30"  # IST evening scan
+  analysis_15m: ["02", "17", "32", "47"]  # UTC minutes for 15m analysis
+  analysis_5m: ["06", "11", "16", "21", "26", "31", "36", "41", "46", "51", "56", "01"]  # UTC minutes for 5m analysis
+
+# Database configuration
+database:
+  path: "src/database/signals.db"
+
+# Telegram configuration - uses environment variables
+telegram:
+  bot_token: "${TELEGRAM_BOT_TOKEN}"
+  channel_stage1: "${STAGE1_TELEGRAM_CHAT_ID}"  # Stage 1 monitoring alerts
+  channel_stage2: "${STAGE2_TELEGRAM_CHAT_ID}"  # Stage 2 execution alerts
+
+# TradingView chart configuration
+tradingview:
+  base_url: "https://www.tradingview.com/chart/"
+  style:
+    heikin_ashi: 8  # Heikin-Ashi candle style
+    standard: 1     # Standard candle style
+
+# CoinGecko API configuration - uses environment variable
+coingecko:
+  api_key: "${COINGECKO_API_KEY}"  # Uses environment variable
+  base_url: "https://api.coingecko.com/api/v3"
+
+# Exchange API configuration - uses environment variables
+exchange:
+  bingx:
+    api_key: "${BINGX_API_KEY}"
+    secret_key: "${BINGX_SECRET_KEY}"
+
+# CipherB indicator parameters - VALIDATED PARAMETERS
+cipherb:
+  wt_channel_len: 9    # Channel length
+  wt_average_len: 12   # Average length  
+  wt_ma_len: 3         # Moving average smoothing
+  oversold_threshold: -60   # Buy signal threshold
+  overbought_threshold: 60  # Sell signal threshold
+
+# EMA parameters for 5m confirmation
+ema:
+  fast_period: 9   # Fast EMA
+  slow_period: 18  # Slow EMA
+
+# Signal management
+signals:
+  expiry_hours: 24  # Hours before pending signals expire
