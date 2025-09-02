@@ -1,76 +1,44 @@
-# Enhanced High-Risk 15-Minute CipherB + VWMA System Configuration
-# Two-Stage Alert System with Precise VWMA Confirmation
+# Coin filtering criteria
+coin_filters:
+  min_market_cap: 100000000      # $100M minimum market cap
+  min_24h_volume: 20000000       # $20M minimum 24h volume
 
-system:
-  name: "CipherB High-Risk 15m + VWMA Confirmation System"
-  version: "2.0"
-  timeframe: "15m"
-  timezone: "+05:30"  # IST
+# Scanning and analysis schedule
+scan_schedule:
+  daily_scans:
+    - time: "05:30"  # IST morning scan
+    - time: "17:30"  # IST evening scan
+  analysis_15m: ["02", "17", "32", "47"]  # UTC minutes for 15m analysis
+  analysis_5m: ["06", "11", "16", "21", "26", "31", "36", "41", "46", "51", "56", "01"]  # UTC minutes for 5m analysis
 
-# Enhanced API Configuration
+# Database configuration
+database:
+  path: "src/database/signals.db"
+
+# TradingView chart configuration
+tradingview:
+  base_url: "https://www.tradingview.com/chart/"
+  style:
+    heikin_ashi: 8  # Heikin-Ashi candle style
+    standard: 1     # Standard candle style
+
+# CoinGecko API configuration
 coingecko:
   base_url: "https://api.coingecko.com/api/v3"
-  rate_limit: 1.5
-  timeout: 30
 
-exchanges:
-  primary: "bingx"
-  fallback: ["kucoin", "bybit"]
-  rate_limit: 0.2
-  timeout: 25
-  
-# High-Risk Market Filter (165 Quality Coins)
-market_filter:
-  min_market_cap: 100000000   # 100M USD
-  min_volume_24h: 20000000    # 20M USD
-  description: "High-volatility coins with established liquidity"
-
-# CipherB Indicator Settings (15-Minute Optimized)
+# CipherB indicator parameters (your validated settings)
 cipherb:
-  timeframe: "15m"
   wt_channel_len: 9
   wt_average_len: 12
   wt_ma_len: 3
   oversold_threshold: -60
   overbought_threshold: 60
-  heikin_ashi: true
 
-# VWMA Confirmation Settings
-vwma:
-  timeframe: "15m"
-  period: 21
-  use_regular_ohlcv: true  # Use regular OHLCV, not Heikin-Ashi
-  confirmation_required: true
+# EMA parameters for 5m confirmation
+ema:
+  fast_period: 9   # Fast EMA
+  slow_period: 18  # Slow EMA
 
-# Two-Stage Alert System
-alerts:
-  cooldown_candles: 1
-  max_coins_per_run: 165
-  batch_size: 25
-  enable_two_stage_system: true
-  
-  # Stage 1: CipherB Signal Detection (Monitoring)
-  stage1_chat_id_env: "STAGE1_TELEGRAM_CHAT_ID"  # Monitoring channel
-  
-  # Stage 2: VWMA Cross Confirmation (Execution)
-  stage2_chat_id_env: "STAGE2_TELEGRAM_CHAT_ID"  # Execution channel
-
-# Signal State Management
-signal_management:
-  max_monitoring_hours: 12  # Maximum time to monitor for VWMA cross
-  database_cleanup_hours: 24  # Clean expired signals
-  allow_direction_override: true  # New signal cancels opposite direction
-  immediate_deletion_on_execution: true
-
-# Scanning Configuration
-scan:
-  pages: 4
-  coins_per_page: 250
-  candles_required: 200
-  
-# Error Handling
-error_handling:
-  skip_on_vwma_calc_failure: true
-  delete_failed_signals: true
-  continue_on_individual_failures: true
-
+# Signal management
+signals:
+  expiry_hours: 24  # Hours before pending signals expire
