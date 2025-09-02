@@ -92,5 +92,15 @@ def detect_cipherb_signals(ha_data, config):
     
     # sellSignal = wtCross and wtCrossDown and wtOverbought  
     signals_df['sellSignal'] = cross_any & cross_down & overbought_current
+
+# At the end of src/indicators/cipherb_fixed.py, add:
+
+def create_cipherb_indicator(config=None):
+    """
+    Factory to instantiate your validated CipherB indicator.
+    Pass the YAML-loaded config dict to use your configured parameters.
+    """
+    return CipherBIndicator(config=config)
+
     
     return signals_df
