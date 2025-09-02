@@ -4,6 +4,7 @@ Analyzes Heikin-Ashi candles for CipherB signals (Stage 1)
 """
 
 import json
+import os
 import logging
 import yaml
 import pandas as pd
@@ -22,7 +23,14 @@ class CipherBAnalyzer15m:
         self.config = self.load_config()
         self.signal_manager = SignalManager()
         self.cipher_indicator = create_cipherb_indicator(self.config)
-        self.exchange = ccxt.binance()
+        
+        # Use BingX instead of Binance (India-friendly)
+        self.exchange = ccxt.bingx({
+            'apiKey': os.getenv('BINGX_API_KEY'),
+            'secret': os.getenv('BINGX_SECRET_KEY'),
+            'sandbox': False,
+            'enableRateLimit': True,
+        })
         
     def load_config(self):
         """Load configuration from YAML file"""
