@@ -89,14 +89,17 @@ def detect_cipherb_signals(ha_data, config):
     oversold_current = (wt1 <= oversold_threshold) & (wt2 <= oversold_threshold)      # wtOversold  
     overbought_current = (wt2 >= overbought_threshold) & (wt1 >= overbought_threshold) # wtOverbought
     
-    # EXACT Pine Script signal conditions - VALIDATED against your TradingView
-    # buySignal = wtCross and wtCrossUp and wtOversold
-    signals_df['buySignal'] = cross_any & cross_up & oversold_current
+    # PLOTSHAPE LOGIC: Only fire on the FIRST bar where conditions become true
+    # This prevents multiple alerts for the same signal
+    buy_condition = cross_any & cross_up & oversold_current
+    sell_condition = cross_any & cross_down & overbought_current
     
-    # sellSignal = wtCross and wtCrossDown and wtOverbought  
-    signals_df['sellSignal'] = cross_any & cross_down & overbought_current
+    # Only trigger on the first occurrence (plotshape equivalent)
+    signals_df['buySignal'] = buy_condition & (~buy_condition.shift(1).fillna(False))
+    signals_df['sellSignal'] = sell_condition & (~sell_condition.shift(1).fillna(False))
     
     return signals_df
+
 
 class CipherBIndicator:
     def __init__(self, config=None):
