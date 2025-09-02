@@ -3,17 +3,22 @@
 Analyzes Heikin-Ashi candles for CipherB signals (Stage 1)
 """
 
+"""
+15-Minute CipherB Analysis Engine
+Analyzes Heikin-Ashi candles for CipherB signals (Stage 1)
+"""
+
 import json
-import os
 import logging
 import yaml
+import os
 import pandas as pd
-import ccxt
 from datetime import datetime, timedelta
 from pathlib import Path
 from database.signal_manager import SignalManager
 from indicators.cipherb_fixed import create_cipherb_indicator
 from utils.heikin_ashi import prepare_heikin_ashi_data
+from utils.exchange_manager import fetch_ohlcv_data
 from alerts.two_stage_telegram import send_monitoring_alert
 
 logger = logging.getLogger(__name__)
@@ -23,14 +28,7 @@ class CipherBAnalyzer15m:
         self.config = self.load_config()
         self.signal_manager = SignalManager()
         self.cipher_indicator = create_cipherb_indicator(self.config)
-        
-        # Use BingX instead of Binance (India-friendly)
-        self.exchange = ccxt.bingx({
-            'apiKey': os.getenv('BINGX_API_KEY'),
-            'secret': os.getenv('BINGX_SECRET_KEY'),
-            'sandbox': False,
-            'enableRateLimit': True,
-        })
+        # No direct exchange initialization - using exchange manager with fallback
         
     def load_config(self):
         """Load configuration from YAML file"""
@@ -55,7 +53,7 @@ class CipherBAnalyzer15m:
     
     def get_15m_ohlc_data(self, symbol, limit=100):
         """
-        Get 15-minute OHLC data from exchange
+        Get 15-minute OHLC data using exchange manager with fallback
         
         Args:
             symbol: Trading symbol (e.g., 'BTCUSDT')
@@ -65,19 +63,14 @@ class CipherBAnalyzer15m:
             DataFrame: OHLC data or None if error
         """
         try:
-            # Fetch OHLCV data
-            ohlcv = self.exchange.fetch_ohlcv(symbol, '15m', limit=limit)
+            # Use exchange manager with fallback logic
+            df = fetch_ohlcv_data(symbol, '15m', limit)
             
-            if not ohlcv:
-                logger.warning(f"No OHLCV data for {symbol}")
-                return None
+            if df is not None:
+                logger.debug(f"Fetched {len(df)} 15m candles for {symbol}")
+            else:
+                logger.warning(f"No OHLCV data available for {symbol}")
             
-            # Convert to DataFrame with proper column names
-            df = pd.DataFrame(ohlcv, columns=['timestamp', 'Open', 'High', 'Low', 'Close', 'Volume'])
-            df['timestamp'] = pd.to_datetime(df['timestamp'], unit='ms')
-            df = df.set_index('timestamp')
-            
-            logger.debug(f"Fetched {len(df)} 15m candles for {symbol}")
             return df
             
         except Exception as e:
@@ -97,7 +90,7 @@ class CipherBAnalyzer15m:
         try:
             symbol = coin_data['symbol']
             
-            # Get 15m OHLC data
+            # Get 15m OHLC data using exchange manager
             ohlc_df = self.get_15m_ohlc_data(symbol)
             if ohlc_df is None or ohlc_df.empty:
                 return None
@@ -245,3 +238,4 @@ def analyze_15m():
 
 if __name__ == "__main__":
     analyze_15m()
+
