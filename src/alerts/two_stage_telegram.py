@@ -284,15 +284,24 @@ class TelegramAlerter:
             return False
 
 # Global instance for easy import
-telegram_alerter = TelegramAlerter()
+# telegram_alerter = TelegramAlerter()
+
+_telegram_alerter = None
+
+def get_telegram_alerter():
+    """Get or create telegram alerter instance"""
+    global _telegram_alerter
+    if _telegram_alerter is None:
+        _telegram_alerter = TelegramAlerter()
+    return _telegram_alerter
 
 def send_monitoring_alert(buy_signals, sell_signals):
     """Convenience function for Stage 1 alerts"""
-    return telegram_alerter.send_stage1_alert_sync(buy_signals, sell_signals)
+    return get_telegram_alerter().send_stage1_alert_sync(buy_signals, sell_signals)
 
 def send_execution_alert(buy_confirmations, sell_confirmations):
     """Convenience function for Stage 2 alerts"""
-    return telegram_alerter.send_stage2_alert_sync(buy_confirmations, sell_confirmations)
+    return get_telegram_alerter().send_stage2_alert_sync(buy_confirmations, sell_confirmations)
 
 if __name__ == "__main__":
     # Test with sample data
