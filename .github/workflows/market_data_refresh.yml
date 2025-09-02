@@ -1,0 +1,74 @@
+name: Market Data Refresh
+
+on:
+  schedule:
+    # Run twice daily at 05:30 IST (00:00 UTC) and 17:30 IST (12:00 UTC)
+    - cron: '0 0,12 * * *'
+  workflow_dispatch:  # Allow manual trigger
+
+jobs:
+  refresh-market-data:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v4
+      
+    - name: Set up Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.11'
+        
+    - name: Cache pip dependencies
+      uses: actions/cache@v3
+      with:
+        path: ~/.cache/pip
+        key: ${{ runner.os }}-pip-${{ hashFiles('**/requirements.txt') }}
+        restore-keys: |
+          ${{ runner.os }}-pip-
+          
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install -r requirements.txt
+        
+    - name: Create cache directory
+      run: mkdir -p cache
+      
+    - name: Initialize database
+      run: python src/main.py --init-db
+      env:
+        TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+        STAGE1_TELEGRAM_CHAT_ID: ${{ secrets.STAGE1_TELEGRAM_CHAT_ID }}
+        STAGE2_TELEGRAM_CHAT_ID: ${{ secrets.STAGE2_TELEGRAM_CHAT_ID }}
+        COINGECKO_API_KEY: ${{ secrets.COINGECKO_API_KEY }}
+        BINGX_API_KEY: ${{ secrets.BINGX_API_KEY }}
+        BINGX_SECRET_KEY: ${{ secrets.BINGX_SECRET_KEY }}
+        
+    - name: Fetch market data
+      run: python src/main.py --fetch-data
+      env:
+        COINGECKO_API_KEY: ${{ secrets.COINGECKO_API_KEY }}
+        
+    - name: Commit and push changes
+      run: |
+        git config --global user.name 'GitHub Action'
+        git config --global user.email 'action@github.com'
+        git add cache/high_risk_market_data.json
+        git add src/database/signals.db || true  # Don't fail if db doesn't exist yet
+        if git diff --staged --quiet; then
+          echo "No changes to commit"
+        else
+          git commit -m "Update market data cache - $(date -u)"
+          git push
+        fi
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        
+    - name: Upload logs as artifact
+      if: always()
+      uses: actions/upload-artifact@v4
+      with:
+        name: market-data-logs-${{ github.run_id }}
+        path: crypto_scanner.log
+        retention-days: 7
