@@ -70,8 +70,8 @@ class FreshSignalDeduplicator:
         return True
     
     def cleanup_old_signals(self):
-        """Remove signal records older than 48 hours"""
-        cutoff_time = datetime.utcnow() - timedelta(hours=48)
+        """Remove signal records older than 2 hours"""
+        cutoff_time = datetime.utcnow() - timedelta(hours=2)
         
         old_keys = []
         for key, data in self.signal_cache.items():
