@@ -2,7 +2,7 @@
 """
 Fresh Signal 1h Analyzer with Blocked Coins Support
 - Analyzes 1-hour candles for CipherB signals
-- Only alerts on fresh signals (within 20 minutes)
+- Only alerts on fresh signals (within 1 hour + buffer)
 - Skips coins in blocked_coins.txt file
 - Exact Pine Script replication for maximum accuracy
 """
@@ -29,7 +29,8 @@ def get_ist_time():
 class Fresh1hAnalyzer:
     def __init__(self):
         self.config = self.load_config()
-        self.deduplicator = FreshSignalDeduplicator(freshness_minutes=60)  # 20 min for 1h
+        # Use 65 minutes to catch signals from the full 1-hour candle + buffer
+        self.deduplicator = FreshSignalDeduplicator(freshness_minutes=65)
         self.exchanges = self.init_exchanges()
         self.blocked_coins = self.load_blocked_coins()
         self.market_data = self.load_market_data()
@@ -81,7 +82,7 @@ class Fresh1hAnalyzer:
         all_coins = data.get('coins', [])
         
         # Separate major coins for priority processing
-        major_coins_list = ['BTC', 'ETH', 'BNB', 'SOL', 'ADA', 'DOT', 'MATIC', 'LINK', 'AVAX', 'UNI', 'ETH', 'BNB', 'SOL', 'ADA', 'DOT', 'MATIC', 'LINK', 'AVAX']
+        major_coins_list = ['BTC', 'ETH', 'BNB', 'SOL', 'ADA', 'DOT', 'MATIC', 'LINK', 'AVAX', 'UNI']
         priority_coins = []
         regular_coins = []
         blocked_count = 0
@@ -255,8 +256,8 @@ class Fresh1hAnalyzer:
         print("🎯 FRESH SIGNAL 1H ANALYSIS (WITH BLOCKED COINS)")
         print("="*80)
         print(f"🕐 Analysis Time: {ist_current.strftime('%Y-%m-%d %H:%M:%S IST')}")
-        print(f"⏰ Timeframe: 1-hour candles")
-        print(f"✅ Only fresh signals (within 20 minutes)")
+        print(f"⏰ Timeframe: 1-hour candles (close at :30 IST)")
+        print(f"✅ Only fresh signals (within 1 hour)")
         print(f"🚫 Blocks duplicate & stale signals + blocked coins")
         print(f"🔍 Coins to analyze: {len(self.market_data)} (after blocking)")
         
@@ -294,7 +295,7 @@ class Fresh1hAnalyzer:
             success = send_consolidated_alert(fresh_signals, timeframe="1h")
             if success:
                 avg_age = sum(s['signal_age_seconds'] for s in fresh_signals) / len(fresh_signals)
-                print(f"\n✅ SENT FRESH 1H SIGNAL ALERT")
+                print(f"\n✅ SENT 1 FRESH 1H SIGNAL ALERT")
                 print(f"   Signals: {len(fresh_signals)}")
                 print(f"   Average age: {avg_age:.0f} seconds")
             else:
@@ -309,7 +310,7 @@ class Fresh1hAnalyzer:
         print(f"🚨 Fresh signals: {len(fresh_signals)}")
         print(f"🚫 Blocked coins: {len(self.blocked_coins)}")
         print(f"📱 Alert sent: {'Yes' if fresh_signals else 'No'}")
-        print(f"⏰ Next analysis: 1 hour")
+        print(f"⏰ Next analysis: 1 hour (at :32 IST)")
         print("="*80)
 
 if __name__ == '__main__':
