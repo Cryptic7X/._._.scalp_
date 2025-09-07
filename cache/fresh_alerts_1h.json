@@ -88,5 +88,35 @@
     "signal_time": "2025-09-07T11:00:00",
     "freshness_seconds": 1013.03838,
     "timeframe": "1h"
+  },
+  "TAO_SELL_20250907_120000": {
+    "alerted_at": "2025-09-07T12:34:58.162211",
+    "signal_time": "2025-09-07T12:00:00",
+    "freshness_seconds": 2098.162211,
+    "timeframe": "1h"
+  },
+  "S_SELL_20250907_120000": {
+    "alerted_at": "2025-09-07T12:35:26.346675",
+    "signal_time": "2025-09-07T12:00:00",
+    "freshness_seconds": 2126.346675,
+    "timeframe": "1h"
+  },
+  "CFG_SELL_20250907_120000": {
+    "alerted_at": "2025-09-07T12:36:14.005656",
+    "signal_time": "2025-09-07T12:00:00",
+    "freshness_seconds": 2174.005656,
+    "timeframe": "1h"
+  },
+  "NMR_SELL_20250907_120000": {
+    "alerted_at": "2025-09-07T12:36:16.830600",
+    "signal_time": "2025-09-07T12:00:00",
+    "freshness_seconds": 2176.8306,
+    "timeframe": "1h"
+  },
+  "IKA_SELL_20250907_120000": {
+    "alerted_at": "2025-09-07T12:36:29.379550",
+    "signal_time": "2025-09-07T12:00:00",
+    "freshness_seconds": 2189.37955,
+    "timeframe": "1h"
   }
 }
