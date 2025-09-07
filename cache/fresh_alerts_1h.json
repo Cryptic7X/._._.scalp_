@@ -28,5 +28,17 @@
     "signal_time": "2025-09-07T09:00:00",
     "freshness_seconds": 1478.835535,
     "timeframe": "1h"
+  },
+  "SPX_SELL_20250907_100000": {
+    "alerted_at": "2025-09-07T10:03:40.365744",
+    "signal_time": "2025-09-07T10:00:00",
+    "freshness_seconds": 220.365744,
+    "timeframe": "1h"
+  },
+  "PLUME_SELL_20250907_100000": {
+    "alerted_at": "2025-09-07T10:04:15.798093",
+    "signal_time": "2025-09-07T10:00:00",
+    "freshness_seconds": 255.798093,
+    "timeframe": "1h"
   }
 }
