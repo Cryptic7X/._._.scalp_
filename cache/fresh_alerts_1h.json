@@ -172,5 +172,53 @@
     "signal_time": "2025-09-07T13:00:00",
     "freshness_seconds": 1117.316383,
     "timeframe": "1h"
+  },
+  "LTC_SELL_20250907_140000": {
+    "alerted_at": "2025-09-07T14:22:08.333031",
+    "signal_time": "2025-09-07T14:00:00",
+    "freshness_seconds": 1328.333031,
+    "timeframe": "1h"
+  },
+  "KAS_SELL_20250907_140000": {
+    "alerted_at": "2025-09-07T14:22:25.013300",
+    "signal_time": "2025-09-07T14:00:00",
+    "freshness_seconds": 1345.0133,
+    "timeframe": "1h"
+  },
+  "BONK_SELL_20250907_140000": {
+    "alerted_at": "2025-09-07T14:22:32.288923",
+    "signal_time": "2025-09-07T14:00:00",
+    "freshness_seconds": 1352.288923,
+    "timeframe": "1h"
+  },
+  "FDUSD_SELL_20250907_140000": {
+    "alerted_at": "2025-09-07T14:22:38.276498",
+    "signal_time": "2025-09-07T14:00:00",
+    "freshness_seconds": 1358.276498,
+    "timeframe": "1h"
+  },
+  "S_SELL_20250907_140000": {
+    "alerted_at": "2025-09-07T14:22:42.399180",
+    "signal_time": "2025-09-07T14:00:00",
+    "freshness_seconds": 1362.39918,
+    "timeframe": "1h"
+  },
+  "WIF_SELL_20250907_140000": {
+    "alerted_at": "2025-09-07T14:22:47.240361",
+    "signal_time": "2025-09-07T14:00:00",
+    "freshness_seconds": 1367.240361,
+    "timeframe": "1h"
+  },
+  "POPCAT_SELL_20250907_140000": {
+    "alerted_at": "2025-09-07T14:23:29.233482",
+    "signal_time": "2025-09-07T14:00:00",
+    "freshness_seconds": 1409.233482,
+    "timeframe": "1h"
+  },
+  "NOT_SELL_20250907_140000": {
+    "alerted_at": "2025-09-07T14:24:36.331627",
+    "signal_time": "2025-09-07T14:00:00",
+    "freshness_seconds": 1476.331627,
+    "timeframe": "1h"
   }
 }
