@@ -3,7 +3,7 @@ Fresh Signal Deduplication System for 1h Analysis
 
 Only allows alerts for signals that:
 1. Haven't been alerted before
-2. Occurred within the last 20 minutes (fresh signals for 1h)
+2. Occurred within the last 1 hour (fresh signals for 1h)
 3. Match exact Pine Script alert conditions
 """
 
@@ -12,7 +12,7 @@ import os
 from datetime import datetime, timedelta
 
 class FreshSignalDeduplicator:
-    def __init__(self, freshness_minutes=60):
+    def __init__(self, freshness_minutes=65):  # 1 hour + 5 minute buffer
         self.freshness_window = timedelta(minutes=freshness_minutes)
         self.cache_file = os.path.join(os.path.dirname(__file__), '..', '..', 'cache', 'fresh_alerts_1h.json')
         self.signal_cache = self.load_cache()
@@ -35,12 +35,12 @@ class FreshSignalDeduplicator:
     def is_signal_fresh_and_new(self, symbol, signal_type, signal_timestamp):
         """
         Check if signal is:
-        1. Fresh (within last 20 minutes for 1h)
+        1. Fresh (within last 1 hour for 1h candles)
         2. New (not already alerted)
         """
         current_time = datetime.utcnow()
         
-        # Check 1: Is signal fresh (within 20-minute window for 1h)?
+        # Check 1: Is signal fresh (within 1-hour window for 1h)?
         if isinstance(signal_timestamp, str):
             signal_timestamp = datetime.fromisoformat(signal_timestamp.replace('Z', '+00:00'))
         
@@ -48,7 +48,8 @@ class FreshSignalDeduplicator:
         is_fresh = time_since_signal <= self.freshness_window
         
         if not is_fresh:
-            print(f"❌ {symbol} {signal_type}: STALE 1h signal ({time_since_signal.total_seconds():.0f}s old)")
+            hours = time_since_signal.total_seconds() / 3600
+            print(f"❌ {symbol} {signal_type}: STALE 1h signal ({hours:.1f} hours old)")
             return False
         
         # Check 2: Is signal new (not already alerted)?
@@ -67,12 +68,13 @@ class FreshSignalDeduplicator:
         }
         
         self.save_cache()
-        print(f"✅ {symbol} {signal_type}: FRESH & NEW 1h signal ({time_since_signal.total_seconds():.0f}s ago)")
+        minutes_ago = time_since_signal.total_seconds() / 60
+        print(f"✅ {symbol} {signal_type}: FRESH & NEW 1h signal ({minutes_ago:.0f} min ago)")
         return True
     
     def cleanup_old_signals(self):
-        """Remove signal records older than 4 hours"""
-        cutoff_time = datetime.utcnow() - timedelta(hours=4)
+        """Remove signal records older than 6 hours"""
+        cutoff_time = datetime.utcnow() - timedelta(hours=6)
         old_keys = []
         
         for key, data in self.signal_cache.items():
