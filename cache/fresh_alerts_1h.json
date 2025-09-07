@@ -40,5 +40,29 @@
     "signal_time": "2025-09-07T10:00:00",
     "freshness_seconds": 255.798093,
     "timeframe": "1h"
+  },
+  "LTC_SELL_20250907_100000": {
+    "alerted_at": "2025-09-07T10:25:18.959242",
+    "signal_time": "2025-09-07T10:00:00",
+    "freshness_seconds": 1518.959242,
+    "timeframe": "1h"
+  },
+  "IP_SELL_20250907_100000": {
+    "alerted_at": "2025-09-07T10:25:33.229714",
+    "signal_time": "2025-09-07T10:00:00",
+    "freshness_seconds": 1533.229714,
+    "timeframe": "1h"
+  },
+  "WILD_SELL_20250907_100000": {
+    "alerted_at": "2025-09-07T10:26:53.104429",
+    "signal_time": "2025-09-07T10:00:00",
+    "freshness_seconds": 1613.104429,
+    "timeframe": "1h"
+  },
+  "IKA_SELL_20250907_100000": {
+    "alerted_at": "2025-09-07T10:26:53.667920",
+    "signal_time": "2025-09-07T10:00:00",
+    "freshness_seconds": 1613.66792,
+    "timeframe": "1h"
   }
 }
