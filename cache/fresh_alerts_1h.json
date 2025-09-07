@@ -1,0 +1,32 @@
+{
+  "CRO_BUY_20250907_090000": {
+    "alerted_at": "2025-09-07T09:23:05.702217",
+    "signal_time": "2025-09-07T09:00:00",
+    "freshness_seconds": 1385.702217,
+    "timeframe": "1h"
+  },
+  "CRV_SELL_20250907_090000": {
+    "alerted_at": "2025-09-07T09:23:36.546383",
+    "signal_time": "2025-09-07T09:00:00",
+    "freshness_seconds": 1416.546383,
+    "timeframe": "1h"
+  },
+  "GALA_SELL_20250907_090000": {
+    "alerted_at": "2025-09-07T09:23:48.154440",
+    "signal_time": "2025-09-07T09:00:00",
+    "freshness_seconds": 1428.15444,
+    "timeframe": "1h"
+  },
+  "SOMI_SELL_20250907_090000": {
+    "alerted_at": "2025-09-07T09:24:23.008238",
+    "signal_time": "2025-09-07T09:00:00",
+    "freshness_seconds": 1463.008238,
+    "timeframe": "1h"
+  },
+  "ERA_SELL_20250907_090000": {
+    "alerted_at": "2025-09-07T09:24:38.835535",
+    "signal_time": "2025-09-07T09:00:00",
+    "freshness_seconds": 1478.835535,
+    "timeframe": "1h"
+  }
+}
