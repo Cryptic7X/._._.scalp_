@@ -118,5 +118,59 @@
     "signal_time": "2025-09-07T12:00:00",
     "freshness_seconds": 2189.37955,
     "timeframe": "1h"
+  },
+  "PEPE_SELL_20250907_130000": {
+    "alerted_at": "2025-09-07T13:17:02.560895",
+    "signal_time": "2025-09-07T13:00:00",
+    "freshness_seconds": 1022.560895,
+    "timeframe": "1h"
+  },
+  "BONK_SELL_20250907_130000": {
+    "alerted_at": "2025-09-07T13:17:19.313498",
+    "signal_time": "2025-09-07T13:00:00",
+    "freshness_seconds": 1039.313498,
+    "timeframe": "1h"
+  },
+  "LDO_SELL_20250907_130000": {
+    "alerted_at": "2025-09-07T13:17:27.187108",
+    "signal_time": "2025-09-07T13:00:00",
+    "freshness_seconds": 1047.187108,
+    "timeframe": "1h"
+  },
+  "S_SELL_20250907_130000": {
+    "alerted_at": "2025-09-07T13:17:29.273410",
+    "signal_time": "2025-09-07T13:00:00",
+    "freshness_seconds": 1049.27341,
+    "timeframe": "1h"
+  },
+  "JASMY_SELL_20250907_130000": {
+    "alerted_at": "2025-09-07T13:18:02.579510",
+    "signal_time": "2025-09-07T13:00:00",
+    "freshness_seconds": 1082.57951,
+    "timeframe": "1h"
+  },
+  "WAL_SELL_20250907_130000": {
+    "alerted_at": "2025-09-07T13:18:05.042327",
+    "signal_time": "2025-09-07T13:00:00",
+    "freshness_seconds": 1085.042327,
+    "timeframe": "1h"
+  },
+  "PNUT_SELL_20250907_130000": {
+    "alerted_at": "2025-09-07T13:18:27.744242",
+    "signal_time": "2025-09-07T13:00:00",
+    "freshness_seconds": 1107.744242,
+    "timeframe": "1h"
+  },
+  "REAL_SELL_20250907_130000": {
+    "alerted_at": "2025-09-07T13:18:32.758675",
+    "signal_time": "2025-09-07T13:00:00",
+    "freshness_seconds": 1112.758675,
+    "timeframe": "1h"
+  },
+  "NEIRO_BUY_20250907_130000": {
+    "alerted_at": "2025-09-07T13:18:37.316383",
+    "signal_time": "2025-09-07T13:00:00",
+    "freshness_seconds": 1117.316383,
+    "timeframe": "1h"
   }
 }
