@@ -64,5 +64,29 @@
     "signal_time": "2025-09-07T10:00:00",
     "freshness_seconds": 1613.66792,
     "timeframe": "1h"
+  },
+  "BNB_SELL_20250907_110000": {
+    "alerted_at": "2025-09-07T11:15:09.299691",
+    "signal_time": "2025-09-07T11:00:00",
+    "freshness_seconds": 909.299691,
+    "timeframe": "1h"
+  },
+  "CRO_BUY_20250907_110000": {
+    "alerted_at": "2025-09-07T11:15:35.450583",
+    "signal_time": "2025-09-07T11:00:00",
+    "freshness_seconds": 935.450583,
+    "timeframe": "1h"
+  },
+  "AXS_SELL_20250907_110000": {
+    "alerted_at": "2025-09-07T11:16:28.965137",
+    "signal_time": "2025-09-07T11:00:00",
+    "freshness_seconds": 988.965137,
+    "timeframe": "1h"
+  },
+  "NEIRO_BUY_20250907_110000": {
+    "alerted_at": "2025-09-07T11:16:53.038380",
+    "signal_time": "2025-09-07T11:00:00",
+    "freshness_seconds": 1013.03838,
+    "timeframe": "1h"
   }
 }
