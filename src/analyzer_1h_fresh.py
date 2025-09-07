@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
 """
-Fresh Signal 30m Analyzer with Blocked Coins Support
-- Analyzes 30-minute candles for CipherB signals
-- Only alerts on fresh signals (within 10 minutes)
+Fresh Signal 1h Analyzer with Blocked Coins Support
+- Analyzes 1-hour candles for CipherB signals
+- Only alerts on fresh signals (within 20 minutes)
 - Skips coins in blocked_coins.txt file
 - Exact Pine Script replication for maximum accuracy
 """
@@ -17,7 +17,6 @@ import yaml
 from datetime import datetime, timedelta
 
 sys.path.insert(0, os.path.dirname(__file__))
-
 from alerts.telegram_batch import send_consolidated_alert
 from alerts.deduplication_fresh import FreshSignalDeduplicator
 from indicators.cipherb_exact import detect_exact_cipherb_signals
@@ -27,14 +26,14 @@ def get_ist_time():
     utc_now = datetime.utcnow()
     return utc_now + timedelta(hours=5, minutes=30)
 
-class Fresh30mAnalyzer:
+class Fresh1hAnalyzer:
     def __init__(self):
         self.config = self.load_config()
-        self.deduplicator = FreshSignalDeduplicator(freshness_minutes=30)  # 10 min for 30m
+        self.deduplicator = FreshSignalDeduplicator(freshness_minutes=60)  # 20 min for 1h
         self.exchanges = self.init_exchanges()
         self.blocked_coins = self.load_blocked_coins()
         self.market_data = self.load_market_data()
-
+    
     def load_blocked_coins(self):
         """
         Load blocked coins from blocked_coins.txt
@@ -55,19 +54,19 @@ class Fresh30mAnalyzer:
                 print(f"   Blocked: {', '.join(sorted(list(blocked_coins)[:10]))}")
                 if len(blocked_coins) > 10:
                     print(f"   ... and {len(blocked_coins) - 10} more")
-            
+                    
         except FileNotFoundError:
             print("📝 No blocked_coins.txt found - analyzing all coins")
         except Exception as e:
             print(f"⚠️ Error loading blocked coins: {e}")
         
         return blocked_coins
-
+    
     def load_config(self):
         config_path = os.path.join(os.path.dirname(__file__), '..', 'config', 'config.yaml')
         with open(config_path) as f:
             return yaml.safe_load(f)
-
+    
     def load_market_data(self):
         """Load market data and filter out blocked coins"""
         cache_file = os.path.join(os.path.dirname(__file__), '..', 'cache', 'high_risk_market_data.json')
@@ -82,18 +81,17 @@ class Fresh30mAnalyzer:
         all_coins = data.get('coins', [])
         
         # Separate major coins for priority processing
-        major_coins_list = ['BTC', 'ETH', 'BNB', 'SOL', 'ADA', 'DOT', 'MATIC', 'LINK', 'AVAX', 'UNI']
+        major_coins_list = ['BTC', 'ETH', 'BNB', 'SOL', 'ADA', 'DOT', 'MATIC', 'LINK', 'AVAX', 'UNI', 'ETH', 'BNB', 'SOL', 'ADA', 'DOT', 'MATIC', 'LINK', 'AVAX']
         priority_coins = []
         regular_coins = []
         blocked_count = 0
         
         for coin in all_coins:
             symbol = coin.get('symbol', '').upper()
-            
             if symbol in self.blocked_coins:
                 blocked_count += 1
                 continue
-            
+                
             if symbol in major_coins_list:
                 priority_coins.append(coin)
             else:
@@ -109,7 +107,7 @@ class Fresh30mAnalyzer:
         print(f"🎯 Priority coins: {len(priority_coins)} major coins processed first")
         
         return filtered_coins
-
+    
     def init_exchanges(self):
         exchanges = []
         
@@ -136,17 +134,16 @@ class Fresh30mAnalyzer:
             print(f"⚠️ KuCoin failed: {e}")
         
         return exchanges
-
+    
     def is_coin_blocked(self, symbol):
         """Check if coin is in blocked list"""
         return symbol.upper() in self.blocked_coins
-
-    def fetch_30m_ohlcv(self, symbol):
-        """Fetch 30-minute OHLCV data with timestamps"""
-        
+    
+    def fetch_1h_ohlcv(self, symbol):
+        """Fetch 1-hour OHLCV data with timestamps"""
         for exchange_name, exchange in self.exchanges:
             try:
-                ohlcv = exchange.fetch_ohlcv(f"{symbol}/USDT", '30m', limit=200)
+                ohlcv = exchange.fetch_ohlcv(f"{symbol}/USDT", '1h', limit=200)
                 
                 if len(ohlcv) < 100:
                     continue
@@ -163,15 +160,15 @@ class Fresh30mAnalyzer:
                 
                 if len(df) > 50 and df['close'].iloc[-1] > 0:
                     return df, exchange_name
-                
+                    
             except Exception as e:
                 continue
         
         return None, None
-
+    
     def analyze_coin_fresh_signals(self, coin_data):
         """
-        Analyze for FRESH SIGNALS ONLY - 30m timeframe
+        Analyze for FRESH SIGNALS ONLY - 1h timeframe
         Includes blocked coin check for safety
         """
         symbol = coin_data.get('symbol', '').upper()
@@ -182,13 +179,15 @@ class Fresh30mAnalyzer:
             return None
         
         try:
-            # Fetch 30m data with timestamps
-            price_df, exchange_used = self.fetch_30m_ohlcv(symbol)
+            # Fetch 1h data with timestamps
+            price_df, exchange_used = self.fetch_1h_ohlcv(symbol)
+            
             if price_df is None or len(price_df) < 50:
                 return None
             
             # Apply exact CipherB detection
             signals_df = detect_exact_cipherb_signals(price_df, self.config['cipherb'])
+            
             if signals_df.empty:
                 return None
             
@@ -244,20 +243,20 @@ class Fresh30mAnalyzer:
         except Exception as e:
             print(f"❌ {symbol} analysis failed: {str(e)[:100]}")
             return None
-
+    
     def run_fresh_analysis(self):
         """
-        Run 30m analysis for FRESH SIGNALS ONLY
+        Run 1h analysis for FRESH SIGNALS ONLY
         Now includes blocked coins filtering and priority processing
         """
         ist_current = get_ist_time()
         
         print("="*80)
-        print("🎯 FRESH SIGNAL 30M ANALYSIS (WITH BLOCKED COINS)")
+        print("🎯 FRESH SIGNAL 1H ANALYSIS (WITH BLOCKED COINS)")
         print("="*80)
         print(f"🕐 Analysis Time: {ist_current.strftime('%Y-%m-%d %H:%M:%S IST')}")
-        print(f"⏰ Timeframe: 30-minute candles")
-        print(f"✅ Only fresh signals (within 10 minutes)")
+        print(f"⏰ Timeframe: 1-hour candles")
+        print(f"✅ Only fresh signals (within 20 minutes)")
         print(f"🚫 Blocks duplicate & stale signals + blocked coins")
         print(f"🔍 Coins to analyze: {len(self.market_data)} (after blocking)")
         
@@ -292,10 +291,10 @@ class Fresh30mAnalyzer:
         
         # Send consolidated alert with FRESH signals only
         if fresh_signals:
-            success = send_consolidated_alert(fresh_signals, timeframe="30m")
+            success = send_consolidated_alert(fresh_signals, timeframe="1h")
             if success:
                 avg_age = sum(s['signal_age_seconds'] for s in fresh_signals) / len(fresh_signals)
-                print(f"\n✅ SENT 1 FRESH 30M SIGNAL ALERT")
+                print(f"\n✅ SENT FRESH 1H SIGNAL ALERT")
                 print(f"   Signals: {len(fresh_signals)}")
                 print(f"   Average age: {avg_age:.0f} seconds")
             else:
@@ -304,15 +303,15 @@ class Fresh30mAnalyzer:
             print(f"\n📊 No fresh signals detected")
         
         print(f"\n" + "="*80)
-        print("🎯 FRESH 30M SIGNAL ANALYSIS COMPLETE")
+        print("🎯 FRESH 1H SIGNAL ANALYSIS COMPLETE")
         print("="*80)
         print(f"📊 Total analyzed: {total_analyzed}")
         print(f"🚨 Fresh signals: {len(fresh_signals)}")
         print(f"🚫 Blocked coins: {len(self.blocked_coins)}")
         print(f"📱 Alert sent: {'Yes' if fresh_signals else 'No'}")
-        print(f"⏰ Next analysis: 30 minutes")
+        print(f"⏰ Next analysis: 1 hour")
         print("="*80)
 
 if __name__ == '__main__':
-    analyzer = Fresh30mAnalyzer()
+    analyzer = Fresh1hAnalyzer()
     analyzer.run_fresh_analysis()
