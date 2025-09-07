@@ -31,5 +31,5 @@ alerts:
   # Market filtering thresholds (applied in data_fetcher.py)
 market_filter:
   min_market_cap: 100000000   # 100M USD  
-  min_volume_24h: 20000000    # 20M USD
+  min_volume_24h: 10000000    # 10M USD
   description: "Quality coins with established liquidity"
