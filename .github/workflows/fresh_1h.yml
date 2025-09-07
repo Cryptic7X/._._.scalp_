@@ -1,0 +1,45 @@
+name: Fresh Signal 1h Analysis
+
+on:
+  schedule:
+    # Run 2 minutes after each hour close (:02)
+    - cron: '2 * * * *'
+  workflow_dispatch:
+
+jobs:
+  fresh_1h_analysis:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    
+    steps:
+    - name: Checkout Repository
+      uses: actions/checkout@v4
+      
+    - name: Setup Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.11'
+        
+    - name: Install Dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install -r requirements.txt
+        
+    - name: Run Fresh Signal 1h Analysis
+      env:
+        TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+        HIGH_RISK_TELEGRAM_CHAT_ID: ${{ secrets.HIGH_RISK_TELEGRAM_CHAT_ID }}
+        BINGX_API_KEY: ${{ secrets.BINGX_API_KEY }}
+        BINGX_SECRET_KEY: ${{ secrets.BINGX_SECRET_KEY }}
+        COINGECKO_API_KEY: ${{ secrets.COINGECKO_API_KEY }}
+      run: python src/analyzer_1h_fresh.py
+      
+    - name: Commit Fresh Signal Cache
+      run: |
+        git config --global user.name "github-actions[bot]"
+        git config --global user.email "github-actions[bot]@users.noreply.github.com"
+        if [ -f cache/fresh_alerts_1h.json ]; then
+          git add cache/fresh_alerts_1h.json
+          git commit -m "Update fresh 1h signal cache [skip ci]" || echo "No changes"
+          git push || echo "Push failed"
+        fi
