@@ -328,5 +328,29 @@
     "signal_time": "2025-09-07T06:30:00",
     "freshness_seconds": 928.265795,
     "timeframe": "30m"
+  },
+  "LTC_SELL_20250907_070000": {
+    "alerted_at": "2025-09-07T07:13:56.862044",
+    "signal_time": "2025-09-07T07:00:00",
+    "freshness_seconds": 836.862044,
+    "timeframe": "30m"
+  },
+  "IP_SELL_20250907_070000": {
+    "alerted_at": "2025-09-07T07:14:11.140976",
+    "signal_time": "2025-09-07T07:00:00",
+    "freshness_seconds": 851.140976,
+    "timeframe": "30m"
+  },
+  "AXS_SELL_20250907_070000": {
+    "alerted_at": "2025-09-07T07:14:55.197486",
+    "signal_time": "2025-09-07T07:00:00",
+    "freshness_seconds": 895.197486,
+    "timeframe": "30m"
+  },
+  "ILV_SELL_20250907_070000": {
+    "alerted_at": "2025-09-07T07:15:23.005631",
+    "signal_time": "2025-09-07T07:00:00",
+    "freshness_seconds": 923.005631,
+    "timeframe": "30m"
   }
 }
