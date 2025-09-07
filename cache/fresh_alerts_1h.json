@@ -190,5 +190,11 @@
     "signal_time": "2025-09-07T21:00:00",
     "freshness_seconds": 1140.995203,
     "timeframe": "1h"
+  },
+  "PUMP_SELL_20250907_220000": {
+    "alerted_at": "2025-09-07T22:17:23.760299",
+    "signal_time": "2025-09-07T22:00:00",
+    "freshness_seconds": 1043.760299,
+    "timeframe": "1h"
   }
 }
