@@ -135,7 +135,7 @@ class CoinGeckoFetcher:
                 volume_24h = coin.get('total_volume', 0) or 0
                 
                 # More relaxed filters for 30m timeframe
-                if market_cap >= 10_000_000 and volume_24h >= 1_000_000:
+                if market_cap >= 100_000_000 and volume_24h >= 20_000_000:
                     filtered_coins.append(coin)
                     
             except Exception as e:
