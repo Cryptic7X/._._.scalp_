@@ -220,5 +220,77 @@
     "signal_time": "2025-09-07T14:00:00",
     "freshness_seconds": 1476.331627,
     "timeframe": "1h"
+  },
+  "DOT_SELL_20250907_150000": {
+    "alerted_at": "2025-09-07T15:15:22.095926",
+    "signal_time": "2025-09-07T15:00:00",
+    "freshness_seconds": 922.095926,
+    "timeframe": "1h"
+  },
+  "BCH_SELL_20250907_150000": {
+    "alerted_at": "2025-09-07T15:15:44.274767",
+    "signal_time": "2025-09-07T15:00:00",
+    "freshness_seconds": 944.274767,
+    "timeframe": "1h"
+  },
+  "PEPE_SELL_20250907_150000": {
+    "alerted_at": "2025-09-07T15:15:52.886717",
+    "signal_time": "2025-09-07T15:00:00",
+    "freshness_seconds": 952.886717,
+    "timeframe": "1h"
+  },
+  "WLD_SELL_20250907_150000": {
+    "alerted_at": "2025-09-07T15:16:02.401672",
+    "signal_time": "2025-09-07T15:00:00",
+    "freshness_seconds": 962.401672,
+    "timeframe": "1h"
+  },
+  "RENDER_SELL_20250907_150000": {
+    "alerted_at": "2025-09-07T15:16:06.752331",
+    "signal_time": "2025-09-07T15:00:00",
+    "freshness_seconds": 966.752331,
+    "timeframe": "1h"
+  },
+  "FET_SELL_20250907_150000": {
+    "alerted_at": "2025-09-07T15:16:09.505996",
+    "signal_time": "2025-09-07T15:00:00",
+    "freshness_seconds": 969.505996,
+    "timeframe": "1h"
+  },
+  "TIA_SELL_20250907_150000": {
+    "alerted_at": "2025-09-07T15:16:14.595095",
+    "signal_time": "2025-09-07T15:00:00",
+    "freshness_seconds": 974.595095,
+    "timeframe": "1h"
+  },
+  "KAIA_SELL_20250907_150000": {
+    "alerted_at": "2025-09-07T15:16:24.464434",
+    "signal_time": "2025-09-07T15:00:00",
+    "freshness_seconds": 984.464434,
+    "timeframe": "1h"
+  },
+  "MEW_SELL_20250907_150000": {
+    "alerted_at": "2025-09-07T15:16:53.877746",
+    "signal_time": "2025-09-07T15:00:00",
+    "freshness_seconds": 1013.877746,
+    "timeframe": "1h"
+  },
+  "POPCAT_SELL_20250907_150000": {
+    "alerted_at": "2025-09-07T15:16:54.946870",
+    "signal_time": "2025-09-07T15:00:00",
+    "freshness_seconds": 1014.94687,
+    "timeframe": "1h"
+  },
+  "GOMINING_BUY_20250907_150000": {
+    "alerted_at": "2025-09-07T15:17:00.203556",
+    "signal_time": "2025-09-07T15:00:00",
+    "freshness_seconds": 1020.203556,
+    "timeframe": "1h"
+  },
+  "MOODENG_SELL_20250907_150000": {
+    "alerted_at": "2025-09-07T15:17:15.747084",
+    "signal_time": "2025-09-07T15:00:00",
+    "freshness_seconds": 1035.747084,
+    "timeframe": "1h"
   }
 }
