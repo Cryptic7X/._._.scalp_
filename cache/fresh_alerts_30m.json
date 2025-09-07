@@ -1,52 +1,4 @@
 {
-  "HBAR_SELL_20250907_053000": {
-    "alerted_at": "2025-09-07T05:37:39.124078",
-    "signal_time": "2025-09-07T05:30:00",
-    "freshness_seconds": 459.124078,
-    "timeframe": "30m"
-  },
-  "TON_SELL_20250907_053000": {
-    "alerted_at": "2025-09-07T05:37:40.811473",
-    "signal_time": "2025-09-07T05:30:00",
-    "freshness_seconds": 460.811473,
-    "timeframe": "30m"
-  },
-  "TRUMP_SELL_20250907_053000": {
-    "alerted_at": "2025-09-07T05:38:00.886968",
-    "signal_time": "2025-09-07T05:30:00",
-    "freshness_seconds": 480.886968,
-    "timeframe": "30m"
-  },
-  "FET_SELL_20250907_053000": {
-    "alerted_at": "2025-09-07T05:38:02.565771",
-    "signal_time": "2025-09-07T05:30:00",
-    "freshness_seconds": 482.565771,
-    "timeframe": "30m"
-  },
-  "TIA_SELL_20250907_053000": {
-    "alerted_at": "2025-09-07T05:38:07.521207",
-    "signal_time": "2025-09-07T05:30:00",
-    "freshness_seconds": 487.521207,
-    "timeframe": "30m"
-  },
-  "CAKE_SELL_20250907_053000": {
-    "alerted_at": "2025-09-07T05:38:18.514760",
-    "signal_time": "2025-09-07T05:30:00",
-    "freshness_seconds": 498.51476,
-    "timeframe": "30m"
-  },
-  "AXS_SELL_20250907_053000": {
-    "alerted_at": "2025-09-07T05:38:36.293812",
-    "signal_time": "2025-09-07T05:30:00",
-    "freshness_seconds": 516.293812,
-    "timeframe": "30m"
-  },
-  "MERL_SELL_20250907_053000": {
-    "alerted_at": "2025-09-07T05:38:59.797578",
-    "signal_time": "2025-09-07T05:30:00",
-    "freshness_seconds": 539.797578,
-    "timeframe": "30m"
-  },
   "BNB_SELL_20250907_060000": {
     "alerted_at": "2025-09-07T06:19:38.984780",
     "signal_time": "2025-09-07T06:00:00",
@@ -297,6 +249,12 @@
     "alerted_at": "2025-09-07T07:15:23.005631",
     "signal_time": "2025-09-07T07:00:00",
     "freshness_seconds": 923.005631,
+    "timeframe": "30m"
+  },
+  "ERA_SELL_20250907_080000": {
+    "alerted_at": "2025-09-07T08:19:10.751717",
+    "signal_time": "2025-09-07T08:00:00",
+    "freshness_seconds": 1150.751717,
     "timeframe": "30m"
   }
 }
