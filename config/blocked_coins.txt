@@ -1,0 +1,20 @@
+# Blocked Coins Configuration - 30m Analysis
+# Add one coin symbol per line (case insensitive)
+# Lines starting with # are comments
+
+# Stablecoins (usually don't need signals)
+USDT
+USDC
+BUSD
+DAI
+TUSD
+
+# Coins with low liquidity issues
+LUNA
+FTT
+SRM
+
+# Coins you don't want to trade
+# Add your blocked coins here
+# EXAMPLE1
+# EXAMPLE2
