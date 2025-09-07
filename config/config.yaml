@@ -1,4 +1,4 @@
-# 30-Minute CipherB Alert System Configuration
+# 1-Hour CipherB Alert System Configuration
 
 cipherb:
   wt_channel_len: 9
@@ -25,11 +25,12 @@ alerts:
   telegram:
     max_message_length: 4000
     batch_size: 20
-  freshness:
-    window_minutes: 30  # 10 minutes for 30m timeframe
 
-  # Market filtering thresholds (applied in data_fetcher.py)
+freshness:
+  window_minutes: 60  # 20 minutes for 1h timeframe
+
+# Market filtering thresholds (applied in data_fetcher.py)
 market_filter:
-  min_market_cap: 100000000   # 100M USD  
-  min_volume_24h: 10000000    # 10M USD
+  min_market_cap: 100000000  # 100M USD
+  min_volume_24h: 10000000   # 10M USD
   description: "Quality coins with established liquidity"
