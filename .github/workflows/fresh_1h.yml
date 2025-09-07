@@ -2,8 +2,32 @@ name: Fresh Signal 1h Analysis
 
 on:
   schedule:
-    # Run 2 minutes after each hour close (:02)
-    - cron: '2 * * * *'
+    # Run 2 minutes after each hour (when 1h candles close)
+    # IST times: 05:32, 06:32, 07:32, 08:32, 09:32, 10:32, 11:32, 12:32, 13:32, 14:32, 15:32, 16:32, 17:32, 18:32, 19:32, 20:32, 21:32, 22:32, 23:32, 00:32, 01:32, 02:32, 03:32, 04:32
+    - cron: '2 0 * * *'   # 05:32 IST
+    - cron: '2 1 * * *'   # 06:32 IST  
+    - cron: '2 2 * * *'   # 07:32 IST
+    - cron: '2 3 * * *'   # 08:32 IST
+    - cron: '2 4 * * *'   # 09:32 IST
+    - cron: '2 5 * * *'   # 10:32 IST
+    - cron: '2 6 * * *'   # 11:32 IST
+    - cron: '2 7 * * *'   # 12:32 IST
+    - cron: '2 8 * * *'   # 13:32 IST
+    - cron: '2 9 * * *'   # 14:32 IST
+    - cron: '2 10 * * *'  # 15:32 IST
+    - cron: '2 11 * * *'  # 16:32 IST
+    - cron: '2 12 * * *'  # 17:32 IST
+    - cron: '2 13 * * *'  # 18:32 IST
+    - cron: '2 14 * * *'  # 19:32 IST
+    - cron: '2 15 * * *'  # 20:32 IST
+    - cron: '2 16 * * *'  # 21:32 IST
+    - cron: '2 17 * * *'  # 22:32 IST
+    - cron: '2 18 * * *'  # 23:32 IST
+    - cron: '2 19 * * *'  # 00:32 IST
+    - cron: '2 20 * * *'  # 01:32 IST
+    - cron: '2 21 * * *'  # 02:32 IST
+    - cron: '2 22 * * *'  # 03:32 IST
+    - cron: '2 23 * * *'  # 04:32 IST
   workflow_dispatch:
 
 jobs:
