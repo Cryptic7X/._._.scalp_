@@ -27,7 +27,7 @@ alerts:
     batch_size: 20
 
 freshness:
-  window_minutes: 60  # 20 minutes for 1h timeframe
+  window_minutes: 65  # Full 1-hour + 5 minutes buffer for 1h timeframe
 
 # Market filtering thresholds (applied in data_fetcher.py)
 market_filter:
