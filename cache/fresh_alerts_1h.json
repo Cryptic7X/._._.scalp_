@@ -1,94 +1,4 @@
 {
-  "XRP_SELL_20250907_170000": {
-    "alerted_at": "2025-09-07T17:18:18.981222",
-    "signal_time": "2025-09-07T17:00:00",
-    "freshness_seconds": 1098.981222,
-    "timeframe": "1h"
-  },
-  "DOGE_SELL_20250907_170000": {
-    "alerted_at": "2025-09-07T17:18:20.255659",
-    "signal_time": "2025-09-07T17:00:00",
-    "freshness_seconds": 1100.255659,
-    "timeframe": "1h"
-  },
-  "XLM_SELL_20250907_170000": {
-    "alerted_at": "2025-09-07T17:18:40.532231",
-    "signal_time": "2025-09-07T17:00:00",
-    "freshness_seconds": 1120.532231,
-    "timeframe": "1h"
-  },
-  "TAO_SELL_20250907_170000": {
-    "alerted_at": "2025-09-07T17:18:51.526608",
-    "signal_time": "2025-09-07T17:00:00",
-    "freshness_seconds": 1131.526608,
-    "timeframe": "1h"
-  },
-  "NEAR_SELL_20250907_170000": {
-    "alerted_at": "2025-09-07T17:18:52.887880",
-    "signal_time": "2025-09-07T17:00:00",
-    "freshness_seconds": 1132.88788,
-    "timeframe": "1h"
-  },
-  "KAS_SELL_20250907_170000": {
-    "alerted_at": "2025-09-07T17:19:02.010386",
-    "signal_time": "2025-09-07T17:00:00",
-    "freshness_seconds": 1142.010386,
-    "timeframe": "1h"
-  },
-  "FORM_SELL_20250907_170000": {
-    "alerted_at": "2025-09-07T17:19:13.056824",
-    "signal_time": "2025-09-07T17:00:00",
-    "freshness_seconds": 1153.056824,
-    "timeframe": "1h"
-  },
-  "AERO_BUY_20250907_170000": {
-    "alerted_at": "2025-09-07T17:19:22.666431",
-    "signal_time": "2025-09-07T17:00:00",
-    "freshness_seconds": 1162.666431,
-    "timeframe": "1h"
-  },
-  "DASH_SELL_20250907_170000": {
-    "alerted_at": "2025-09-07T17:19:58.875316",
-    "signal_time": "2025-09-07T17:00:00",
-    "freshness_seconds": 1198.875316,
-    "timeframe": "1h"
-  },
-  "PLUME_SELL_20250907_170000": {
-    "alerted_at": "2025-09-07T17:20:01.696093",
-    "signal_time": "2025-09-07T17:00:00",
-    "freshness_seconds": 1201.696093,
-    "timeframe": "1h"
-  },
-  "CFG_SELL_20250907_170000": {
-    "alerted_at": "2025-09-07T17:20:16.312781",
-    "signal_time": "2025-09-07T17:00:00",
-    "freshness_seconds": 1216.312781,
-    "timeframe": "1h"
-  },
-  "AERO_BUY_20250907_180000": {
-    "alerted_at": "2025-09-07T18:20:48.552074",
-    "signal_time": "2025-09-07T18:00:00",
-    "freshness_seconds": 1248.552074,
-    "timeframe": "1h"
-  },
-  "NEIRO_BUY_20250907_180000": {
-    "alerted_at": "2025-09-07T18:21:44.511391",
-    "signal_time": "2025-09-07T18:00:00",
-    "freshness_seconds": 1304.511391,
-    "timeframe": "1h"
-  },
-  "SYRUP_BUY_20250907_190000": {
-    "alerted_at": "2025-09-07T19:19:28.815705",
-    "signal_time": "2025-09-07T19:00:00",
-    "freshness_seconds": 1168.815705,
-    "timeframe": "1h"
-  },
-  "CFG_SELL_20250907_190000": {
-    "alerted_at": "2025-09-07T19:19:58.553472",
-    "signal_time": "2025-09-07T19:00:00",
-    "freshness_seconds": 1198.553472,
-    "timeframe": "1h"
-  },
   "RAY_BUY_20250907_200000": {
     "alerted_at": "2025-09-07T20:19:16.806672",
     "signal_time": "2025-09-07T20:00:00",
@@ -147,6 +57,36 @@
     "alerted_at": "2025-09-07T23:16:33.123173",
     "signal_time": "2025-09-07T23:00:00",
     "freshness_seconds": 993.123173,
+    "timeframe": "1h"
+  },
+  "DOGE_SELL_20250908_010000": {
+    "alerted_at": "2025-09-08T01:56:26.293108",
+    "signal_time": "2025-09-08T01:00:00",
+    "freshness_seconds": 3386.293108,
+    "timeframe": "1h"
+  },
+  "IP_SELL_20250908_010000": {
+    "alerted_at": "2025-09-08T01:57:07.001403",
+    "signal_time": "2025-09-08T01:00:00",
+    "freshness_seconds": 3427.001403,
+    "timeframe": "1h"
+  },
+  "SPX_SELL_20250908_010000": {
+    "alerted_at": "2025-09-08T01:57:26.302019",
+    "signal_time": "2025-09-08T01:00:00",
+    "freshness_seconds": 3446.302019,
+    "timeframe": "1h"
+  },
+  "FARTCOIN_SELL_20250908_010000": {
+    "alerted_at": "2025-09-08T01:57:43.603072",
+    "signal_time": "2025-09-08T01:00:00",
+    "freshness_seconds": 3463.603072,
+    "timeframe": "1h"
+  },
+  "BABY_SELL_20250908_010000": {
+    "alerted_at": "2025-09-08T01:58:42.942860",
+    "signal_time": "2025-09-08T01:00:00",
+    "freshness_seconds": 3522.94286,
     "timeframe": "1h"
   }
 }
