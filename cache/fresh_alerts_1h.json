@@ -1,46 +1,4 @@
 {
-  "ENA_SELL_20250908_070000": {
-    "alerted_at": "2025-09-08T07:16:36.371292",
-    "signal_time": "2025-09-08T07:00:00",
-    "freshness_seconds": 996.371292,
-    "timeframe": "1h"
-  },
-  "PEPE_SELL_20250908_070000": {
-    "alerted_at": "2025-09-08T07:16:38.569469",
-    "signal_time": "2025-09-08T07:00:00",
-    "freshness_seconds": 998.569469,
-    "timeframe": "1h"
-  },
-  "WLD_SELL_20250908_070000": {
-    "alerted_at": "2025-09-08T07:16:47.720398",
-    "signal_time": "2025-09-08T07:00:00",
-    "freshness_seconds": 1007.720398,
-    "timeframe": "1h"
-  },
-  "VET_SELL_20250908_070000": {
-    "alerted_at": "2025-09-08T07:16:49.716647",
-    "signal_time": "2025-09-08T07:00:00",
-    "freshness_seconds": 1009.716647,
-    "timeframe": "1h"
-  },
-  "RENDER_SELL_20250908_070000": {
-    "alerted_at": "2025-09-08T07:16:53.128239",
-    "signal_time": "2025-09-08T07:00:00",
-    "freshness_seconds": 1013.128239,
-    "timeframe": "1h"
-  },
-  "SAROS_BUY_20250908_070000": {
-    "alerted_at": "2025-09-08T07:17:12.597298",
-    "signal_time": "2025-09-08T07:00:00",
-    "freshness_seconds": 1032.597298,
-    "timeframe": "1h"
-  },
-  "ARKM_SELL_20250908_070000": {
-    "alerted_at": "2025-09-08T07:17:44.310025",
-    "signal_time": "2025-09-08T07:00:00",
-    "freshness_seconds": 1064.310025,
-    "timeframe": "1h"
-  },
   "FIL_SELL_20250908_080000": {
     "alerted_at": "2025-09-08T08:37:04.814626",
     "signal_time": "2025-09-08T08:00:00",
@@ -477,6 +435,24 @@
     "alerted_at": "2025-09-08T12:43:17.957452",
     "signal_time": "2025-09-08T12:00:00",
     "freshness_seconds": 2597.957452,
+    "timeframe": "1h"
+  },
+  "SOL_SELL_20250908_130000": {
+    "alerted_at": "2025-09-08T13:25:15.884656",
+    "signal_time": "2025-09-08T13:00:00",
+    "freshness_seconds": 1515.884656,
+    "timeframe": "1h"
+  },
+  "JTO_SELL_20250908_130000": {
+    "alerted_at": "2025-09-08T13:26:31.093019",
+    "signal_time": "2025-09-08T13:00:00",
+    "freshness_seconds": 1591.093019,
+    "timeframe": "1h"
+  },
+  "AIOT_BUY_20250908_130000": {
+    "alerted_at": "2025-09-08T13:27:11.087523",
+    "signal_time": "2025-09-08T13:00:00",
+    "freshness_seconds": 1631.087523,
     "timeframe": "1h"
   }
 }
