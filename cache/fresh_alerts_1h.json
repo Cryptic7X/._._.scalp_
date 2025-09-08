@@ -682,5 +682,83 @@
     "signal_time": "2025-09-08T17:00:00",
     "freshness_seconds": 1399.888178,
     "timeframe": "1h"
+  },
+  "CRO_BUY_20250908_180000": {
+    "alerted_at": "2025-09-08T18:24:28.498798",
+    "signal_time": "2025-09-08T18:00:00",
+    "freshness_seconds": 1468.498798,
+    "timeframe": "1h"
+  },
+  "ARB_SELL_20250908_180000": {
+    "alerted_at": "2025-09-08T18:24:41.193600",
+    "signal_time": "2025-09-08T18:00:00",
+    "freshness_seconds": 1481.1936,
+    "timeframe": "1h"
+  },
+  "BONK_SELL_20250908_180000": {
+    "alerted_at": "2025-09-08T18:24:50.990428",
+    "signal_time": "2025-09-08T18:00:00",
+    "freshness_seconds": 1490.990428,
+    "timeframe": "1h"
+  },
+  "OP_SELL_20250908_180000": {
+    "alerted_at": "2025-09-08T18:24:54.838652",
+    "signal_time": "2025-09-08T18:00:00",
+    "freshness_seconds": 1494.838652,
+    "timeframe": "1h"
+  },
+  "FLOKI_SELL_20250908_180000": {
+    "alerted_at": "2025-09-08T18:25:04.113663",
+    "signal_time": "2025-09-08T18:00:00",
+    "freshness_seconds": 1504.113663,
+    "timeframe": "1h"
+  },
+  "WIF_SELL_20250908_180000": {
+    "alerted_at": "2025-09-08T18:25:06.243838",
+    "signal_time": "2025-09-08T18:00:00",
+    "freshness_seconds": 1506.243838,
+    "timeframe": "1h"
+  },
+  "VIRTUAL_SELL_20250908_180000": {
+    "alerted_at": "2025-09-08T18:25:09.319121",
+    "signal_time": "2025-09-08T18:00:00",
+    "freshness_seconds": 1509.319121,
+    "timeframe": "1h"
+  },
+  "ETHFI_SELL_20250908_180000": {
+    "alerted_at": "2025-09-08T18:25:17.384365",
+    "signal_time": "2025-09-08T18:00:00",
+    "freshness_seconds": 1517.384365,
+    "timeframe": "1h"
+  },
+  "SUN_SELL_20250908_180000": {
+    "alerted_at": "2025-09-08T18:25:26.325776",
+    "signal_time": "2025-09-08T18:00:00",
+    "freshness_seconds": 1526.325776,
+    "timeframe": "1h"
+  },
+  "TURBO_SELL_20250908_180000": {
+    "alerted_at": "2025-09-08T18:25:34.030341",
+    "signal_time": "2025-09-08T18:00:00",
+    "freshness_seconds": 1534.030341,
+    "timeframe": "1h"
+  },
+  "PLUME_SELL_20250908_180000": {
+    "alerted_at": "2025-09-08T18:25:34.546775",
+    "signal_time": "2025-09-08T18:00:00",
+    "freshness_seconds": 1534.546775,
+    "timeframe": "1h"
+  },
+  "BOME_SELL_20250908_180000": {
+    "alerted_at": "2025-09-08T18:25:58.498795",
+    "signal_time": "2025-09-08T18:00:00",
+    "freshness_seconds": 1558.498795,
+    "timeframe": "1h"
+  },
+  "AIXBT_SELL_20250908_180000": {
+    "alerted_at": "2025-09-08T18:26:08.815670",
+    "signal_time": "2025-09-08T18:00:00",
+    "freshness_seconds": 1568.81567,
+    "timeframe": "1h"
   }
 }
