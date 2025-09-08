@@ -1,28 +1,4 @@
 {
-  "IP_SELL_20250907_210000": {
-    "alerted_at": "2025-09-07T21:17:59.851804",
-    "signal_time": "2025-09-07T21:00:00",
-    "freshness_seconds": 1079.851804,
-    "timeframe": "1h"
-  },
-  "IMX_BUY_20250907_210000": {
-    "alerted_at": "2025-09-07T21:18:18.522926",
-    "signal_time": "2025-09-07T21:00:00",
-    "freshness_seconds": 1098.522926,
-    "timeframe": "1h"
-  },
-  "BIO_BUY_20250907_210000": {
-    "alerted_at": "2025-09-07T21:18:45.276552",
-    "signal_time": "2025-09-07T21:00:00",
-    "freshness_seconds": 1125.276552,
-    "timeframe": "1h"
-  },
-  "SOMI_SELL_20250907_210000": {
-    "alerted_at": "2025-09-07T21:19:00.995203",
-    "signal_time": "2025-09-07T21:00:00",
-    "freshness_seconds": 1140.995203,
-    "timeframe": "1h"
-  },
   "PUMP_SELL_20250907_220000": {
     "alerted_at": "2025-09-07T22:17:23.760299",
     "signal_time": "2025-09-07T22:00:00",
