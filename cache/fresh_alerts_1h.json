@@ -1,22 +1,4 @@
 {
-  "RAY_BUY_20250907_200000": {
-    "alerted_at": "2025-09-07T20:19:16.806672",
-    "signal_time": "2025-09-07T20:00:00",
-    "freshness_seconds": 1156.806672,
-    "timeframe": "1h"
-  },
-  "API3_BUY_20250907_200000": {
-    "alerted_at": "2025-09-07T20:20:04.755781",
-    "signal_time": "2025-09-07T20:00:00",
-    "freshness_seconds": 1204.755781,
-    "timeframe": "1h"
-  },
-  "VRA_SELL_20250907_200000": {
-    "alerted_at": "2025-09-07T20:20:15.635956",
-    "signal_time": "2025-09-07T20:00:00",
-    "freshness_seconds": 1215.635956,
-    "timeframe": "1h"
-  },
   "IP_SELL_20250907_210000": {
     "alerted_at": "2025-09-07T21:17:59.851804",
     "signal_time": "2025-09-07T21:00:00",
@@ -87,6 +69,42 @@
     "alerted_at": "2025-09-08T01:58:42.942860",
     "signal_time": "2025-09-08T01:00:00",
     "freshness_seconds": 3522.94286,
+    "timeframe": "1h"
+  },
+  "BNB_SELL_20250908_020000": {
+    "alerted_at": "2025-09-08T02:26:52.811664",
+    "signal_time": "2025-09-08T02:00:00",
+    "freshness_seconds": 1612.811664,
+    "timeframe": "1h"
+  },
+  "PENGU_SELL_20250908_020000": {
+    "alerted_at": "2025-09-08T02:27:36.929815",
+    "signal_time": "2025-09-08T02:00:00",
+    "freshness_seconds": 1656.929815,
+    "timeframe": "1h"
+  },
+  "BONK_SELL_20250908_020000": {
+    "alerted_at": "2025-09-08T02:27:41.491596",
+    "signal_time": "2025-09-08T02:00:00",
+    "freshness_seconds": 1661.491596,
+    "timeframe": "1h"
+  },
+  "PAXG_BUY_20250908_020000": {
+    "alerted_at": "2025-09-08T02:27:49.709884",
+    "signal_time": "2025-09-08T02:00:00",
+    "freshness_seconds": 1669.709884,
+    "timeframe": "1h"
+  },
+  "MERL_BUY_20250908_020000": {
+    "alerted_at": "2025-09-08T02:28:35.622870",
+    "signal_time": "2025-09-08T02:00:00",
+    "freshness_seconds": 1715.62287,
+    "timeframe": "1h"
+  },
+  "CAMP_BUY_20250908_020000": {
+    "alerted_at": "2025-09-08T02:28:40.952053",
+    "signal_time": "2025-09-08T02:00:00",
+    "freshness_seconds": 1720.952053,
     "timeframe": "1h"
   }
 }
