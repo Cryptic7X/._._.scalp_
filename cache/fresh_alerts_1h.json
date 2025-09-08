@@ -454,5 +454,35 @@
     "signal_time": "2025-09-08T13:00:00",
     "freshness_seconds": 1631.087523,
     "timeframe": "1h"
+  },
+  "ONDO_SELL_20250908_140000": {
+    "alerted_at": "2025-09-08T14:29:11.795939",
+    "signal_time": "2025-09-08T14:00:00",
+    "freshness_seconds": 1751.795939,
+    "timeframe": "1h"
+  },
+  "ALGO_SELL_20250908_140000": {
+    "alerted_at": "2025-09-08T14:29:18.480183",
+    "signal_time": "2025-09-08T14:00:00",
+    "freshness_seconds": 1758.480183,
+    "timeframe": "1h"
+  },
+  "ZORA_SELL_20250908_140000": {
+    "alerted_at": "2025-09-08T14:30:11.110054",
+    "signal_time": "2025-09-08T14:00:00",
+    "freshness_seconds": 1811.110054,
+    "timeframe": "1h"
+  },
+  "USELESS_SELL_20250908_140000": {
+    "alerted_at": "2025-09-08T14:30:13.567735",
+    "signal_time": "2025-09-08T14:00:00",
+    "freshness_seconds": 1813.567735,
+    "timeframe": "1h"
+  },
+  "PNUT_SELL_20250908_140000": {
+    "alerted_at": "2025-09-08T14:30:15.183322",
+    "signal_time": "2025-09-08T14:00:00",
+    "freshness_seconds": 1815.183322,
+    "timeframe": "1h"
   }
 }
