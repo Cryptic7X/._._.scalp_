@@ -1,16 +1,4 @@
 {
-  "MNT_SELL_20250908_030000": {
-    "alerted_at": "2025-09-08T03:04:09.500464",
-    "signal_time": "2025-09-08T03:00:00",
-    "freshness_seconds": 249.500464,
-    "timeframe": "1h"
-  },
-  "FDUSD_SELL_20250908_030000": {
-    "alerted_at": "2025-09-08T03:04:33.189879",
-    "signal_time": "2025-09-08T03:00:00",
-    "freshness_seconds": 273.189879,
-    "timeframe": "1h"
-  },
   "BNB_SELL_20250908_040000": {
     "alerted_at": "2025-09-08T04:31:52.360008",
     "signal_time": "2025-09-08T04:00:00",
@@ -315,6 +303,12 @@
     "alerted_at": "2025-09-08T08:38:21.201313",
     "signal_time": "2025-09-08T08:00:00",
     "freshness_seconds": 2301.201313,
+    "timeframe": "1h"
+  },
+  "VIRTUAL_SELL_20250908_090000": {
+    "alerted_at": "2025-09-08T09:31:28.498618",
+    "signal_time": "2025-09-08T09:00:00",
+    "freshness_seconds": 1888.498618,
     "timeframe": "1h"
   }
 }
