@@ -310,5 +310,11 @@
     "signal_time": "2025-09-08T09:00:00",
     "freshness_seconds": 1888.498618,
     "timeframe": "1h"
+  },
+  "FDUSD_SELL_20250908_100000": {
+    "alerted_at": "2025-09-08T10:28:47.880360",
+    "signal_time": "2025-09-08T10:00:00",
+    "freshness_seconds": 1727.88036,
+    "timeframe": "1h"
   }
 }
