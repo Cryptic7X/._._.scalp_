@@ -106,5 +106,17 @@
     "signal_time": "2025-09-08T02:00:00",
     "freshness_seconds": 1720.952053,
     "timeframe": "1h"
+  },
+  "MNT_SELL_20250908_030000": {
+    "alerted_at": "2025-09-08T03:04:09.500464",
+    "signal_time": "2025-09-08T03:00:00",
+    "freshness_seconds": 249.500464,
+    "timeframe": "1h"
+  },
+  "FDUSD_SELL_20250908_030000": {
+    "alerted_at": "2025-09-08T03:04:33.189879",
+    "signal_time": "2025-09-08T03:00:00",
+    "freshness_seconds": 273.189879,
+    "timeframe": "1h"
   }
 }
