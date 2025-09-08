@@ -1,10 +1,4 @@
 {
-  "PUMP_SELL_20250907_220000": {
-    "alerted_at": "2025-09-07T22:17:23.760299",
-    "signal_time": "2025-09-07T22:00:00",
-    "freshness_seconds": 1043.760299,
-    "timeframe": "1h"
-  },
   "CAMP_BUY_20250907_230000": {
     "alerted_at": "2025-09-07T23:16:24.032818",
     "signal_time": "2025-09-07T23:00:00",
@@ -93,6 +87,48 @@
     "alerted_at": "2025-09-08T03:04:33.189879",
     "signal_time": "2025-09-08T03:00:00",
     "freshness_seconds": 273.189879,
+    "timeframe": "1h"
+  },
+  "BNB_SELL_20250908_040000": {
+    "alerted_at": "2025-09-08T04:31:52.360008",
+    "signal_time": "2025-09-08T04:00:00",
+    "freshness_seconds": 1912.360008,
+    "timeframe": "1h"
+  },
+  "DOGE_SELL_20250908_040000": {
+    "alerted_at": "2025-09-08T04:31:57.246382",
+    "signal_time": "2025-09-08T04:00:00",
+    "freshness_seconds": 1917.246382,
+    "timeframe": "1h"
+  },
+  "ATOM_SELL_20250908_040000": {
+    "alerted_at": "2025-09-08T04:32:32.891927",
+    "signal_time": "2025-09-08T04:00:00",
+    "freshness_seconds": 1952.891927,
+    "timeframe": "1h"
+  },
+  "PENGU_SELL_20250908_040000": {
+    "alerted_at": "2025-09-08T04:32:36.908332",
+    "signal_time": "2025-09-08T04:00:00",
+    "freshness_seconds": 1956.908332,
+    "timeframe": "1h"
+  },
+  "PAXG_BUY_20250908_040000": {
+    "alerted_at": "2025-09-08T04:32:49.779784",
+    "signal_time": "2025-09-08T04:00:00",
+    "freshness_seconds": 1969.779784,
+    "timeframe": "1h"
+  },
+  "ZEC_SELL_20250908_040000": {
+    "alerted_at": "2025-09-08T04:32:58.223620",
+    "signal_time": "2025-09-08T04:00:00",
+    "freshness_seconds": 1978.22362,
+    "timeframe": "1h"
+  },
+  "FARTCOIN_SELL_20250908_040000": {
+    "alerted_at": "2025-09-08T04:33:01.421017",
+    "signal_time": "2025-09-08T04:00:00",
+    "freshness_seconds": 1981.421017,
     "timeframe": "1h"
   }
 }
