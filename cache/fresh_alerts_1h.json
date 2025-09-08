@@ -1,34 +1,4 @@
 {
-  "FIL_SELL_20250908_080000": {
-    "alerted_at": "2025-09-08T08:37:04.814626",
-    "signal_time": "2025-09-08T08:00:00",
-    "freshness_seconds": 2224.814626,
-    "timeframe": "1h"
-  },
-  "KAIA_SELL_20250908_080000": {
-    "alerted_at": "2025-09-08T08:37:17.165183",
-    "signal_time": "2025-09-08T08:00:00",
-    "freshness_seconds": 2237.165183,
-    "timeframe": "1h"
-  },
-  "SAHARA_BUY_20250908_080000": {
-    "alerted_at": "2025-09-08T08:38:00.734348",
-    "signal_time": "2025-09-08T08:00:00",
-    "freshness_seconds": 2280.734348,
-    "timeframe": "1h"
-  },
-  "CFG_SELL_20250908_080000": {
-    "alerted_at": "2025-09-08T08:38:04.903679",
-    "signal_time": "2025-09-08T08:00:00",
-    "freshness_seconds": 2284.903679,
-    "timeframe": "1h"
-  },
-  "SPK_SELL_20250908_080000": {
-    "alerted_at": "2025-09-08T08:38:21.201313",
-    "signal_time": "2025-09-08T08:00:00",
-    "freshness_seconds": 2301.201313,
-    "timeframe": "1h"
-  },
   "VIRTUAL_SELL_20250908_090000": {
     "alerted_at": "2025-09-08T09:31:28.498618",
     "signal_time": "2025-09-08T09:00:00",
@@ -483,6 +453,30 @@
     "alerted_at": "2025-09-08T14:30:15.183322",
     "signal_time": "2025-09-08T14:00:00",
     "freshness_seconds": 1815.183322,
+    "timeframe": "1h"
+  },
+  "XRP_SELL_20250908_150000": {
+    "alerted_at": "2025-09-08T15:18:35.788552",
+    "signal_time": "2025-09-08T15:00:00",
+    "freshness_seconds": 1115.788552,
+    "timeframe": "1h"
+  },
+  "CRO_BUY_20250908_150000": {
+    "alerted_at": "2025-09-08T15:18:58.326321",
+    "signal_time": "2025-09-08T15:00:00",
+    "freshness_seconds": 1138.326321,
+    "timeframe": "1h"
+  },
+  "PENDLE_SELL_20250908_150000": {
+    "alerted_at": "2025-09-08T15:19:45.992145",
+    "signal_time": "2025-09-08T15:00:00",
+    "freshness_seconds": 1185.992145,
+    "timeframe": "1h"
+  },
+  "DRIFT_SELL_20250908_150000": {
+    "alerted_at": "2025-09-08T15:20:30.298289",
+    "signal_time": "2025-09-08T15:00:00",
+    "freshness_seconds": 1230.298289,
     "timeframe": "1h"
   }
 }
