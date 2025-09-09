@@ -184,5 +184,17 @@
     "signal_time": "2025-09-09T02:00:00",
     "freshness_seconds": 1546.77397,
     "timeframe": "1h"
+  },
+  "MNT_SELL_20250909_020000": {
+    "alerted_at": "2025-09-09T02:59:16.465024",
+    "signal_time": "2025-09-09T02:00:00",
+    "freshness_seconds": 3556.465024,
+    "timeframe": "1h"
+  },
+  "VANA_SELL_20250909_030000": {
+    "alerted_at": "2025-09-09T03:00:45.348532",
+    "signal_time": "2025-09-09T03:00:00",
+    "freshness_seconds": 45.348532,
+    "timeframe": "1h"
   }
 }
