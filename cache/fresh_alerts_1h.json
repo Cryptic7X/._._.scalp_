@@ -1,22 +1,4 @@
 {
-  "ZEC_SELL_20250908_210000": {
-    "alerted_at": "2025-09-08T21:20:39.445562",
-    "signal_time": "2025-09-08T21:00:00",
-    "freshness_seconds": 1239.445562,
-    "timeframe": "1h"
-  },
-  "CAMP_BUY_20250908_210000": {
-    "alerted_at": "2025-09-08T21:21:41.295567",
-    "signal_time": "2025-09-08T21:00:00",
-    "freshness_seconds": 1301.295567,
-    "timeframe": "1h"
-  },
-  "HOME_BUY_20250908_210000": {
-    "alerted_at": "2025-09-08T21:21:45.994422",
-    "signal_time": "2025-09-08T21:00:00",
-    "freshness_seconds": 1305.994422,
-    "timeframe": "1h"
-  },
   "IKA_SELL_20250908_220000": {
     "alerted_at": "2025-09-08T22:19:45.816111",
     "signal_time": "2025-09-08T22:00:00",
@@ -195,6 +177,12 @@
     "alerted_at": "2025-09-09T03:00:45.348532",
     "signal_time": "2025-09-09T03:00:00",
     "freshness_seconds": 45.348532,
+    "timeframe": "1h"
+  },
+  "RENDER_SELL_20250909_030000": {
+    "alerted_at": "2025-09-09T03:36:27.216350",
+    "signal_time": "2025-09-09T03:00:00",
+    "freshness_seconds": 2187.21635,
     "timeframe": "1h"
   }
 }
