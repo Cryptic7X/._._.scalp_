@@ -1,28 +1,4 @@
 {
-  "OKB_SELL_20250911_120000": {
-    "alerted_at": "2025-09-11T12:52:19.933166",
-    "signal_time": "2025-09-11T12:00:00",
-    "freshness_seconds": 3139.933166,
-    "timeframe": "1h"
-  },
-  "XAUT_BUY_20250911_120000": {
-    "alerted_at": "2025-09-11T12:52:41.940207",
-    "signal_time": "2025-09-11T12:00:00",
-    "freshness_seconds": 3161.940207,
-    "timeframe": "1h"
-  },
-  "BABYDOGE_SELL_20250911_120000": {
-    "alerted_at": "2025-09-11T12:53:44.719105",
-    "signal_time": "2025-09-11T12:00:00",
-    "freshness_seconds": 3224.719105,
-    "timeframe": "1h"
-  },
-  "KMNO_SELL_20250911_120000": {
-    "alerted_at": "2025-09-11T12:53:59.577926",
-    "signal_time": "2025-09-11T12:00:00",
-    "freshness_seconds": 3239.577926,
-    "timeframe": "1h"
-  },
   "FTN_SELL_20250911_130000": {
     "alerted_at": "2025-09-11T13:26:06.993535",
     "signal_time": "2025-09-11T13:00:00",
@@ -255,6 +231,12 @@
     "alerted_at": "2025-09-11T18:35:36.845277",
     "signal_time": "2025-09-11T18:00:00",
     "freshness_seconds": 2136.845277,
+    "timeframe": "1h"
+  },
+  "ZORA_BUY_20250911_190000": {
+    "alerted_at": "2025-09-11T19:16:01.093178",
+    "signal_time": "2025-09-11T19:00:00",
+    "freshness_seconds": 961.093178,
     "timeframe": "1h"
   }
 }
