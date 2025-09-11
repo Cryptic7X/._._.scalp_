@@ -58,5 +58,41 @@
     "signal_time": "2025-09-11T14:00:00",
     "freshness_seconds": 968.016895,
     "timeframe": "1h"
+  },
+  "FORM_BUY_20250911_150000": {
+    "alerted_at": "2025-09-11T15:19:20.246142",
+    "signal_time": "2025-09-11T15:00:00",
+    "freshness_seconds": 1160.246142,
+    "timeframe": "1h"
+  },
+  "APE_BUY_20250911_150000": {
+    "alerted_at": "2025-09-11T15:19:47.869806",
+    "signal_time": "2025-09-11T15:00:00",
+    "freshness_seconds": 1187.869806,
+    "timeframe": "1h"
+  },
+  "MOVE_BUY_20250911_150000": {
+    "alerted_at": "2025-09-11T15:20:03.450329",
+    "signal_time": "2025-09-11T15:00:00",
+    "freshness_seconds": 1203.450329,
+    "timeframe": "1h"
+  },
+  "DRIFT_BUY_20250911_150000": {
+    "alerted_at": "2025-09-11T15:20:25.507341",
+    "signal_time": "2025-09-11T15:00:00",
+    "freshness_seconds": 1225.507341,
+    "timeframe": "1h"
+  },
+  "IKA_SELL_20250911_150000": {
+    "alerted_at": "2025-09-11T15:20:45.362106",
+    "signal_time": "2025-09-11T15:00:00",
+    "freshness_seconds": 1245.362106,
+    "timeframe": "1h"
+  },
+  "OMNI_BUY_20250911_150000": {
+    "alerted_at": "2025-09-11T15:20:49.587957",
+    "signal_time": "2025-09-11T15:00:00",
+    "freshness_seconds": 1249.587957,
+    "timeframe": "1h"
   }
 }
