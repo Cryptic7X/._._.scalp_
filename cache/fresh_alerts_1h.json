@@ -1,40 +1,4 @@
 {
-  "FORM_BUY_20250911_150000": {
-    "alerted_at": "2025-09-11T15:19:20.246142",
-    "signal_time": "2025-09-11T15:00:00",
-    "freshness_seconds": 1160.246142,
-    "timeframe": "1h"
-  },
-  "APE_BUY_20250911_150000": {
-    "alerted_at": "2025-09-11T15:19:47.869806",
-    "signal_time": "2025-09-11T15:00:00",
-    "freshness_seconds": 1187.869806,
-    "timeframe": "1h"
-  },
-  "MOVE_BUY_20250911_150000": {
-    "alerted_at": "2025-09-11T15:20:03.450329",
-    "signal_time": "2025-09-11T15:00:00",
-    "freshness_seconds": 1203.450329,
-    "timeframe": "1h"
-  },
-  "DRIFT_BUY_20250911_150000": {
-    "alerted_at": "2025-09-11T15:20:25.507341",
-    "signal_time": "2025-09-11T15:00:00",
-    "freshness_seconds": 1225.507341,
-    "timeframe": "1h"
-  },
-  "IKA_SELL_20250911_150000": {
-    "alerted_at": "2025-09-11T15:20:45.362106",
-    "signal_time": "2025-09-11T15:00:00",
-    "freshness_seconds": 1245.362106,
-    "timeframe": "1h"
-  },
-  "OMNI_BUY_20250911_150000": {
-    "alerted_at": "2025-09-11T15:20:49.587957",
-    "signal_time": "2025-09-11T15:00:00",
-    "freshness_seconds": 1249.587957,
-    "timeframe": "1h"
-  },
   "ENA_BUY_20250911_160000": {
     "alerted_at": "2025-09-11T16:23:17.686191",
     "signal_time": "2025-09-11T16:00:00",
@@ -219,6 +183,18 @@
     "alerted_at": "2025-09-11T21:18:29.809975",
     "signal_time": "2025-09-11T21:00:00",
     "freshness_seconds": 1109.809975,
+    "timeframe": "1h"
+  },
+  "ULTIMA_SELL_20250911_220000": {
+    "alerted_at": "2025-09-11T22:17:37.520910",
+    "signal_time": "2025-09-11T22:00:00",
+    "freshness_seconds": 1057.52091,
+    "timeframe": "1h"
+  },
+  "ERA_BUY_20250911_220000": {
+    "alerted_at": "2025-09-11T22:18:27.254162",
+    "signal_time": "2025-09-11T22:00:00",
+    "freshness_seconds": 1107.254162,
     "timeframe": "1h"
   }
 }
