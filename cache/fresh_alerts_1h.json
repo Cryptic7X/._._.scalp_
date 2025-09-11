@@ -1,40 +1,4 @@
 {
-  "FTN_SELL_20250911_130000": {
-    "alerted_at": "2025-09-11T13:26:06.993535",
-    "signal_time": "2025-09-11T13:00:00",
-    "freshness_seconds": 1566.993535,
-    "timeframe": "1h"
-  },
-  "XDC_BUY_20250911_130000": {
-    "alerted_at": "2025-09-11T13:26:12.863091",
-    "signal_time": "2025-09-11T13:00:00",
-    "freshness_seconds": 1572.863091,
-    "timeframe": "1h"
-  },
-  "ARKM_SELL_20250911_130000": {
-    "alerted_at": "2025-09-11T13:27:09.555207",
-    "signal_time": "2025-09-11T13:00:00",
-    "freshness_seconds": 1629.555207,
-    "timeframe": "1h"
-  },
-  "IO_SELL_20250911_130000": {
-    "alerted_at": "2025-09-11T13:27:53.477181",
-    "signal_time": "2025-09-11T13:00:00",
-    "freshness_seconds": 1673.477181,
-    "timeframe": "1h"
-  },
-  "PENGU_BUY_20250911_140000": {
-    "alerted_at": "2025-09-11T14:15:22.997117",
-    "signal_time": "2025-09-11T14:00:00",
-    "freshness_seconds": 922.997117,
-    "timeframe": "1h"
-  },
-  "APE_BUY_20250911_140000": {
-    "alerted_at": "2025-09-11T14:16:08.016895",
-    "signal_time": "2025-09-11T14:00:00",
-    "freshness_seconds": 968.016895,
-    "timeframe": "1h"
-  },
   "FORM_BUY_20250911_150000": {
     "alerted_at": "2025-09-11T15:19:20.246142",
     "signal_time": "2025-09-11T15:00:00",
