@@ -46,5 +46,17 @@
     "signal_time": "2025-09-11T13:00:00",
     "freshness_seconds": 1673.477181,
     "timeframe": "1h"
+  },
+  "PENGU_BUY_20250911_140000": {
+    "alerted_at": "2025-09-11T14:15:22.997117",
+    "signal_time": "2025-09-11T14:00:00",
+    "freshness_seconds": 922.997117,
+    "timeframe": "1h"
+  },
+  "APE_BUY_20250911_140000": {
+    "alerted_at": "2025-09-11T14:16:08.016895",
+    "signal_time": "2025-09-11T14:00:00",
+    "freshness_seconds": 968.016895,
+    "timeframe": "1h"
   }
 }
