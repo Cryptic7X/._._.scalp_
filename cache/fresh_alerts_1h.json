@@ -202,5 +202,23 @@
     "signal_time": "2025-09-11T19:00:00",
     "freshness_seconds": 961.093178,
     "timeframe": "1h"
+  },
+  "BONK_SELL_20250911_210000": {
+    "alerted_at": "2025-09-11T21:17:18.966999",
+    "signal_time": "2025-09-11T21:00:00",
+    "freshness_seconds": 1038.966999,
+    "timeframe": "1h"
+  },
+  "IMX_SELL_20250911_210000": {
+    "alerted_at": "2025-09-11T21:17:32.481976",
+    "signal_time": "2025-09-11T21:00:00",
+    "freshness_seconds": 1052.481976,
+    "timeframe": "1h"
+  },
+  "USELESS_SELL_20250911_210000": {
+    "alerted_at": "2025-09-11T21:18:29.809975",
+    "signal_time": "2025-09-11T21:00:00",
+    "freshness_seconds": 1109.809975,
+    "timeframe": "1h"
   }
 }
