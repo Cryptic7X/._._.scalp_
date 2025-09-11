@@ -154,5 +154,71 @@
     "signal_time": "2025-09-11T16:00:00",
     "freshness_seconds": 1522.281375,
     "timeframe": "1h"
+  },
+  "WLD_BUY_20250911_170000": {
+    "alerted_at": "2025-09-11T17:17:49.794945",
+    "signal_time": "2025-09-11T17:00:00",
+    "freshness_seconds": 1069.794945,
+    "timeframe": "1h"
+  },
+  "JTO_BUY_20250911_170000": {
+    "alerted_at": "2025-09-11T17:18:30.757804",
+    "signal_time": "2025-09-11T17:00:00",
+    "freshness_seconds": 1110.757804,
+    "timeframe": "1h"
+  },
+  "B_BUY_20250911_170000": {
+    "alerted_at": "2025-09-11T17:18:37.354156",
+    "signal_time": "2025-09-11T17:00:00",
+    "freshness_seconds": 1117.354156,
+    "timeframe": "1h"
+  },
+  "CORE_BUY_20250911_170000": {
+    "alerted_at": "2025-09-11T17:18:44.107454",
+    "signal_time": "2025-09-11T17:00:00",
+    "freshness_seconds": 1124.107454,
+    "timeframe": "1h"
+  },
+  "KAVA_BUY_20250911_170000": {
+    "alerted_at": "2025-09-11T17:18:49.680629",
+    "signal_time": "2025-09-11T17:00:00",
+    "freshness_seconds": 1129.680629,
+    "timeframe": "1h"
+  },
+  "TWT_SELL_20250911_170000": {
+    "alerted_at": "2025-09-11T17:18:59.819804",
+    "signal_time": "2025-09-11T17:00:00",
+    "freshness_seconds": 1139.819804,
+    "timeframe": "1h"
+  },
+  "KAITO_BUY_20250911_170000": {
+    "alerted_at": "2025-09-11T17:19:02.141111",
+    "signal_time": "2025-09-11T17:00:00",
+    "freshness_seconds": 1142.141111,
+    "timeframe": "1h"
+  },
+  "OM_BUY_20250911_170000": {
+    "alerted_at": "2025-09-11T17:19:14.317221",
+    "signal_time": "2025-09-11T17:00:00",
+    "freshness_seconds": 1154.317221,
+    "timeframe": "1h"
+  },
+  "SAHARA_BUY_20250911_170000": {
+    "alerted_at": "2025-09-11T17:19:22.091965",
+    "signal_time": "2025-09-11T17:00:00",
+    "freshness_seconds": 1162.091965,
+    "timeframe": "1h"
+  },
+  "UXLINK_BUY_20250911_170000": {
+    "alerted_at": "2025-09-11T17:19:31.012774",
+    "signal_time": "2025-09-11T17:00:00",
+    "freshness_seconds": 1171.012774,
+    "timeframe": "1h"
+  },
+  "IKA_SELL_20250911_170000": {
+    "alerted_at": "2025-09-11T17:19:35.744986",
+    "signal_time": "2025-09-11T17:00:00",
+    "freshness_seconds": 1175.744986,
+    "timeframe": "1h"
   }
 }
