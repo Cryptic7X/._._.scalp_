@@ -22,5 +22,29 @@
     "signal_time": "2025-09-11T12:00:00",
     "freshness_seconds": 3239.577926,
     "timeframe": "1h"
+  },
+  "FTN_SELL_20250911_130000": {
+    "alerted_at": "2025-09-11T13:26:06.993535",
+    "signal_time": "2025-09-11T13:00:00",
+    "freshness_seconds": 1566.993535,
+    "timeframe": "1h"
+  },
+  "XDC_BUY_20250911_130000": {
+    "alerted_at": "2025-09-11T13:26:12.863091",
+    "signal_time": "2025-09-11T13:00:00",
+    "freshness_seconds": 1572.863091,
+    "timeframe": "1h"
+  },
+  "ARKM_SELL_20250911_130000": {
+    "alerted_at": "2025-09-11T13:27:09.555207",
+    "signal_time": "2025-09-11T13:00:00",
+    "freshness_seconds": 1629.555207,
+    "timeframe": "1h"
+  },
+  "IO_SELL_20250911_130000": {
+    "alerted_at": "2025-09-11T13:27:53.477181",
+    "signal_time": "2025-09-11T13:00:00",
+    "freshness_seconds": 1673.477181,
+    "timeframe": "1h"
   }
 }
