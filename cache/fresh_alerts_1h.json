@@ -220,5 +220,41 @@
     "signal_time": "2025-09-11T17:00:00",
     "freshness_seconds": 1175.744986,
     "timeframe": "1h"
+  },
+  "IP_BUY_20250911_180000": {
+    "alerted_at": "2025-09-11T18:33:57.244721",
+    "signal_time": "2025-09-11T18:00:00",
+    "freshness_seconds": 2037.244721,
+    "timeframe": "1h"
+  },
+  "FARTCOIN_BUY_20250911_180000": {
+    "alerted_at": "2025-09-11T18:34:28.974364",
+    "signal_time": "2025-09-11T18:00:00",
+    "freshness_seconds": 2068.974364,
+    "timeframe": "1h"
+  },
+  "KAVA_BUY_20250911_180000": {
+    "alerted_at": "2025-09-11T18:34:57.348161",
+    "signal_time": "2025-09-11T18:00:00",
+    "freshness_seconds": 2097.348161,
+    "timeframe": "1h"
+  },
+  "ZRX_BUY_20250911_180000": {
+    "alerted_at": "2025-09-11T18:35:22.450844",
+    "signal_time": "2025-09-11T18:00:00",
+    "freshness_seconds": 2122.450844,
+    "timeframe": "1h"
+  },
+  "GRASS_SELL_20250911_180000": {
+    "alerted_at": "2025-09-11T18:35:23.043958",
+    "signal_time": "2025-09-11T18:00:00",
+    "freshness_seconds": 2123.043958,
+    "timeframe": "1h"
+  },
+  "REAL_SELL_20250911_180000": {
+    "alerted_at": "2025-09-11T18:35:36.845277",
+    "signal_time": "2025-09-11T18:00:00",
+    "freshness_seconds": 2136.845277,
+    "timeframe": "1h"
   }
 }
