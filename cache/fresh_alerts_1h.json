@@ -1,64 +1,4 @@
 {
-  "ENA_BUY_20250911_160000": {
-    "alerted_at": "2025-09-11T16:23:17.686191",
-    "signal_time": "2025-09-11T16:00:00",
-    "freshness_seconds": 1397.686191,
-    "timeframe": "1h"
-  },
-  "XDC_BUY_20250911_160000": {
-    "alerted_at": "2025-09-11T16:23:43.379710",
-    "signal_time": "2025-09-11T16:00:00",
-    "freshness_seconds": 1423.37971,
-    "timeframe": "1h"
-  },
-  "APE_BUY_20250911_160000": {
-    "alerted_at": "2025-09-11T16:24:18.264995",
-    "signal_time": "2025-09-11T16:00:00",
-    "freshness_seconds": 1458.264995,
-    "timeframe": "1h"
-  },
-  "MOVE_BUY_20250911_160000": {
-    "alerted_at": "2025-09-11T16:24:34.355675",
-    "signal_time": "2025-09-11T16:00:00",
-    "freshness_seconds": 1474.355675,
-    "timeframe": "1h"
-  },
-  "BERA_BUY_20250911_160000": {
-    "alerted_at": "2025-09-11T16:24:41.135867",
-    "signal_time": "2025-09-11T16:00:00",
-    "freshness_seconds": 1481.135867,
-    "timeframe": "1h"
-  },
-  "QTUM_BUY_20250911_160000": {
-    "alerted_at": "2025-09-11T16:24:44.097349",
-    "signal_time": "2025-09-11T16:00:00",
-    "freshness_seconds": 1484.097349,
-    "timeframe": "1h"
-  },
-  "ULTIMA_SELL_20250911_160000": {
-    "alerted_at": "2025-09-11T16:24:44.649715",
-    "signal_time": "2025-09-11T16:00:00",
-    "freshness_seconds": 1484.649715,
-    "timeframe": "1h"
-  },
-  "OM_BUY_20250911_160000": {
-    "alerted_at": "2025-09-11T16:24:53.767794",
-    "signal_time": "2025-09-11T16:00:00",
-    "freshness_seconds": 1493.767794,
-    "timeframe": "1h"
-  },
-  "REAL_SELL_20250911_160000": {
-    "alerted_at": "2025-09-11T16:25:06.659438",
-    "signal_time": "2025-09-11T16:00:00",
-    "freshness_seconds": 1506.659438,
-    "timeframe": "1h"
-  },
-  "BOME_BUY_20250911_160000": {
-    "alerted_at": "2025-09-11T16:25:22.281375",
-    "signal_time": "2025-09-11T16:00:00",
-    "freshness_seconds": 1522.281375,
-    "timeframe": "1h"
-  },
   "WLD_BUY_20250911_170000": {
     "alerted_at": "2025-09-11T17:17:49.794945",
     "signal_time": "2025-09-11T17:00:00",
@@ -195,6 +135,12 @@
     "alerted_at": "2025-09-11T22:18:27.254162",
     "signal_time": "2025-09-11T22:00:00",
     "freshness_seconds": 1107.254162,
+    "timeframe": "1h"
+  },
+  "KMNO_SELL_20250911_230000": {
+    "alerted_at": "2025-09-11T23:19:11.405980",
+    "signal_time": "2025-09-11T23:00:00",
+    "freshness_seconds": 1151.40598,
     "timeframe": "1h"
   }
 }
