@@ -1,10 +1,4 @@
 {
-  "KMNO_SELL_20250911_230000": {
-    "alerted_at": "2025-09-11T23:19:11.405980",
-    "signal_time": "2025-09-11T23:00:00",
-    "freshness_seconds": 1151.40598,
-    "timeframe": "1h"
-  },
   "KAS_SELL_20250912_010000": {
     "alerted_at": "2025-09-12T01:03:45.066339",
     "signal_time": "2025-09-12T01:00:00",
@@ -357,6 +351,30 @@
     "alerted_at": "2025-09-12T04:26:39.708164",
     "signal_time": "2025-09-12T04:00:00",
     "freshness_seconds": 1599.708164,
+    "timeframe": "1h"
+  },
+  "TRX_SELL_20250912_050000": {
+    "alerted_at": "2025-09-12T05:25:26.633760",
+    "signal_time": "2025-09-12T05:00:00",
+    "freshness_seconds": 1526.63376,
+    "timeframe": "1h"
+  },
+  "PENGU_SELL_20250912_050000": {
+    "alerted_at": "2025-09-12T05:26:06.955585",
+    "signal_time": "2025-09-12T05:00:00",
+    "freshness_seconds": 1566.955585,
+    "timeframe": "1h"
+  },
+  "XTZ_SELL_20250912_050000": {
+    "alerted_at": "2025-09-12T05:26:38.407807",
+    "signal_time": "2025-09-12T05:00:00",
+    "freshness_seconds": 1598.407807,
+    "timeframe": "1h"
+  },
+  "PLUME_SELL_20250912_050000": {
+    "alerted_at": "2025-09-12T05:27:11.210673",
+    "signal_time": "2025-09-12T05:00:00",
+    "freshness_seconds": 1631.210673,
     "timeframe": "1h"
   }
 }
