@@ -130,5 +130,11 @@
     "signal_time": "2025-09-12T13:00:00",
     "freshness_seconds": 1633.683098,
     "timeframe": "1h"
+  },
+  "CRO_BUY_20250912_140000": {
+    "alerted_at": "2025-09-12T14:14:30.636215",
+    "signal_time": "2025-09-12T14:00:00",
+    "freshness_seconds": 870.636215,
+    "timeframe": "1h"
   }
 }
