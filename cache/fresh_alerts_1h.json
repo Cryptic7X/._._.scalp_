@@ -1,34 +1,4 @@
 {
-  "CRO_BUY_20250912_160000": {
-    "alerted_at": "2025-09-12T16:19:35.643468",
-    "signal_time": "2025-09-12T16:00:00",
-    "freshness_seconds": 1175.643468,
-    "timeframe": "1h"
-  },
-  "ENA_BUY_20250912_160000": {
-    "alerted_at": "2025-09-12T16:19:39.214513",
-    "signal_time": "2025-09-12T16:00:00",
-    "freshness_seconds": 1179.214513,
-    "timeframe": "1h"
-  },
-  "JTO_SELL_20250912_160000": {
-    "alerted_at": "2025-09-12T16:20:29.359576",
-    "signal_time": "2025-09-12T16:00:00",
-    "freshness_seconds": 1229.359576,
-    "timeframe": "1h"
-  },
-  "PROVE_BUY_20250912_160000": {
-    "alerted_at": "2025-09-12T16:21:30.637208",
-    "signal_time": "2025-09-12T16:00:00",
-    "freshness_seconds": 1290.637208,
-    "timeframe": "1h"
-  },
-  "ORCA_SELL_20250912_160000": {
-    "alerted_at": "2025-09-12T16:21:43.546815",
-    "signal_time": "2025-09-12T16:00:00",
-    "freshness_seconds": 1303.546815,
-    "timeframe": "1h"
-  },
   "XYO_SELL_20250912_170000": {
     "alerted_at": "2025-09-12T17:19:45.732743",
     "signal_time": "2025-09-12T17:00:00",
@@ -309,6 +279,42 @@
     "alerted_at": "2025-09-12T22:17:45.053523",
     "signal_time": "2025-09-12T22:00:00",
     "freshness_seconds": 1065.053523,
+    "timeframe": "1h"
+  },
+  "LINK_SELL_20250912_230000": {
+    "alerted_at": "2025-09-12T23:15:16.336523",
+    "signal_time": "2025-09-12T23:00:00",
+    "freshness_seconds": 916.336523,
+    "timeframe": "1h"
+  },
+  "ARB_SELL_20250912_230000": {
+    "alerted_at": "2025-09-12T23:15:56.882156",
+    "signal_time": "2025-09-12T23:00:00",
+    "freshness_seconds": 956.882156,
+    "timeframe": "1h"
+  },
+  "PLUME_SELL_20250912_230000": {
+    "alerted_at": "2025-09-12T23:17:03.530310",
+    "signal_time": "2025-09-12T23:00:00",
+    "freshness_seconds": 1023.53031,
+    "timeframe": "1h"
+  },
+  "ORDI_SELL_20250912_230000": {
+    "alerted_at": "2025-09-12T23:17:28.081850",
+    "signal_time": "2025-09-12T23:00:00",
+    "freshness_seconds": 1048.08185,
+    "timeframe": "1h"
+  },
+  "ZETA_SELL_20250912_230000": {
+    "alerted_at": "2025-09-12T23:17:30.686507",
+    "signal_time": "2025-09-12T23:00:00",
+    "freshness_seconds": 1050.686507,
+    "timeframe": "1h"
+  },
+  "XYO_SELL_20250912_230000": {
+    "alerted_at": "2025-09-12T23:17:51.117906",
+    "signal_time": "2025-09-12T23:00:00",
+    "freshness_seconds": 1071.117906,
     "timeframe": "1h"
   }
 }
