@@ -1,124 +1,4 @@
 {
-  "ETH_SELL_20250912_030000": {
-    "alerted_at": "2025-09-12T03:28:02.261479",
-    "signal_time": "2025-09-12T03:00:00",
-    "freshness_seconds": 1682.261479,
-    "timeframe": "1h"
-  },
-  "SOL_SELL_20250912_030000": {
-    "alerted_at": "2025-09-12T03:28:07.484493",
-    "signal_time": "2025-09-12T03:00:00",
-    "freshness_seconds": 1687.484493,
-    "timeframe": "1h"
-  },
-  "STETH_SELL_20250912_030000": {
-    "alerted_at": "2025-09-12T03:28:08.626416",
-    "signal_time": "2025-09-12T03:00:00",
-    "freshness_seconds": 1688.626416,
-    "timeframe": "1h"
-  },
-  "DOGE_SELL_20250912_030000": {
-    "alerted_at": "2025-09-12T03:28:09.182480",
-    "signal_time": "2025-09-12T03:00:00",
-    "freshness_seconds": 1689.18248,
-    "timeframe": "1h"
-  },
-  "TRX_SELL_20250912_030000": {
-    "alerted_at": "2025-09-12T03:28:09.781382",
-    "signal_time": "2025-09-12T03:00:00",
-    "freshness_seconds": 1689.781382,
-    "timeframe": "1h"
-  },
-  "SHIB_SELL_20250912_030000": {
-    "alerted_at": "2025-09-12T03:28:32.104973",
-    "signal_time": "2025-09-12T03:00:00",
-    "freshness_seconds": 1712.104973,
-    "timeframe": "1h"
-  },
-  "ETC_SELL_20250912_030000": {
-    "alerted_at": "2025-09-12T03:28:41.529136",
-    "signal_time": "2025-09-12T03:00:00",
-    "freshness_seconds": 1721.529136,
-    "timeframe": "1h"
-  },
-  "ONDO_SELL_20250912_030000": {
-    "alerted_at": "2025-09-12T03:28:42.087323",
-    "signal_time": "2025-09-12T03:00:00",
-    "freshness_seconds": 1722.087323,
-    "timeframe": "1h"
-  },
-  "ALGO_SELL_20250912_030000": {
-    "alerted_at": "2025-09-12T03:28:49.744978",
-    "signal_time": "2025-09-12T03:00:00",
-    "freshness_seconds": 1729.744978,
-    "timeframe": "1h"
-  },
-  "JUP_SELL_20250912_030000": {
-    "alerted_at": "2025-09-12T03:28:57.081457",
-    "signal_time": "2025-09-12T03:00:00",
-    "freshness_seconds": 1737.081457,
-    "timeframe": "1h"
-  },
-  "RAY_SELL_20250912_030000": {
-    "alerted_at": "2025-09-12T03:29:11.797269",
-    "signal_time": "2025-09-12T03:00:00",
-    "freshness_seconds": 1751.797269,
-    "timeframe": "1h"
-  },
-  "WIF_SELL_20250912_030000": {
-    "alerted_at": "2025-09-12T03:29:12.910111",
-    "signal_time": "2025-09-12T03:00:00",
-    "freshness_seconds": 1752.910111,
-    "timeframe": "1h"
-  },
-  "A_SELL_20250912_030000": {
-    "alerted_at": "2025-09-12T03:29:19.508921",
-    "signal_time": "2025-09-12T03:00:00",
-    "freshness_seconds": 1759.508921,
-    "timeframe": "1h"
-  },
-  "AR_SELL_20250912_030000": {
-    "alerted_at": "2025-09-12T03:29:36.203267",
-    "signal_time": "2025-09-12T03:00:00",
-    "freshness_seconds": 1776.203267,
-    "timeframe": "1h"
-  },
-  "TURBO_SELL_20250912_030000": {
-    "alerted_at": "2025-09-12T03:29:56.791401",
-    "signal_time": "2025-09-12T03:00:00",
-    "freshness_seconds": 1796.791401,
-    "timeframe": "1h"
-  },
-  "POPCAT_SELL_20250912_030000": {
-    "alerted_at": "2025-09-12T03:29:59.534834",
-    "signal_time": "2025-09-12T03:00:00",
-    "freshness_seconds": 1799.534834,
-    "timeframe": "1h"
-  },
-  "YFI_SELL_20250912_030000": {
-    "alerted_at": "2025-09-12T03:30:18.050050",
-    "signal_time": "2025-09-12T03:00:00",
-    "freshness_seconds": 1818.05005,
-    "timeframe": "1h"
-  },
-  "TROLL_SELL_20250912_030000": {
-    "alerted_at": "2025-09-12T03:30:22.468287",
-    "signal_time": "2025-09-12T03:00:00",
-    "freshness_seconds": 1822.468287,
-    "timeframe": "1h"
-  },
-  "SUSHI_SELL_20250912_030000": {
-    "alerted_at": "2025-09-12T03:30:26.433534",
-    "signal_time": "2025-09-12T03:00:00",
-    "freshness_seconds": 1826.433534,
-    "timeframe": "1h"
-  },
-  "AI16Z_SELL_20250912_030000": {
-    "alerted_at": "2025-09-12T03:30:41.075967",
-    "signal_time": "2025-09-12T03:00:00",
-    "freshness_seconds": 1841.075967,
-    "timeframe": "1h"
-  },
   "ADA_SELL_20250912_040000": {
     "alerted_at": "2025-09-12T04:24:25.671594",
     "signal_time": "2025-09-12T04:00:00",
@@ -387,6 +267,18 @@
     "alerted_at": "2025-09-12T09:18:46.411590",
     "signal_time": "2025-09-12T09:00:00",
     "freshness_seconds": 1126.41159,
+    "timeframe": "1h"
+  },
+  "TROLL_SELL_20250912_100000": {
+    "alerted_at": "2025-09-12T10:19:19.561536",
+    "signal_time": "2025-09-12T10:00:00",
+    "freshness_seconds": 1159.561536,
+    "timeframe": "1h"
+  },
+  "AWE_SELL_20250912_100000": {
+    "alerted_at": "2025-09-12T10:19:45.874515",
+    "signal_time": "2025-09-12T10:00:00",
+    "freshness_seconds": 1185.874515,
     "timeframe": "1h"
   }
 }
