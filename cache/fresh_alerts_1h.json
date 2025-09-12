@@ -58,5 +58,23 @@
     "signal_time": "2025-09-12T17:00:00",
     "freshness_seconds": 1185.732743,
     "timeframe": "1h"
+  },
+  "DOGE_SELL_20250912_190000": {
+    "alerted_at": "2025-09-12T19:14:13.893578",
+    "signal_time": "2025-09-12T19:00:00",
+    "freshness_seconds": 853.893578,
+    "timeframe": "1h"
+  },
+  "ORCA_SELL_20250912_190000": {
+    "alerted_at": "2025-09-12T19:16:32.041000",
+    "signal_time": "2025-09-12T19:00:00",
+    "freshness_seconds": 992.041,
+    "timeframe": "1h"
+  },
+  "VRA_SELL_20250912_190000": {
+    "alerted_at": "2025-09-12T19:16:43.797435",
+    "signal_time": "2025-09-12T19:00:00",
+    "freshness_seconds": 1003.797435,
+    "timeframe": "1h"
   }
 }
