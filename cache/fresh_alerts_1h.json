@@ -1,16 +1,4 @@
 {
-  "ULTIMA_SELL_20250911_220000": {
-    "alerted_at": "2025-09-11T22:17:37.520910",
-    "signal_time": "2025-09-11T22:00:00",
-    "freshness_seconds": 1057.52091,
-    "timeframe": "1h"
-  },
-  "ERA_BUY_20250911_220000": {
-    "alerted_at": "2025-09-11T22:18:27.254162",
-    "signal_time": "2025-09-11T22:00:00",
-    "freshness_seconds": 1107.254162,
-    "timeframe": "1h"
-  },
   "KMNO_SELL_20250911_230000": {
     "alerted_at": "2025-09-11T23:19:11.405980",
     "signal_time": "2025-09-11T23:00:00",
@@ -321,6 +309,54 @@
     "alerted_at": "2025-09-12T03:30:41.075967",
     "signal_time": "2025-09-12T03:00:00",
     "freshness_seconds": 1841.075967,
+    "timeframe": "1h"
+  },
+  "ADA_SELL_20250912_040000": {
+    "alerted_at": "2025-09-12T04:24:25.671594",
+    "signal_time": "2025-09-12T04:00:00",
+    "freshness_seconds": 1465.671594,
+    "timeframe": "1h"
+  },
+  "UNI_SELL_20250912_040000": {
+    "alerted_at": "2025-09-12T04:24:27.825813",
+    "signal_time": "2025-09-12T04:00:00",
+    "freshness_seconds": 1467.825813,
+    "timeframe": "1h"
+  },
+  "TRX_SELL_20250912_040000": {
+    "alerted_at": "2025-09-12T04:24:30.501443",
+    "signal_time": "2025-09-12T04:00:00",
+    "freshness_seconds": 1470.501443,
+    "timeframe": "1h"
+  },
+  "FLOKI_SELL_20250912_040000": {
+    "alerted_at": "2025-09-12T04:25:30.556430",
+    "signal_time": "2025-09-12T04:00:00",
+    "freshness_seconds": 1530.55643,
+    "timeframe": "1h"
+  },
+  "RAY_SELL_20250912_040000": {
+    "alerted_at": "2025-09-12T04:25:31.601611",
+    "signal_time": "2025-09-12T04:00:00",
+    "freshness_seconds": 1531.601611,
+    "timeframe": "1h"
+  },
+  "W_SELL_20250912_040000": {
+    "alerted_at": "2025-09-12T04:25:56.384396",
+    "signal_time": "2025-09-12T04:00:00",
+    "freshness_seconds": 1556.384396,
+    "timeframe": "1h"
+  },
+  "VELO_SELL_20250912_040000": {
+    "alerted_at": "2025-09-12T04:26:18.289656",
+    "signal_time": "2025-09-12T04:00:00",
+    "freshness_seconds": 1578.289656,
+    "timeframe": "1h"
+  },
+  "AIOT_SELL_20250912_040000": {
+    "alerted_at": "2025-09-12T04:26:39.708164",
+    "signal_time": "2025-09-12T04:00:00",
+    "freshness_seconds": 1599.708164,
     "timeframe": "1h"
   }
 }
