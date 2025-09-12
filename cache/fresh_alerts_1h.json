@@ -364,5 +364,29 @@
     "signal_time": "2025-09-12T08:00:00",
     "freshness_seconds": 1890.699371,
     "timeframe": "1h"
+  },
+  "KAS_SELL_20250912_090000": {
+    "alerted_at": "2025-09-12T09:16:51.135718",
+    "signal_time": "2025-09-12T09:00:00",
+    "freshness_seconds": 1011.135718,
+    "timeframe": "1h"
+  },
+  "XTZ_SELL_20250912_090000": {
+    "alerted_at": "2025-09-12T09:17:20.297281",
+    "signal_time": "2025-09-12T09:00:00",
+    "freshness_seconds": 1040.297281,
+    "timeframe": "1h"
+  },
+  "DRIFT_SELL_20250912_090000": {
+    "alerted_at": "2025-09-12T09:18:12.335242",
+    "signal_time": "2025-09-12T09:00:00",
+    "freshness_seconds": 1092.335242,
+    "timeframe": "1h"
+  },
+  "ME_SELL_20250912_090000": {
+    "alerted_at": "2025-09-12T09:18:46.411590",
+    "signal_time": "2025-09-12T09:00:00",
+    "freshness_seconds": 1126.41159,
+    "timeframe": "1h"
   }
 }
