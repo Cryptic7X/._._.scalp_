@@ -1,52 +1,4 @@
 {
-  "ADA_SELL_20250912_040000": {
-    "alerted_at": "2025-09-12T04:24:25.671594",
-    "signal_time": "2025-09-12T04:00:00",
-    "freshness_seconds": 1465.671594,
-    "timeframe": "1h"
-  },
-  "UNI_SELL_20250912_040000": {
-    "alerted_at": "2025-09-12T04:24:27.825813",
-    "signal_time": "2025-09-12T04:00:00",
-    "freshness_seconds": 1467.825813,
-    "timeframe": "1h"
-  },
-  "TRX_SELL_20250912_040000": {
-    "alerted_at": "2025-09-12T04:24:30.501443",
-    "signal_time": "2025-09-12T04:00:00",
-    "freshness_seconds": 1470.501443,
-    "timeframe": "1h"
-  },
-  "FLOKI_SELL_20250912_040000": {
-    "alerted_at": "2025-09-12T04:25:30.556430",
-    "signal_time": "2025-09-12T04:00:00",
-    "freshness_seconds": 1530.55643,
-    "timeframe": "1h"
-  },
-  "RAY_SELL_20250912_040000": {
-    "alerted_at": "2025-09-12T04:25:31.601611",
-    "signal_time": "2025-09-12T04:00:00",
-    "freshness_seconds": 1531.601611,
-    "timeframe": "1h"
-  },
-  "W_SELL_20250912_040000": {
-    "alerted_at": "2025-09-12T04:25:56.384396",
-    "signal_time": "2025-09-12T04:00:00",
-    "freshness_seconds": 1556.384396,
-    "timeframe": "1h"
-  },
-  "VELO_SELL_20250912_040000": {
-    "alerted_at": "2025-09-12T04:26:18.289656",
-    "signal_time": "2025-09-12T04:00:00",
-    "freshness_seconds": 1578.289656,
-    "timeframe": "1h"
-  },
-  "AIOT_SELL_20250912_040000": {
-    "alerted_at": "2025-09-12T04:26:39.708164",
-    "signal_time": "2025-09-12T04:00:00",
-    "freshness_seconds": 1599.708164,
-    "timeframe": "1h"
-  },
   "TRX_SELL_20250912_050000": {
     "alerted_at": "2025-09-12T05:25:26.633760",
     "signal_time": "2025-09-12T05:00:00",
@@ -279,6 +231,24 @@
     "alerted_at": "2025-09-12T10:19:45.874515",
     "signal_time": "2025-09-12T10:00:00",
     "freshness_seconds": 1185.874515,
+    "timeframe": "1h"
+  },
+  "XMR_SELL_20250912_110000": {
+    "alerted_at": "2025-09-12T11:19:48.445364",
+    "signal_time": "2025-09-12T11:00:00",
+    "freshness_seconds": 1188.445364,
+    "timeframe": "1h"
+  },
+  "OKB_BUY_20250912_110000": {
+    "alerted_at": "2025-09-12T11:19:50.452641",
+    "signal_time": "2025-09-12T11:00:00",
+    "freshness_seconds": 1190.452641,
+    "timeframe": "1h"
+  },
+  "CAMP_SELL_20250912_110000": {
+    "alerted_at": "2025-09-12T11:22:01.297187",
+    "signal_time": "2025-09-12T11:00:00",
+    "freshness_seconds": 1321.297187,
     "timeframe": "1h"
   }
 }
