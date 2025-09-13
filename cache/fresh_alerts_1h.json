@@ -1,40 +1,4 @@
 {
-  "NEAR_SELL_20250913_080000": {
-    "alerted_at": "2025-09-13T08:26:15.619569",
-    "signal_time": "2025-09-13T08:00:00",
-    "freshness_seconds": 1575.619569,
-    "timeframe": "1h"
-  },
-  "SEI_SELL_20250913_080000": {
-    "alerted_at": "2025-09-13T08:26:27.904312",
-    "signal_time": "2025-09-13T08:00:00",
-    "freshness_seconds": 1587.904312,
-    "timeframe": "1h"
-  },
-  "COMP_SELL_20250913_080000": {
-    "alerted_at": "2025-09-13T08:27:15.546240",
-    "signal_time": "2025-09-13T08:00:00",
-    "freshness_seconds": 1635.54624,
-    "timeframe": "1h"
-  },
-  "SUN_SELL_20250913_080000": {
-    "alerted_at": "2025-09-13T08:27:19.927624",
-    "signal_time": "2025-09-13T08:00:00",
-    "freshness_seconds": 1639.927624,
-    "timeframe": "1h"
-  },
-  "GRASS_SELL_20250913_080000": {
-    "alerted_at": "2025-09-13T08:27:42.647805",
-    "signal_time": "2025-09-13T08:00:00",
-    "freshness_seconds": 1662.647805,
-    "timeframe": "1h"
-  },
-  "WAVES_SELL_20250913_080000": {
-    "alerted_at": "2025-09-13T08:28:30.880243",
-    "signal_time": "2025-09-13T08:00:00",
-    "freshness_seconds": 1710.880243,
-    "timeframe": "1h"
-  },
   "SOMI_SELL_20250913_090000": {
     "alerted_at": "2025-09-13T09:16:19.469470",
     "signal_time": "2025-09-13T09:00:00",
@@ -831,6 +795,18 @@
     "alerted_at": "2025-09-13T14:13:51.720884",
     "signal_time": "2025-09-13T14:00:00",
     "freshness_seconds": 831.720884,
+    "timeframe": "1h"
+  },
+  "WLFI_SELL_20250913_150000": {
+    "alerted_at": "2025-09-13T15:15:57.387296",
+    "signal_time": "2025-09-13T15:00:00",
+    "freshness_seconds": 957.387296,
+    "timeframe": "1h"
+  },
+  "AI16Z_SELL_20250913_150000": {
+    "alerted_at": "2025-09-13T15:18:12.948925",
+    "signal_time": "2025-09-13T15:00:00",
+    "freshness_seconds": 1092.948925,
     "timeframe": "1h"
   }
 }
