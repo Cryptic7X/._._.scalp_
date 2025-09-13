@@ -1,76 +1,4 @@
 {
-  "LTC_SELL_20250912_200000": {
-    "alerted_at": "2025-09-12T20:23:48.577858",
-    "signal_time": "2025-09-12T20:00:00",
-    "freshness_seconds": 1428.577858,
-    "timeframe": "1h"
-  },
-  "A_SELL_20250912_200000": {
-    "alerted_at": "2025-09-12T20:24:38.971602",
-    "signal_time": "2025-09-12T20:00:00",
-    "freshness_seconds": 1478.971602,
-    "timeframe": "1h"
-  },
-  "SYRUP_SELL_20250912_200000": {
-    "alerted_at": "2025-09-12T20:24:49.820985",
-    "signal_time": "2025-09-12T20:00:00",
-    "freshness_seconds": 1489.820985,
-    "timeframe": "1h"
-  },
-  "VELO_SELL_20250912_200000": {
-    "alerted_at": "2025-09-12T20:25:21.933760",
-    "signal_time": "2025-09-12T20:00:00",
-    "freshness_seconds": 1521.93376,
-    "timeframe": "1h"
-  },
-  "MOCA_SELL_20250912_200000": {
-    "alerted_at": "2025-09-12T20:25:23.084474",
-    "signal_time": "2025-09-12T20:00:00",
-    "freshness_seconds": 1523.084474,
-    "timeframe": "1h"
-  },
-  "CKB_SELL_20250912_200000": {
-    "alerted_at": "2025-09-12T20:25:24.506452",
-    "signal_time": "2025-09-12T20:00:00",
-    "freshness_seconds": 1524.506452,
-    "timeframe": "1h"
-  },
-  "SNX_SELL_20250912_200000": {
-    "alerted_at": "2025-09-12T20:25:25.113144",
-    "signal_time": "2025-09-12T20:00:00",
-    "freshness_seconds": 1525.113144,
-    "timeframe": "1h"
-  },
-  "ASTR_SELL_20250912_200000": {
-    "alerted_at": "2025-09-12T20:25:34.818152",
-    "signal_time": "2025-09-12T20:00:00",
-    "freshness_seconds": 1534.818152,
-    "timeframe": "1h"
-  },
-  "SUSHI_SELL_20250912_200000": {
-    "alerted_at": "2025-09-12T20:25:45.520529",
-    "signal_time": "2025-09-12T20:00:00",
-    "freshness_seconds": 1545.520529,
-    "timeframe": "1h"
-  },
-  "BOME_SELL_20250912_200000": {
-    "alerted_at": "2025-09-12T20:25:53.109903",
-    "signal_time": "2025-09-12T20:00:00",
-    "freshness_seconds": 1553.109903,
-    "timeframe": "1h"
-  },
-  "ME_SELL_20250912_200000": {
-    "alerted_at": "2025-09-12T20:26:05.338298",
-    "signal_time": "2025-09-12T20:00:00",
-    "freshness_seconds": 1565.338298,
-    "timeframe": "1h"
-  },
-  "VRA_SELL_20250912_200000": {
-    "alerted_at": "2025-09-12T20:26:06.483289",
-    "signal_time": "2025-09-12T20:00:00",
-    "freshness_seconds": 1566.483289,
-    "timeframe": "1h"
-  },
   "BTC_SELL_20250912_210000": {
     "alerted_at": "2025-09-12T21:16:12.232096",
     "signal_time": "2025-09-12T21:00:00",
@@ -453,6 +381,12 @@
     "alerted_at": "2025-09-13T02:19:29.942907",
     "signal_time": "2025-09-13T02:00:00",
     "freshness_seconds": 1169.942907,
+    "timeframe": "1h"
+  },
+  "ORCA_SELL_20250913_020000": {
+    "alerted_at": "2025-09-13T02:48:47.715365",
+    "signal_time": "2025-09-13T02:00:00",
+    "freshness_seconds": 2927.715365,
     "timeframe": "1h"
   }
 }
