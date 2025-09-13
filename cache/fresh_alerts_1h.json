@@ -358,5 +358,29 @@
     "signal_time": "2025-09-13T05:00:00",
     "freshness_seconds": 1568.576968,
     "timeframe": "1h"
+  },
+  "DOGE_SELL_20250913_060000": {
+    "alerted_at": "2025-09-13T06:33:30.553621",
+    "signal_time": "2025-09-13T06:00:00",
+    "freshness_seconds": 2010.553621,
+    "timeframe": "1h"
+  },
+  "POL_SELL_20250913_060000": {
+    "alerted_at": "2025-09-13T06:34:06.413022",
+    "signal_time": "2025-09-13T06:00:00",
+    "freshness_seconds": 2046.413022,
+    "timeframe": "1h"
+  },
+  "PAXG_BUY_20250913_060000": {
+    "alerted_at": "2025-09-13T06:34:32.339676",
+    "signal_time": "2025-09-13T06:00:00",
+    "freshness_seconds": 2072.339676,
+    "timeframe": "1h"
+  },
+  "SUN_SELL_20250913_060000": {
+    "alerted_at": "2025-09-13T06:35:07.795393",
+    "signal_time": "2025-09-13T06:00:00",
+    "freshness_seconds": 2107.795393,
+    "timeframe": "1h"
   }
 }
