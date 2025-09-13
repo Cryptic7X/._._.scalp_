@@ -760,5 +760,77 @@
     "signal_time": "2025-09-13T13:00:00",
     "freshness_seconds": 1401.479125,
     "timeframe": "1h"
+  },
+  "ALGO_SELL_20250913_140000": {
+    "alerted_at": "2025-09-13T14:11:47.441004",
+    "signal_time": "2025-09-13T14:00:00",
+    "freshness_seconds": 707.441004,
+    "timeframe": "1h"
+  },
+  "BONK_SELL_20250913_140000": {
+    "alerted_at": "2025-09-13T14:11:50.975612",
+    "signal_time": "2025-09-13T14:00:00",
+    "freshness_seconds": 710.975612,
+    "timeframe": "1h"
+  },
+  "SKY_SELL_20250913_140000": {
+    "alerted_at": "2025-09-13T14:11:54.745009",
+    "signal_time": "2025-09-13T14:00:00",
+    "freshness_seconds": 714.745009,
+    "timeframe": "1h"
+  },
+  "FARTCOIN_SELL_20250913_140000": {
+    "alerted_at": "2025-09-13T14:12:12.256405",
+    "signal_time": "2025-09-13T14:00:00",
+    "freshness_seconds": 732.256405,
+    "timeframe": "1h"
+  },
+  "ZEC_SELL_20250913_140000": {
+    "alerted_at": "2025-09-13T14:12:17.473542",
+    "signal_time": "2025-09-13T14:00:00",
+    "freshness_seconds": 737.473542,
+    "timeframe": "1h"
+  },
+  "BIO_SELL_20250913_140000": {
+    "alerted_at": "2025-09-13T14:13:00.602116",
+    "signal_time": "2025-09-13T14:00:00",
+    "freshness_seconds": 780.602116,
+    "timeframe": "1h"
+  },
+  "TOSHI_SELL_20250913_140000": {
+    "alerted_at": "2025-09-13T14:13:05.205781",
+    "signal_time": "2025-09-13T14:00:00",
+    "freshness_seconds": 785.205781,
+    "timeframe": "1h"
+  },
+  "BABYDOGE_SELL_20250913_140000": {
+    "alerted_at": "2025-09-13T14:13:10.795586",
+    "signal_time": "2025-09-13T14:00:00",
+    "freshness_seconds": 790.795586,
+    "timeframe": "1h"
+  },
+  "MPLX_SELL_20250913_140000": {
+    "alerted_at": "2025-09-13T14:13:12.615373",
+    "signal_time": "2025-09-13T14:00:00",
+    "freshness_seconds": 792.615373,
+    "timeframe": "1h"
+  },
+  "SAHARA_SELL_20250913_140000": {
+    "alerted_at": "2025-09-13T14:13:19.934106",
+    "signal_time": "2025-09-13T14:00:00",
+    "freshness_seconds": 799.934106,
+    "timeframe": "1h"
+  },
+  "OPEN_SELL_20250913_140000": {
+    "alerted_at": "2025-09-13T14:13:21.877246",
+    "signal_time": "2025-09-13T14:00:00",
+    "freshness_seconds": 801.877246,
+    "timeframe": "1h"
+  },
+  "AIXBT_SELL_20250913_140000": {
+    "alerted_at": "2025-09-13T14:13:51.720884",
+    "signal_time": "2025-09-13T14:00:00",
+    "freshness_seconds": 831.720884,
+    "timeframe": "1h"
   }
 }
