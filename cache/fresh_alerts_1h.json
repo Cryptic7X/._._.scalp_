@@ -1,10 +1,4 @@
 {
-  "ORCA_SELL_20250913_020000": {
-    "alerted_at": "2025-09-13T02:48:47.715365",
-    "signal_time": "2025-09-13T02:00:00",
-    "freshness_seconds": 2927.715365,
-    "timeframe": "1h"
-  },
   "ADA_SELL_20250913_030000": {
     "alerted_at": "2025-09-13T03:22:08.187599",
     "signal_time": "2025-09-13T03:00:00",
@@ -279,6 +273,18 @@
     "alerted_at": "2025-09-13T08:28:30.880243",
     "signal_time": "2025-09-13T08:00:00",
     "freshness_seconds": 1710.880243,
+    "timeframe": "1h"
+  },
+  "SOMI_SELL_20250913_090000": {
+    "alerted_at": "2025-09-13T09:16:19.469470",
+    "signal_time": "2025-09-13T09:00:00",
+    "freshness_seconds": 979.46947,
+    "timeframe": "1h"
+  },
+  "WAVES_SELL_20250913_090000": {
+    "alerted_at": "2025-09-13T09:16:43.299067",
+    "signal_time": "2025-09-13T09:00:00",
+    "freshness_seconds": 1003.299067,
     "timeframe": "1h"
   }
 }
