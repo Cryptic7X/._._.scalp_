@@ -1,40 +1,4 @@
 {
-  "A_SELL_20250913_040000": {
-    "alerted_at": "2025-09-13T04:25:17.208566",
-    "signal_time": "2025-09-13T04:00:00",
-    "freshness_seconds": 1517.208566,
-    "timeframe": "1h"
-  },
-  "JASMY_SELL_20250913_040000": {
-    "alerted_at": "2025-09-13T04:25:19.200569",
-    "signal_time": "2025-09-13T04:00:00",
-    "freshness_seconds": 1519.200569,
-    "timeframe": "1h"
-  },
-  "BRETT_SELL_20250913_040000": {
-    "alerted_at": "2025-09-13T04:25:28.597902",
-    "signal_time": "2025-09-13T04:00:00",
-    "freshness_seconds": 1528.597902,
-    "timeframe": "1h"
-  },
-  "CORE_SELL_20250913_040000": {
-    "alerted_at": "2025-09-13T04:25:33.777512",
-    "signal_time": "2025-09-13T04:00:00",
-    "freshness_seconds": 1533.777512,
-    "timeframe": "1h"
-  },
-  "MEW_SELL_20250913_040000": {
-    "alerted_at": "2025-09-13T04:25:58.409498",
-    "signal_time": "2025-09-13T04:00:00",
-    "freshness_seconds": 1558.409498,
-    "timeframe": "1h"
-  },
-  "CKB_SELL_20250913_040000": {
-    "alerted_at": "2025-09-13T04:26:03.002003",
-    "signal_time": "2025-09-13T04:00:00",
-    "freshness_seconds": 1563.002003,
-    "timeframe": "1h"
-  },
   "POL_SELL_20250913_050000": {
     "alerted_at": "2025-09-13T05:24:04.556513",
     "signal_time": "2025-09-13T05:00:00",
@@ -261,6 +225,246 @@
     "alerted_at": "2025-09-13T10:17:31.480110",
     "signal_time": "2025-09-13T10:00:00",
     "freshness_seconds": 1051.48011,
+    "timeframe": "1h"
+  },
+  "ADA_SELL_20250913_110000": {
+    "alerted_at": "2025-09-13T11:16:51.316147",
+    "signal_time": "2025-09-13T11:00:00",
+    "freshness_seconds": 1011.316147,
+    "timeframe": "1h"
+  },
+  "DOT_SELL_20250913_110000": {
+    "alerted_at": "2025-09-13T11:16:52.957198",
+    "signal_time": "2025-09-13T11:00:00",
+    "freshness_seconds": 1012.957198,
+    "timeframe": "1h"
+  },
+  "XRP_SELL_20250913_110000": {
+    "alerted_at": "2025-09-13T11:16:54.035430",
+    "signal_time": "2025-09-13T11:00:00",
+    "freshness_seconds": 1014.03543,
+    "timeframe": "1h"
+  },
+  "DOGE_SELL_20250913_110000": {
+    "alerted_at": "2025-09-13T11:16:54.561289",
+    "signal_time": "2025-09-13T11:00:00",
+    "freshness_seconds": 1014.561289,
+    "timeframe": "1h"
+  },
+  "XLM_SELL_20250913_110000": {
+    "alerted_at": "2025-09-13T11:17:13.621453",
+    "signal_time": "2025-09-13T11:00:00",
+    "freshness_seconds": 1033.621453,
+    "timeframe": "1h"
+  },
+  "HBAR_SELL_20250913_110000": {
+    "alerted_at": "2025-09-13T11:17:15.623171",
+    "signal_time": "2025-09-13T11:00:00",
+    "freshness_seconds": 1035.623171,
+    "timeframe": "1h"
+  },
+  "LTC_SELL_20250913_110000": {
+    "alerted_at": "2025-09-13T11:17:16.155926",
+    "signal_time": "2025-09-13T11:00:00",
+    "freshness_seconds": 1036.155926,
+    "timeframe": "1h"
+  },
+  "SHIB_SELL_20250913_110000": {
+    "alerted_at": "2025-09-13T11:17:17.217966",
+    "signal_time": "2025-09-13T11:00:00",
+    "freshness_seconds": 1037.217966,
+    "timeframe": "1h"
+  },
+  "OKB_SELL_20250913_110000": {
+    "alerted_at": "2025-09-13T11:17:23.095380",
+    "signal_time": "2025-09-13T11:00:00",
+    "freshness_seconds": 1043.09538,
+    "timeframe": "1h"
+  },
+  "NEAR_SELL_20250913_110000": {
+    "alerted_at": "2025-09-13T11:17:24.472375",
+    "signal_time": "2025-09-13T11:00:00",
+    "freshness_seconds": 1044.472375,
+    "timeframe": "1h"
+  },
+  "TAO_SELL_20250913_110000": {
+    "alerted_at": "2025-09-13T11:17:25.035580",
+    "signal_time": "2025-09-13T11:00:00",
+    "freshness_seconds": 1045.03558,
+    "timeframe": "1h"
+  },
+  "APT_SELL_20250913_110000": {
+    "alerted_at": "2025-09-13T11:17:27.178661",
+    "signal_time": "2025-09-13T11:00:00",
+    "freshness_seconds": 1047.178661,
+    "timeframe": "1h"
+  },
+  "POL_SELL_20250913_110000": {
+    "alerted_at": "2025-09-13T11:17:28.519023",
+    "signal_time": "2025-09-13T11:00:00",
+    "freshness_seconds": 1048.519023,
+    "timeframe": "1h"
+  },
+  "ICP_SELL_20250913_110000": {
+    "alerted_at": "2025-09-13T11:17:30.327685",
+    "signal_time": "2025-09-13T11:00:00",
+    "freshness_seconds": 1050.327685,
+    "timeframe": "1h"
+  },
+  "ATOM_SELL_20250913_110000": {
+    "alerted_at": "2025-09-13T11:17:33.531636",
+    "signal_time": "2025-09-13T11:00:00",
+    "freshness_seconds": 1053.531636,
+    "timeframe": "1h"
+  },
+  "ALGO_SELL_20250913_110000": {
+    "alerted_at": "2025-09-13T11:17:34.566679",
+    "signal_time": "2025-09-13T11:00:00",
+    "freshness_seconds": 1054.566679,
+    "timeframe": "1h"
+  },
+  "BONK_SELL_20250913_110000": {
+    "alerted_at": "2025-09-13T11:17:37.852298",
+    "signal_time": "2025-09-13T11:00:00",
+    "freshness_seconds": 1057.852298,
+    "timeframe": "1h"
+  },
+  "TIA_SELL_20250913_110000": {
+    "alerted_at": "2025-09-13T11:17:42.562351",
+    "signal_time": "2025-09-13T11:00:00",
+    "freshness_seconds": 1062.562351,
+    "timeframe": "1h"
+  },
+  "INJ_SELL_20250913_110000": {
+    "alerted_at": "2025-09-13T11:17:43.588526",
+    "signal_time": "2025-09-13T11:00:00",
+    "freshness_seconds": 1063.588526,
+    "timeframe": "1h"
+  },
+  "FLOKI_SELL_20250913_110000": {
+    "alerted_at": "2025-09-13T11:17:52.302844",
+    "signal_time": "2025-09-13T11:00:00",
+    "freshness_seconds": 1072.302844,
+    "timeframe": "1h"
+  },
+  "THETA_SELL_20250913_110000": {
+    "alerted_at": "2025-09-13T11:17:58.001847",
+    "signal_time": "2025-09-13T11:00:00",
+    "freshness_seconds": 1078.001847,
+    "timeframe": "1h"
+  },
+  "A_SELL_20250913_110000": {
+    "alerted_at": "2025-09-13T11:18:02.117568",
+    "signal_time": "2025-09-13T11:00:00",
+    "freshness_seconds": 1082.117568,
+    "timeframe": "1h"
+  },
+  "JASMY_SELL_20250913_110000": {
+    "alerted_at": "2025-09-13T11:18:03.663547",
+    "signal_time": "2025-09-13T11:00:00",
+    "freshness_seconds": 1083.663547,
+    "timeframe": "1h"
+  },
+  "BRETT_SELL_20250913_110000": {
+    "alerted_at": "2025-09-13T11:18:10.433831",
+    "signal_time": "2025-09-13T11:00:00",
+    "freshness_seconds": 1090.433831,
+    "timeframe": "1h"
+  },
+  "BSV_SELL_20250913_110000": {
+    "alerted_at": "2025-09-13T11:18:12.517911",
+    "signal_time": "2025-09-13T11:00:00",
+    "freshness_seconds": 1092.517911,
+    "timeframe": "1h"
+  },
+  "NEO_SELL_20250913_110000": {
+    "alerted_at": "2025-09-13T11:18:17.574356",
+    "signal_time": "2025-09-13T11:00:00",
+    "freshness_seconds": 1097.574356,
+    "timeframe": "1h"
+  },
+  "MOG_SELL_20250913_110000": {
+    "alerted_at": "2025-09-13T11:18:24.349145",
+    "signal_time": "2025-09-13T11:00:00",
+    "freshness_seconds": 1104.349145,
+    "timeframe": "1h"
+  },
+  "AIOZ_SELL_20250913_110000": {
+    "alerted_at": "2025-09-13T11:18:24.870121",
+    "signal_time": "2025-09-13T11:00:00",
+    "freshness_seconds": 1104.870121,
+    "timeframe": "1h"
+  },
+  "SUPER_SELL_20250913_110000": {
+    "alerted_at": "2025-09-13T11:18:25.898923",
+    "signal_time": "2025-09-13T11:00:00",
+    "freshness_seconds": 1105.898923,
+    "timeframe": "1h"
+  },
+  "JST_SELL_20250913_110000": {
+    "alerted_at": "2025-09-13T11:18:31.120951",
+    "signal_time": "2025-09-13T11:00:00",
+    "freshness_seconds": 1111.120951,
+    "timeframe": "1h"
+  },
+  "DASH_SELL_20250913_110000": {
+    "alerted_at": "2025-09-13T11:18:35.496671",
+    "signal_time": "2025-09-13T11:00:00",
+    "freshness_seconds": 1115.496671,
+    "timeframe": "1h"
+  },
+  "KSM_SELL_20250913_110000": {
+    "alerted_at": "2025-09-13T11:18:41.246769",
+    "signal_time": "2025-09-13T11:00:00",
+    "freshness_seconds": 1121.246769,
+    "timeframe": "1h"
+  },
+  "TOSHI_SELL_20250913_110000": {
+    "alerted_at": "2025-09-13T11:18:43.807159",
+    "signal_time": "2025-09-13T11:00:00",
+    "freshness_seconds": 1123.807159,
+    "timeframe": "1h"
+  },
+  "BAT_SELL_20250913_110000": {
+    "alerted_at": "2025-09-13T11:18:47.585614",
+    "signal_time": "2025-09-13T11:00:00",
+    "freshness_seconds": 1127.585614,
+    "timeframe": "1h"
+  },
+  "ZRX_SELL_20250913_110000": {
+    "alerted_at": "2025-09-13T11:18:48.410735",
+    "signal_time": "2025-09-13T11:00:00",
+    "freshness_seconds": 1128.410735,
+    "timeframe": "1h"
+  },
+  "BLUR_SELL_20250913_110000": {
+    "alerted_at": "2025-09-13T11:18:52.726059",
+    "signal_time": "2025-09-13T11:00:00",
+    "freshness_seconds": 1132.726059,
+    "timeframe": "1h"
+  },
+  "MOODENG_SELL_20250913_110000": {
+    "alerted_at": "2025-09-13T11:18:54.448352",
+    "signal_time": "2025-09-13T11:00:00",
+    "freshness_seconds": 1134.448352,
+    "timeframe": "1h"
+  },
+  "ZEN_SELL_20250913_110000": {
+    "alerted_at": "2025-09-13T11:19:19.241167",
+    "signal_time": "2025-09-13T11:00:00",
+    "freshness_seconds": 1159.241167,
+    "timeframe": "1h"
+  },
+  "AI16Z_SELL_20250913_110000": {
+    "alerted_at": "2025-09-13T11:19:20.292390",
+    "signal_time": "2025-09-13T11:00:00",
+    "freshness_seconds": 1160.29239,
+    "timeframe": "1h"
+  },
+  "ME_SELL_20250913_110000": {
+    "alerted_at": "2025-09-13T11:19:26.629240",
+    "signal_time": "2025-09-13T11:00:00",
+    "freshness_seconds": 1166.62924,
     "timeframe": "1h"
   }
 }
